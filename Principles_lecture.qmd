@@ -25,8 +25,15 @@ filters:
   - highlight-text
 ---
 
-# PRINCIPLES OF ANTIBIOTIC THERAPY
-## Approaches to rationale prescribing
+## Lecture 1: Principles of Antibiotic Therapy
+
+<br> <br>
+
+Russell E. Lewis <br> Associate Professor of Infectious Diseases <br> Department of Molecular Medicine <br> University of Padua
+
+<br> {{< fa solid envelope size=1x >}} russelledward.lewis\@unipd.it <br> {{< fa brands github size=1x >}} https://github.com/Russlewisbo
+
+
 ------------------------------------------------------------------------
 
 ## Mortality reduction with antibiotic therapy {.smaller}
