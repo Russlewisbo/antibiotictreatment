@@ -24,9 +24,14 @@ revealjs-plugins:
 filters:
   - highlight-text
 ---
----
 
-## Antibiotic-mediated mortality reductions {.smaller}
+# PRINCIPLES OF ANTIBIOTIC THERAPY
+## Approaches to rationale prescribing
+------------------------------------------------------------------------
+
+## Mortality reduction with antibiotic therapy {.smaller}
+
+<br>
 
 | Disease                      | Pre-antibiotic | Antibiotic | Change |
 |------------------------------|----------------|------------|--------|
@@ -37,13 +42,32 @@ filters:
 | Bacterial meningitis         | \>80%          | \< 20%     | -60%   |
 | Skin infection               | \~11%          | \<0.5%     | -10%   |
 
-## Bullets
+## Principle #1: Accurate differential diagnosis
 
-When you click the **Render** button a document will be generated that includes:
+## Principle #2: Only use antibiotics when they alter clinical course
 
--   Content authored with markdown
--   Output from executable code
+## Principle #3: Empirically target microbes in differential diagnosis
 
-## Code
+## Principle #4: A lower threshold for empirical therapy should be used in critically-ill patients
 
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+## Principle #5: Host factors affect the spectrum of empirical therapy
+
+## Principle #6: PK/PD principles impact optimal treatment
+
+## Principle #7: De-escalate antibiotic therapy based on microbiology results and clinical (biomarker) responses
+
+## Principle #8: If therapy is not working, consider source control or alternative diagnosis before broadening therapy
+
+## Principle #9: Distiniguish new infection from failure of initial therapy
+
+## Principle #10: The duration of therapy should be as short as possible based on available evidence (shorter is better)
+
+## Common myths of antibiotic therapy
+
+## Bactericidal antibiotics are more effective than bacteriostatic
+
+## Oral therapy is less effective than IV for complex infections
+
+## Combination therapy: *The good, the bad,...the ugly*
+
+## Does combination therapy prevent resistance?
