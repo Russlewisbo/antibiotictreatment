@@ -33,21 +33,24 @@ Russell E. Lewis <br> Associate Professor of Infectious Diseases <br> Department
 
 <br> {{< fa solid envelope size=1x >}} russelledward.lewis\@unipd.it <br> {{< fa brands github size=1x >}} https://github.com/Russlewisbo
 
-
 ------------------------------------------------------------------------
 
 ## Mortality reduction with antibiotic therapy {.smaller}
 
 <br>
 
-| Disease                      | Pre-antibiotic | Antibiotic | Change |
-|------------------------------|----------------|------------|--------|
-| Community-acquired pneumonia | \~35%          | \~10%      | -25%   |
-| Nosocomial pneumonia         | \~60%          | \~30%      | -30%   |
-| Bacterial endocarditis       | \~100%         | \~25%      | -75%   |
-| Gram-negative bacteremia     | \~70%          | \~10%      | -10%   |
-| Bacterial meningitis         | \>80%          | \< 20%     | -60%   |
-| Skin infection               | \~11%          | \<0.5%     | -10%   |
+| Disease                      | Pre-antibiotic era | Antibiotic era | Change |
+|------------------------------|--------------------|----------------|--------|
+| Community-acquired pneumonia | \~ 35%             | \~ 10%         | -25%   |
+| Nosocomial pneumonia         | \~ 60%             | \~ 30%         | -30%   |
+| Bacterial endocarditis       | \~ 100%            | \~ 25%         | -75%   |
+| Gram-negative bacteremia     | \~ 70%             | \~ 10%         | -10%   |
+| Bacterial meningitis         | \> 80%             | \< 20%         | -60%   |
+| Skin infection               | \~ 11%             | \< 0.5%        | -10%   |
+
+<br>
+
+[@spellberg2025]
 
 ## Principle #1: Accurate differential diagnosis
 
@@ -78,3 +81,5 @@ Russell E. Lewis <br> Associate Professor of Infectious Diseases <br> Department
 ## Combination therapy: *The good, the bad,...the ugly*
 
 ## Does combination therapy prevent resistance?
+
+## References
