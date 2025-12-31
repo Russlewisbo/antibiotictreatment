@@ -1,0 +1,49 @@
+---
+format:
+  revealjs:
+    spotlight: true
+    touch: true
+    controls: true
+    pointer: true
+    center-title-slide: false
+    transition: fade
+    transition-speed: fast
+    scrollable: true
+    slide-number: true
+    incremental: false
+    multiplex: true
+    chalkboard: true
+    theme: [default, custom.scss]
+    filters:
+     - highlight-text
+bibliography: references.bib
+lightbox: true
+csl: diagnostic-microbiology-and-infectious-disease.csl
+revealjs-plugins:
+  - pointer
+filters:
+  - highlight-text
+---
+---
+
+## Antibiotic-mediated mortality reductions {.smaller}
+
+| Disease                      | Pre-antibiotic | Antibiotic | Change |
+|------------------------------|----------------|------------|--------|
+| Community-acquired pneumonia | \~35%          | \~10%      | -25%   |
+| Nosocomial pneumonia         | \~60%          | \~30%      | -30%   |
+| Bacterial endocarditis       | \~100%         | \~25%      | -75%   |
+| Gram-negative bacteremia     | \~70%          | \~10%      | -10%   |
+| Bacterial meningitis         | \>80%          | \< 20%     | -60%   |
+| Skin infection               | \~11%          | \<0.5%     | -10%   |
+
+## Bullets
+
+When you click the **Render** button a document will be generated that includes:
+
+-   Content authored with markdown
+-   Output from executable code
+
+## Code
+
+When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
