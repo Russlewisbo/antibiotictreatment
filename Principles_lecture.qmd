@@ -37,6 +37,8 @@ Russell E. Lewis <br> Associate Professor of Infectious Diseases <br> Department
 
 ## Antibiotics- Medical Miracles
 
+![](resistance.jpg){fig-align="center"}
+
 ## Mortality reduction with antibiotic therapy {.smaller}
 
 <br>
@@ -53,6 +55,17 @@ Russell E. Lewis <br> Associate Professor of Infectious Diseases <br> Department
 <br>
 
 [@spellberg2025]
+
+## Antibiotics: Essential for modern medicine
+
+## Resistance is increasing
+
+## Current anitbiotic resistance statistics
+
+<iframe src="https://vizhub.healthdata.org/microbe/?settings=eyIxIjoia2V5X2ZpbmRpbmdzIiwiMiI6ImJhciIsIjMiOiJhbXIiLCI0IjoyMiwiNSI6MSwiNiI6MywiNyI6MywiOCI6MSwiOSI6MSwiMTIiOjMsIjEzIjoxLCIxNCI6MSwiMTUiOjEsIjE2IjoxLCIxNyI6MywiMTgiOjIwMjEsIjE5IjpmYWxzZSwiMjAiOmZhbHNlLCIyMiI6MSwiMjQiOiJlbiIsIjI1Ijoic3luZHJvbWUiLCIyNiI6WzEsMiwzLDQsNSw2LDcsOCw5LDEwLDIyXSwiMjciOls0LDMxLDY0LDEwMywxMzcsMTU4LDE2Nl0sIjI4IjpbMiwzLDQsNSw2LDcsOCw5LDEwLDExLDEyLDEzXSwiMjkiOlsxLDJdLCIzMCI6WzEsNywxMSwxNywyMywyMl0sIjMxIjpbIjEtMSIsIjEtMiJdLCIzMiI6IjEtMSIsIjMzIjpbMSwyXX0=" width="100%" height="900px">
+
+</iframe>
+
 
 ## Principle #1: Accurate differential diagnosis
 
