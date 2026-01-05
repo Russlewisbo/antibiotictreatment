@@ -13,7 +13,6 @@ format:
     incremental: true
     multiplex: true
     chalkboard: true
-    theme: [default, custom.scss]
     filters:
      - highlight-text
 bibliography: references.bib
