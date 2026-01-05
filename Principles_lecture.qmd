@@ -10,7 +10,7 @@ format:
     transition-speed: fast
     scrollable: true
     slide-number: true
-    incremental: false
+    incremental: true
     multiplex: true
     chalkboard: true
     theme: [default, custom.scss]
@@ -54,19 +54,41 @@ Russell E. Lewis <br> Associate Professor of Infectious Diseases <br> Department
 
 <br>
 
+::: footer
 [@spellberg2025]
+:::
 
 ## Antibiotics: Essential for modern medicine
 
+<br>
 
-## Resistance is increasing
+-   Enable complicated and deeply-invasive surgery
 
-## Current anitbiotic resistance statistics
+-   Aggressive chemotherapy for cancer
+
+-   Fundemental aspects of critical care
+
+    -   e.g., central venous catheters, mechanical ventilation
+
+-   Care for premature infants
+
+-   Solid organ and stem cell transplantation
+
+-   **Antibacterial resulted in a revolution in the practice of medicine, transforming it from a primarily diagnostic-focused field to a therapeutic, interventional profession**
+
+::: footer
+[@spellberg2025]
+:::
+
+## Current antibiotic resistance statistics
 
 <iframe src="https://vizhub.healthdata.org/microbe/?settings=eyIxIjoia2V5X2ZpbmRpbmdzIiwiMiI6ImJhciIsIjMiOiJhbXIiLCI0IjoyMiwiNSI6MSwiNiI6MywiNyI6MywiOCI6MSwiOSI6MSwiMTIiOjMsIjEzIjoxLCIxNCI6MSwiMTUiOjEsIjE2IjoxLCIxNyI6MywiMTgiOjIwMjEsIjE5IjpmYWxzZSwiMjAiOmZhbHNlLCIyMiI6MSwiMjQiOiJlbiIsIjI1Ijoic3luZHJvbWUiLCIyNiI6WzEsMiwzLDQsNSw2LDcsOCw5LDEwLDIyXSwiMjciOls0LDMxLDY0LDEwMywxMzcsMTU4LDE2Nl0sIjI4IjpbMiwzLDQsNSw2LDcsOCw5LDEwLDExLDEyLDEzXSwiMjkiOlsxLDJdLCIzMCI6WzEsNywxMSwxNywyMywyMl0sIjMxIjpbIjEtMSIsIjEtMiJdLCIzMiI6IjEtMSIsIjMzIjpbMSwyXX0=" width="100%" height="900px">
 
-</iframe>
+::: footer
+Source: healthdata.org
+:::
 
+/iframe\>
 
 ## Principle #1: Accurate differential diagnosis
 
