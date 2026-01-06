@@ -23,6 +23,7 @@ revealjs-plugins:
   - pointer
 filters:
   - highlight-text
+  
 ---
 
 ## Principles of Antibiotic Therapy
@@ -39,7 +40,9 @@ Russell E. Lewis <br> Associate Professor of Infectious Diseases <br> Department
 
 ![](resistance.jpg){fig-align="center"}
 
-## Mortality reduction with antibiotic therapy {.smaller}
+## Mortality reduction with antibiotic therapy
+
+<br>
 
 <br>
 
@@ -58,7 +61,11 @@ Russell E. Lewis <br> Associate Professor of Infectious Diseases <br> Department
 [@spellberg2025]
 :::
 
+<<<<<<< HEAD
 ## Antibiotics: Essential for practice of modern medicine {background-image="images/antibiotic-resistance.jpg" background-opacity="0.3"}
+=======
+## Antibiotics: <br> Essential for practice of modern medicine
+>>>>>>> f5636a115d6e551a4e09507df722fe7f442f4b3b
 
 <br>
 
@@ -97,6 +104,34 @@ Source: healthdata.org
 ## 10 Principles for effective use of antibacterial therapy
 
 ## Principle #1: Accurate differential diagnosis
+
+<br> <br>
+
+-   Antibiotics are usually started *empirically*- i.e. without knowledge of the precise bacteria infecting the patient
+
+-   Rationale and accurate diagnosis for current illness is essential
+
+-   Antibiotics should only be given if the differential diagnosis includes likely bacterial infections
+
+-   Failure to adhere to this first principle is one of the most common causes of unnecessary antibiotic use
+
+## Antibacterials for likely viral infections
+
+:::: {.columns}
+
+::: {.column width="40%"}
+![](images/Antibiotics%20square%20(6)%20(1).png){fig-align="center"}
+Frequency of bacterial infections is often *overestimated*...
+:::
+
+::: {.column width="60%"}
+<br> <br> <br> ...However, clinicains frequently *underestimate* the harm of antibiotic presriptions: <br>
+<br> 1 in 5 patients develop adverese effects or superinfections by resistant pathogens or *Clostridium difficile*
+:::
+
+::::
+
+
 
 ## Principle #2: Only use antibiotics when they alter clinical course
 
