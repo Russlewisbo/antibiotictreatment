@@ -58,7 +58,7 @@ Russell E. Lewis <br> Associate Professor of Infectious Diseases <br> Department
 [@spellberg2025]
 :::
 
-## Antibiotics: Essential for practice of modern medicine
+## Antibiotics: Essential for practice of modern medicine {background-image="images/antibiotic-resistance.jpg" background-opacity="0.3"}
 
 <br>
 
@@ -89,6 +89,12 @@ Russell E. Lewis <br> Associate Professor of Infectious Diseases <br> Department
 ::: footer
 Source: healthdata.org
 :::
+
+## You are the antibiotic stewards
+
+![](images/steward.jpeg){fig-align="center"}
+
+## 10 Principles for effective use of antibacterial therapy
 
 ## Principle #1: Accurate differential diagnosis
 
