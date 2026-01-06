@@ -94,27 +94,29 @@ Source: healthdata.org
 
 ![](images/steward.jpeg){fig-align="center"}
 
-## 10 Principles for effective use of antibacterial therapy 
+## 10 Principles for effective use of antibacterial therapy
+:::{.nonincremental}
 
--  Principle #1: Accurate differential diagnosis
+-  #1: Accurate differential diagnosis
 
--  Principle #2: Only use antibiotics when they alter clinical course
+-  #2: Only use antibiotics when they alter clinical course
 
--  Principle #3: Empirically target microbes in differential diagnosis
+-  #3: Empirically target microbes in differential diagnosis
 
--  Principle #4: A lower threshold for empirical therapy should be used in critically-ill patients
+-  #4: A lower threshold for empirical therapy should be used in critically-ill patients
 
--  Principle #5: Host factors affect the spectrum of empirical therapy
+-  #5: Host factors affect the spectrum of empirical therapy
 
--  Principle #6: PK/PD principles impact optimal treatment
+-  #6: PK/PD principles impact optimal treatment
 
--  Principle #7: De-escalate antibiotic therapy based on microbiology results and clinical (biomarker) responses
+-  #7: De-escalate antibiotic therapy based on microbiology results and clinical (biomarker) responses
 
--  Principle #8: If therapy is not working, consider source control or alternative diagnosis before broadening therapy
+-  #8: If therapy is not working, consider source control or alternative diagnosis before broadening therapy
 
--  Principle #9: Distiniguish new infection from failure of initial therapy
+-  #9: Distiniguish new infection from failure of initial therapy
 
--  Principle #10: The duration of therapy should be as short as possible based on available evidence (shorter is better)
+-  #10: The duration of therapy should be as short as possible based on available evidence (shorter is better)
+:::
 ## Principle #1: Accurate differential diagnosis
 
 ## Principle #2: Only use antibiotics when they alter clinical course
