@@ -23,7 +23,6 @@ revealjs-plugins:
   - pointer
 filters:
   - highlight-text
-  
 ---
 
 ## Principles of Antibiotic Therapy
@@ -40,9 +39,7 @@ Russell E. Lewis <br> Associate Professor of Infectious Diseases <br> Department
 
 ![](resistance.jpg){fig-align="center"}
 
-## Mortality reduction with antibiotic therapy
-
-<br>
+## Mortality reduction with antibiotic therapy {.smaller}
 
 <br>
 
@@ -61,11 +58,7 @@ Russell E. Lewis <br> Associate Professor of Infectious Diseases <br> Department
 [@spellberg2025]
 :::
 
-<<<<<<< HEAD
 ## Antibiotics: Essential for practice of modern medicine {background-image="images/antibiotic-resistance.jpg" background-opacity="0.3"}
-=======
-## Antibiotics: <br> Essential for practice of modern medicine
->>>>>>> f5636a115d6e551a4e09507df722fe7f442f4b3b
 
 <br>
 
@@ -101,37 +94,28 @@ Source: healthdata.org
 
 ![](images/steward.jpeg){fig-align="center"}
 
-## 10 Principles for effective use of antibacterial therapy
+## 10 Principles for effective use of antibacterial therapy 
 
+-  Principle #1: Accurate differential diagnosis
+
+-  Principle #2: Only use antibiotics when they alter clinical course
+
+-  Principle #3: Empirically target microbes in differential diagnosis
+
+-  Principle #4: A lower threshold for empirical therapy should be used in critically-ill patients
+
+-  Principle #5: Host factors affect the spectrum of empirical therapy
+
+-  Principle #6: PK/PD principles impact optimal treatment
+
+-  Principle #7: De-escalate antibiotic therapy based on microbiology results and clinical (biomarker) responses
+
+-  Principle #8: If therapy is not working, consider source control or alternative diagnosis before broadening therapy
+
+-  Principle #9: Distiniguish new infection from failure of initial therapy
+
+-  Principle #10: The duration of therapy should be as short as possible based on available evidence (shorter is better)
 ## Principle #1: Accurate differential diagnosis
-
-<br> <br>
-
--   Antibiotics are usually started *empirically*- i.e. without knowledge of the precise bacteria infecting the patient
-
--   Rationale and accurate diagnosis for current illness is essential
-
--   Antibiotics should only be given if the differential diagnosis includes likely bacterial infections
-
--   Failure to adhere to this first principle is one of the most common causes of unnecessary antibiotic use
-
-## Antibacterials for likely viral infections
-
-:::: {.columns}
-
-::: {.column width="40%"}
-![](images/Antibiotics%20square%20(6)%20(1).png){fig-align="center"}
-Frequency of bacterial infections is often *overestimated*...
-:::
-
-::: {.column width="60%"}
-<br> <br> <br> ...However, clinicains frequently *underestimate* the harm of antibiotic presriptions: <br>
-<br> 1 in 5 patients develop adverese effects or superinfections by resistant pathogens or *Clostridium difficile*
-:::
-
-::::
-
-
 
 ## Principle #2: Only use antibiotics when they alter clinical course
 
