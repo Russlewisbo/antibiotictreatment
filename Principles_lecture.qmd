@@ -10,7 +10,7 @@ format:
     transition-speed: fast
     scrollable: true
     slide-number: true
-    incremental: true
+    incremental: false
     multiplex: true
     chalkboard: true
     theme: [default, custom.scss]
@@ -99,6 +99,22 @@ Russell E. Lewis <br> Associate Professor of Infectious Diseases <br> Department
 Source: healthdata.org
 :::
 
+## World Health Organization (WHO) Pathogen Priority List
+
+![](images/WHO.png){fig-align="center"}
+
+## Methicillin-resistant Staphylococcus aureus (MRSA)
+
+![](images/MRSA_ITALY.png){fig-align="center"}
+
+## Carbapenem-resistant Enterobacterales (CRE)
+
+![](images/CRE_ITALY.png){fig-align="center"}
+
+## Multi-drug resistant (MDR) Acinetobacter baumannii
+
+![](images/MDRABUAM_ITALY.png){fig-align="center"}
+
 ## Antibiotics are a societal trust
 
 <br> <br> - Antibiotic overprescription is a *tragedy of the commons*: individual undertakes an action that they perceive to be in their own self-interest but that causes harm to society at large - When such an action is undertaken rarely, the harm to society is not noticeable - When it happens tens of millions of times per year, as with inappropriate antibiotic prescriptions, the collective harm to society can be catastrophic - Given the power of antibiotics to save lives, and the constant erosion of that power through their use, one of the most important functions of the physician is to serve as an expert *in the use and protection of antimicrobial agents*
@@ -149,13 +165,84 @@ D. Microbiological tests (e.g., culture, PCR, serology)
 
 ## Antibiotics are usually started empirically
 
-<br>
+```{dot}
+digraph infection_timeline {
+    // Graph settings
+    rankdir=TB;
+    splines=ortho;
+    nodesep=0.6;
+    ranksep=0.8;
+    bgcolor="white";
+    
+    // Node defaults
+    node [
+        shape=box,
+        style="filled,rounded",
+        fillcolor="#F5DDD1",
+        color="#F5DDD1",
+        fontname="Arial",
+        fontsize=14,
+        width=3,
+        height=0.6
+    ];
+    
+    // Edge defaults
+    edge [
+        color="#D4764A",
+        arrowsize=0.8,
+        penwidth=1.5
+    ];
+    
+    // Time labels (invisible nodes for positioning)
+    node [shape=plaintext, fillcolor=transparent, color=transparent, fontcolor="#333333", fontsize=14];
+    t0 [label="0h"];
+    t1 [label="1h"];
+    t24 [label="24h"];
+    t48 [label="36-48h"];
+    t72 [label="72h"];
+    
+    // Annotation labels - 200% larger (fontsize=24)
+    node [fontsize=24, fontcolor="#333333"];
+    empiric [label=<Begin <b>empiric therapy </b> for<br/>likely pathogens>];
+    definitive [label=<Change to <b>definitive therapy</b><br/>for patient-specific pathogens>];
+    
+    // Main process nodes
+    node [shape=box, style="filled,rounded", fillcolor="#F5DDD1", color="#F5DDD1", fontcolor="black", fontsize=14];
+    suspect [label="Suspect infection"];
+    culture [label="Culture suspected sites"];
+    gram [label="Gram stain"];
+    id [label="Identification"];
+    suscept [label="Susceptibilities"];
+    
+    // Main flow
+    suspect -> culture -> gram -> id -> suscept;
+    
+    // Position time labels and annotations using same rank
+    {rank=same; suspect; t0}
+    {rank=same; culture; t1; empiric}
+    {rank=same; gram; t24}
+    {rank=same; id; t48}
+    {rank=same; suscept; t72; definitive}
+    
+    // Invisible edges for positioning
+    edge [style=invis];
+    empiric -> culture;
+    culture -> t1;
+    suspect -> t0;
+    gram -> t24;
+    id -> t48;
+    suscept -> t72;
+    t72 -> definitive;
+}
+```
 
-### Antibiotics should only be started if the differential diagnosis includes likely invasive bacterial infections: 90-98% of upper respiratory tract infections are caused by viruses
+## Antibiotics are usually started empirically {.smaller}
+
+Antibiotics should only be started if the differential diagnosis includes likely invasive bacterial infections: 90-98% of upper respiratory tract infections are caused by viruses
 
 ![](images/URI.png){fig-align="center"}
 
-Clinicianss frequently *overestimate* the risk of bacterial infection
+Clinicians frequently *overestimate* the risk of bacterial infection
 
 ::: footer
 [@chow2012]
@@ -174,7 +261,7 @@ Clinicianss frequently *overestimate* the risk of bacterial infection
 <br>
 
 ::: callout-warning
-## Every additional 10 days of antibiotic therapy confers a 3% increased risk of an ADE
+## Every additional 10 days of antibiotic therapy confers a 3% increased risk of an adverse drug effect
 :::
 
 <br>
@@ -193,13 +280,13 @@ The combination of fear from uncertainty of the diagnosis and lack of appreciati
 [@tamma2017b]
 :::
 
-## Mistaking positive cultures as evidence of infection
-
-<br> The presence of a positive culture in the absence of signs or symptoms of infection should not reflexively trigger antibiotic prescription. <br> In many cases, absent signs or symptoms of infection represent *colonization or contamination* and should not trigger treatment.
+## Positive cultures <br>are not always proof of infection {.smaller}
 
 <br>
 
-<br>
+-   The presence of a positive culture in the absence of signs or symptoms of infection **should not** reflexively trigger antibiotic prescription.
+
+-   In many cases, absent signs or symptoms of infection represent **colonization or contamination** and should not trigger treatment. <br> <br>
 
 +-----------------------+-----------------------+---------------------------+------------------------------+-----------------------+
 | Wound swabs           | Urine cultures        | Bronchial alveolar lavage | Respratory samples           | GI tract/stool        |
@@ -223,7 +310,7 @@ The combination of fear from uncertainty of the diagnosis and lack of appreciati
 [@luu2021]
 :::
 
-## Principle #2: Only use antibiotics when they alter clinical course
+## Principle #2: Only use antibiotics when they alter the clinical course of patients
 
 -   The administration of antibiotics should not be a reflexive response to infection, but rather should be incorporated into an overall, rational therapeutic plan for the patient.
 
@@ -233,17 +320,21 @@ The combination of fear from uncertainty of the diagnosis and lack of appreciati
 
 ## Ethical dilemmas for use of antimicrobial therapy
 
+<br>
+
 | End of life (comfort care) | Non-adherent HIV therapy |
 |----------------------------|--------------------------|
 | ![](images/terminal.png)   | ![](images/HIV.png)      |
 
 ## Principle #3: Empirically target microbes in differential diagnosis
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-| -   Spectrum of activity of the empirical antiinfective agents prescribed should be tailored to cover the likely microbial flora that cause the diseases in the differential diagnosis | ![](images/Sanford.png)                         |
-|                                                                                                                                                                                        |                                                 |
-|                                                                                                                                                                                        | [Sandford Guide](https://web.sanfordguide.com/) |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
+## Know the spectrum of activity
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------+
+| -   Spectrum of activity of the empirical antiinfective agents prescribed should be tailored to cover the likely microbial flora that cause the diseases in the differential diagnosis | ![](images/Sanford.png)                        |
+|                                                                                                                                                                                        |                                                |
+|                                                                                                                                                                                        | [Sanford Guide](https://web.sanfordguide.com/) |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------+
 
 ## Basic principles of coverage {.smaller}
 
@@ -252,14 +343,14 @@ The combination of fear from uncertainty of the diagnosis and lack of appreciati
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
 | Community infections                                                                                                                                                                      | Nosocomial infections                                                                                                                    |
 +===========================================================================================================================================================================================+==========================================================================================================================================+
-| Community-associated infections are infrequently caused by MDR gram, negative bacteria and empirical antibiotic coverage should not routinely include coverage for them                   | More often caused by more resistant pathogens, and hence require coverage for P*seudomonas* or other nonfermenting gram-negative bacilli |
+| Community-associated infections are infrequently caused by MDR gram-negative bacteria. <br> Empirical antibiotic coverage should not routinely considered                                 | More often caused by more resistant pathogens, and hence require coverage for P*seudomonas* or other nonfermenting gram-negative bacilli |
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
 | Avoid using routine methicillin-resistant *S. aureus* (MRSA) empirical therapy in patients who are unlikely to be infected with MRSA                                                      | Greater risk for MRSA, especially is patient has recently received antibiotic therapy                                                    |
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
 | Reserve the use of antimicrobials that can be used as last-line oral therapeutic options (e.g., fluoroquinolones) for infections for which there are no reasonable alternative therapies. | May require "frontline" used of lastline antibiotic if patient has risk factors for multidrug resistant infection                        |
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
 
-<br> Special circumstances creates exception: For example, community-acquired pneumonia and intraabdominal, skin, and urinary infections may be caused by *Pseudomonas* in patients with cystic fibrosis or with history of bronchiectasis, chronic dialysis patient, or patient with indwelling catheters or recent surgery.
+<br> Special circumstances creates exceptions: For example, community-acquired pneumonia and intraabdominal, skin, and urinary infections may be caused by *Pseudomonas* in patients with cystic fibrosis or with history of bronchiectasis, chronic dialysis patient, or patient with indwelling catheters or recent surgery.
 
 ## Principle #4: A lower threshold for empirical therapy should be used in critically-ill patients
 
@@ -275,7 +366,148 @@ The combination of fear from uncertainty of the diagnosis and lack of appreciati
 
 ## Principle #5: Host factors affect the spectrum of empirical therapy
 
+![](images/immunocompromise.png){fig-align="center"}
+
+## Common immunocompromising conditions
+
++-------------------------+-------------------------------------------------------------------------------------+
+| ![](images/patient.png) | 1.  Chronic diseases (e.g., type 1 diabetes, chronic obstructive pulmonary disease) |
+|                         |                                                                                     |
+|                         | 2.  Autoimmune diseases (e.g., lupus, rheumatoid arthritis)                         |
+|                         |                                                                                     |
+|                         | 3.  Genetic diseases (primary immunodeficiencies)                                   |
+|                         |                                                                                     |
+|                         | 4.  Cancer and/or chemotherapy                                                      |
+|                         |                                                                                     |
+|                         | 5.  Human immunodeficiency virus (HIV)                                              |
+|                         |                                                                                     |
+|                         | 6.  Solid organ or bone marrow transplant                                           |
+|                         |                                                                                     |
+|                         | 7.  Advanced age                                                                    |
+|                         |                                                                                     |
+|                         | 8.  Malnutrition                                                                    |
+|                         |                                                                                     |
+|                         | 9.  **Chronic use of corticosteroids or other immunosuppressive medications**       |
+|                         |                                                                                     |
+|                         | 10. Chronic infections                                                              |
+|                         |                                                                                     |
+|                         | 11. Smoking                                                                         |
++-------------------------+-------------------------------------------------------------------------------------+
+
+## Glucocorticoids: <br>"Credit cards" of immunosuppressive therapy
+
+![](images/glucocorticoids.png){fig-align="center" width="400"}
+
+Dose-dependent increase in the risk of opportunistic infections \> 10 mg of prednisone equivalents (PEQ) per day for 2-4 weeks
+
+::: aside
+<br>
+
+<br>
+
+<br>
+
+[@chastain2023]
+:::
+
+## Community acquired pneumonia (CAP) vs. <br> Pneumocystis jirovecii pneumonia (PCP)
+
++---------------------------------------+------------------------------------------+
+| ![](images/PCP_xray.png){width="449"} | ![](images/PCP_CT.png){width="427"}      |
+|                                       |                                          |
+| Diffuse bilateral infiltrates         | Patchy areas of ground-glass attenuation |
++---------------------------------------+------------------------------------------+
+
 ## Principle #6: PK/PD principles impact optimal treatment
+
+```{dot}
+digraph G {
+	fontname="Lato,Arial,sans-serif"
+	node [fontname="Lato,Arial,sans-serif"]
+	edge [fontname="Lato,Arial,sans-serif"]
+
+
+patient -> PK;
+drug -> PK;
+intrinsic-> PD;
+acquired -> PD;
+inoculum -> PD;
+PK -> PKPD;
+PD -> PKPD;
+PKPD -> microbiological;
+microbiological -> clinical;
+
+  clinical [shape=box, label="Clinical outcome"];
+  microbiological [shape=box, label="Microbiological outcome"];
+  PK [shape=oval, label="Pharmacokinetics (PK)"];
+  PD [shape=oval, label="Pharmacodynamics (PD)"];
+  PKPD [shape=oval, label="PK/PD"];
+  patient [shape=none, label="Patient factors"];
+  drug [shape=none, label="Drug factors"];
+  intrinsic [shape=none, label="Intrinsic resistance"];
+  acquired [shape=none, label="Acquired resistance"];
+  inoculum [shape=none, label="Infection inoculum"];
+}
+```
+
+::: aside
+[@theuretzbacher2012]
+:::
+
+## Pharmacology of antimicrobials
+
+```{dot}
+digraph G {
+ 	rankdir=LR
+ 	fontname="Lato,Arial,sans-serif"
+	node [fontname="Lato,Arial,sans-serif"]
+	edge [fontname="Lato,Arial,sans-serif"]
+ 
+  subgraph cluster_0 {
+    style=filled;
+    color=lightblue;
+    node [style=filled,color=white];
+    start -> dosing;
+    dosing -> tissue;
+    dosing -> infection;
+    label = "Pharmacokinetics (PK)";
+    graph [labelloc=a]
+    
+    
+    
+  }
+  
+    subgraph cluster_1 {
+    line=black;
+    style=filled;
+    color=lightblue;
+    node [style=filled,color=white];
+  tissue->PD1
+    infection-> PD2;
+    label = "Pharmacodynamics (PD)";
+  }
+  
+ 
+  start [shape=Box, label="Dosing regimen"];
+  dosing [shape=rectangle, style=filled,color=yellow, label="Conc. vs. \n time in serum", xlabel=" \n    \n  \nAbsorption \nDistribution \nMetabolism \nElimination"];
+  tissue [shape=rectangle, style=filled,color=white, label="Conc. vs. \n time in tissue"];
+  infection [shape=rectangle, style=filled, color=white, label="Conc. vs. \n time at site of \n infection"];
+  PD1 [shape=rectangle, label="Pharmacological or  \n toxicological effect"]; 
+  PD2 [shape=rectangle, label="Antimicrobal effect \n vs. time"];
+}
+
+
+```
+
+::: aside
+[@craig_1998]
+:::
+
+## Key pharmacokinetic variables
+
+<br>
+
+![](images/AUC.png){fig-align="center"}
 
 ## Principle #7: De-escalate antibiotic therapy based on microbiology results and clinical (biomarker) responses
 
