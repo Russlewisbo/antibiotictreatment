@@ -45,21 +45,21 @@ Russell E. Lewis <br> Associate Professor of Infectious Diseases <br> Department
 
 <br>
 
-+------------------------------+--------------------+----------------+-------------+
-| Disease                      | Pre-antibiotic era | Antibiotic era | Change      |
-+==============================+====================+================+=============+
-| Community-acquired pneumonia | \~ 35%             | \~ 10%         | -25%        |
-+------------------------------+--------------------+----------------+-------------+
-| Nosocomial pneumonia         | \~ 60%             | \~ 30%         | -30%        |
-+------------------------------+--------------------+----------------+-------------+
-| Bacterial endocarditis       | \~ 100%            | \~ 25%         | -75%        |
-+------------------------------+--------------------+----------------+-------------+
-| Gram-negative bacteremia     | \~ 70%             | \~ 10%         | -60%        |
-+------------------------------+--------------------+----------------+-------------+
-| Bacterial meningitis         | \> 80%             | \< 20%         | -60%        |
-+------------------------------+--------------------+----------------+-------------+
-| Skin infection               | \~ 11%             | \< 0.5%        | -10%        |
-+------------------------------+--------------------+----------------+-------------+
++------------------------------+--------------------+----------------+--------------+
+| Disease                      | Pre-antibiotic era | Antibiotic era | Change       |
++==============================+====================+================+==============+
+| Community-acquired pneumonia | \~ 35%             | \~ 10%         | -25%         |
++------------------------------+--------------------+----------------+--------------+
+| Nosocomial pneumonia         | \~ 60%             | \~ 30%         | -30%         |
++------------------------------+--------------------+----------------+--------------+
+| Bacterial endocarditis       | \~ 100%            | \~ 25%         | -75%         |
++------------------------------+--------------------+----------------+--------------+
+| Gram-negative bacteremia     | \~ 70%             | \~ 10%         | -60%         |
++------------------------------+--------------------+----------------+--------------+
+| Bacterial meningitis         | \> 80%             | \< 20%         | -60%         |
++------------------------------+--------------------+----------------+--------------+
+| Skin infection               | \~ 11%             | \< 0.5%        | -10%         |
++------------------------------+--------------------+----------------+--------------+
 
 <br>
 
@@ -245,7 +245,33 @@ The combination of fear from uncertainty of the diagnosis and lack of appreciati
 |                                                                                                                                                                                        | [Sandford Guide](https://web.sanfordguide.com/) |
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
 
+## Basic principles of coverage {.smaller}
+
+<br> <br>
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+| Community infections                                                                                                                                                                      | Nosocomial infections                                                                                                                    |
++===========================================================================================================================================================================================+==========================================================================================================================================+
+| Community-associated infections are infrequently caused by MDR gram, negative bacteria and empirical antibiotic coverage should not routinely include coverage for them                   | More often caused by more resistant pathogens, and hence require coverage for P*seudomonas* or other nonfermenting gram-negative bacilli |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+| Avoid using routine methicillin-resistant *S. aureus* (MRSA) empirical therapy in patients who are unlikely to be infected with MRSA                                                      | Greater risk for MRSA, especially is patient has recently received antibiotic therapy                                                    |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+| Reserve the use of antimicrobials that can be used as last-line oral therapeutic options (e.g., fluoroquinolones) for infections for which there are no reasonable alternative therapies. | May require "frontline" used of lastline antibiotic if patient has risk factors for multidrug resistant infection                        |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+
+<br> Special circumstances creates exception: For example, community-acquired pneumonia and intraabdominal, skin, and urinary infections may be caused by *Pseudomonas* in patients with cystic fibrosis or with history of bronchiectasis, chronic dialysis patient, or patient with indwelling catheters or recent surgery.
+
 ## Principle #4: A lower threshold for empirical therapy should be used in critically-ill patients
+
+![](images/ICU.png){fig-align="center" width="600"}
+
+## Antibiotic timing is critical in septic shock
+
+![](images/kumar.png){fig-align="center"}
+
+::: footer
+[@kumar2006]
+:::
 
 ## Principle #5: Host factors affect the spectrum of empirical therapy
 
