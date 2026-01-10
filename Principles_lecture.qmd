@@ -115,6 +115,10 @@ Source: healthdata.org
 
 ![](images/MDRABUAM_ITALY.png){fig-align="center"}
 
+## Antibiotic discovery is slowing
+
+![](images/discovery.png){fig-align="center"}
+
 ## Antibiotics are a societal trust
 
 <br> <br> - Antibiotic overprescription is a *tragedy of the commons*: individual undertakes an action that they perceive to be in their own self-interest but that causes harm to society at large - When such an action is undertaken rarely, the harm to society is not noticeable - When it happens tens of millions of times per year, as with inappropriate antibiotic prescriptions, the collective harm to society can be catastrophic - Given the power of antibiotics to save lives, and the constant erosion of that power through their use, one of the most important functions of the physician is to serve as an expert *in the use and protection of antimicrobial agents*
@@ -336,6 +340,10 @@ The combination of fear from uncertainty of the diagnosis and lack of appreciati
 |                                                                                                                                                                                        | [Sanford Guide](https://web.sanfordguide.com/) |
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------+
 
+## Community-acquired vs. nosocomial
+
+![](images/respiratory.png){fig-align="center"}
+
 ## Basic principles of coverage {.smaller}
 
 <br> <br>
@@ -508,6 +516,34 @@ digraph G {
 <br>
 
 ![](images/AUC.png){fig-align="center"}
+
+## Key pharmacokinetic variable: Volume of distribution (Vd)
+
+-   **The volume which appears to hold the drug if it was present in the body at the same concentration found in plasma**
+
+    -   **It is estimated, not directly measured**
+
+<!-- -->
+
+-   Reported in liters (L) or liters per kilogram (L/kg)
+
+-   Average plasma volume in adults is approximately 3 L
+
+## Key pharmacokinetic variable: Volume of distribution (Vd)
+
+![](images/vd_breakdown.png){fig-align="center" width="400"}
+
+## Volume of distribution
+
++---------------------------------+-------------------------------------------------+
+| ![](images/Vd.png){width="600"} | -   Plasma volume= 3L+                          |
+|                                 |                                                 |
+|                                 | -   Extracellular water 16 L                    |
+|                                 |                                                 |
+|                                 | -    (\~20L)                                    |
+|                                 |                                                 |
+|                                 | -   \>46 L Vd= sequestered in depot (e.g., fat) |
++---------------------------------+-------------------------------------------------+
 
 ## Principle #7: De-escalate antibiotic therapy based on microbiology results and clinical (biomarker) responses
 
