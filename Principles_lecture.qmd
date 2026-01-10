@@ -121,7 +121,15 @@ Source: healthdata.org
 
 ## Antibiotics are a societal trust
 
-<br> <br> - Antibiotic overprescription is a *tragedy of the commons*: individual undertakes an action that they perceive to be in their own self-interest but that causes harm to society at large - When such an action is undertaken rarely, the harm to society is not noticeable - When it happens tens of millions of times per year, as with inappropriate antibiotic prescriptions, the collective harm to society can be catastrophic - Given the power of antibiotics to save lives, and the constant erosion of that power through their use, one of the most important functions of the physician is to serve as an expert *in the use and protection of antimicrobial agents*
+<br> <br>
+
+-   Antibiotic overprescription is a *tragedy of the commons*: individual undertakes an action that they perceive to be in their own self-interest but that causes harm to society at large
+
+-   When such an action is undertaken rarely, the harm to society is not noticeable
+
+-    When it happens tens of millions of times per year, as with inappropriate antibiotic prescriptions, the collective harm to society can be catastrophic
+
+-   Given the power of antibiotics to save lives, and the constant erosion of that power through their use, one of the most important functions of the physician is to serve as an expert *in the use and protection of antimicrobial agents*
 
 ## Antibiotic stewardship
 
@@ -161,7 +169,7 @@ Source: healthdata.org
 
 A. Patient medical history
 
-B. Physicial Exam
+B. Physical Exam
 
 C. Radiological imaging (e.g., X-ray, CT or MRI)
 
@@ -259,7 +267,7 @@ Clinicians frequently *overestimate* the risk of bacterial infection
 <br>
 
 ::: callout-warning
-## 1 in 5 patients given antibiotic prescriptions are harmed by them because of adverse events or superinfections by resistant pathogens or *Clostridioides difficile*
+## 1 in 5 patients given antibiotic prescriptions are harmed by them because of adverse events or superinfection by resistant pathogens or *Clostridioides difficile*
 :::
 
 <br>
@@ -293,7 +301,7 @@ The combination of fear from uncertainty of the diagnosis and lack of appreciati
 -   In many cases, absent signs or symptoms of infection represent **colonization or contamination** and should not trigger treatment. <br> <br>
 
 +-----------------------+-----------------------+---------------------------+------------------------------+-----------------------+
-| Wound swabs           | Urine cultures        | Bronchial alveolar lavage | Respratory samples           | GI tract/stool        |
+| Wound swabs           | Urine cultures        | Bronchial alveolar lavage | Respiratory samples          | GI tract/stool        |
 +=======================+=======================+===========================+==============================+=======================+
 | ![](images/wound.png) | ![](images/urine.png) | ![](images/BAL.png)       | ![](images/nasal%20swab.png) | ![](images/stool.png) |
 +-----------------------+-----------------------+---------------------------+------------------------------+-----------------------+
@@ -348,15 +356,15 @@ The combination of fear from uncertainty of the diagnosis and lack of appreciati
 
 <br> <br>
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
-| Community infections                                                                                                                                                                      | Nosocomial infections                                                                                                                    |
-+===========================================================================================================================================================================================+==========================================================================================================================================+
-| Community-associated infections are infrequently caused by MDR gram-negative bacteria. <br> Empirical antibiotic coverage should not routinely considered                                 | More often caused by more resistant pathogens, and hence require coverage for P*seudomonas* or other nonfermenting gram-negative bacilli |
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
-| Avoid using routine methicillin-resistant *S. aureus* (MRSA) empirical therapy in patients who are unlikely to be infected with MRSA                                                      | Greater risk for MRSA, especially is patient has recently received antibiotic therapy                                                    |
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
-| Reserve the use of antimicrobials that can be used as last-line oral therapeutic options (e.g., fluoroquinolones) for infections for which there are no reasonable alternative therapies. | May require "frontline" used of lastline antibiotic if patient has risk factors for multidrug resistant infection                        |
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| Community infections                                                                                                                                                                      | Nosocomial infections                                                                                                                     |
++===========================================================================================================================================================================================+===========================================================================================================================================+
+| Community-associated infections are infrequently caused by MDR gram-negative bacteria. <br> Empirical antibiotic coverage should not routinely considered                                 | More often caused by more resistant pathogens, and hence require coverage for P*seudomonas* or other non-fermenting gram-negative bacilli |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| Avoid using routine methicillin-resistant *S. aureus* (MRSA) empirical therapy in patients who are unlikely to be infected with MRSA                                                      | Greater risk for MRSA, especially is patient has recently received antibiotic therapy                                                     |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| Reserve the use of antimicrobials that can be used as last-line oral therapeutic options (e.g., fluoroquinolones) for infections for which there are no reasonable alternative therapies. | May require "frontline" used of lastline antibiotic if patient has risk factors for multidrug resistant infection                         |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
 
 <br> Special circumstances creates exceptions: For example, community-acquired pneumonia and intraabdominal, skin, and urinary infections may be caused by *Pseudomonas* in patients with cystic fibrosis or with history of bronchiectasis, chronic dialysis patient, or patient with indwelling catheters or recent surgery.
 
@@ -376,7 +384,7 @@ The combination of fear from uncertainty of the diagnosis and lack of appreciati
 
 ![](images/immunocompromise.png){fig-align="center"}
 
-## Common immunocompromising conditions
+## Common immunocompromised conditions
 
 +-------------------------+-------------------------------------------------------------------------------------+
 | ![](images/patient.png) | 1.  Chronic diseases (e.g., type 1 diabetes, chronic obstructive pulmonary disease) |
@@ -519,11 +527,9 @@ digraph G {
 
 ## Key pharmacokinetic variable: Volume of distribution (Vd)
 
--   **The volume which appears to hold the drug if it was present in the body at the same concentration found in plasma**
+-   The volume which appears to hold the drug if it was present in the body at the same concentration found in plasma
 
-    -   **It is estimated, not directly measured**
-
-<!-- -->
+    -   It is estimated, not directly measured
 
 -   Reported in liters (L) or liters per kilogram (L/kg)
 
@@ -535,15 +541,26 @@ digraph G {
 
 ## Volume of distribution
 
-+---------------------------------+-------------------------------------------------+
-| ![](images/Vd.png){width="600"} | -   Plasma volume= 3L+                          |
-|                                 |                                                 |
-|                                 | -   Extracellular water 16 L                    |
-|                                 |                                                 |
-|                                 | -    (\~20L)                                    |
-|                                 |                                                 |
-|                                 | -   \>46 L Vd= sequestered in depot (e.g., fat) |
-+---------------------------------+-------------------------------------------------+
+<br>
+
+<br>
+
+::::: columns
+::: {.column width="50%"}
+
+![](images/Vd.png){width="600"}
+:::
+
+::: {.column width="50%"}
+-   Plasma volume= 3L+
+
+-   Extracellular water 16 L
+
+-    Total body water (\~20L)
+
+-   \> 46 L Vd= sequestered in depot (e.g., fat)
+:::
+:::::
 
 ## Principle #7: De-escalate antibiotic therapy based on microbiology results and clinical (biomarker) responses
 
