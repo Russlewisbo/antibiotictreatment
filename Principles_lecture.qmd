@@ -45,21 +45,21 @@ Russell E. Lewis <br> Associate Professor of Infectious Diseases <br> Department
 
 <br>
 
-+------------------------------+--------------------+----------------+-------------+
-| Disease                      | Pre-antibiotic era | Antibiotic era | Change      |
-+==============================+====================+================+=============+
-| Community-acquired pneumonia | \~ 35%             | \~ 10%         | -25%        |
-+------------------------------+--------------------+----------------+-------------+
-| Nosocomial pneumonia         | \~ 60%             | \~ 30%         | -30%        |
-+------------------------------+--------------------+----------------+-------------+
-| Bacterial endocarditis       | \~ 100%            | \~ 25%         | -75%        |
-+------------------------------+--------------------+----------------+-------------+
-| Gram-negative bacteremia     | \~ 70%             | \~ 10%         | -60%        |
-+------------------------------+--------------------+----------------+-------------+
-| Bacterial meningitis         | \> 80%             | \< 20%         | -60%        |
-+------------------------------+--------------------+----------------+-------------+
-| Skin infection               | \~ 11%             | \< 0.5%        | -10%        |
-+------------------------------+--------------------+----------------+-------------+
++------------------------------+--------------------+----------------+--------------+
+| Disease                      | Pre-antibiotic era | Antibiotic era | Change       |
++==============================+====================+================+==============+
+| Community-acquired pneumonia | \~ 35%             | \~ 10%         | -25%         |
++------------------------------+--------------------+----------------+--------------+
+| Nosocomial pneumonia         | \~ 60%             | \~ 30%         | -30%         |
++------------------------------+--------------------+----------------+--------------+
+| Bacterial endocarditis       | \~ 100%            | \~ 25%         | -75%         |
++------------------------------+--------------------+----------------+--------------+
+| Gram-negative bacteremia     | \~ 70%             | \~ 10%         | -60%         |
++------------------------------+--------------------+----------------+--------------+
+| Bacterial meningitis         | \> 80%             | \< 20%         | -60%         |
++------------------------------+--------------------+----------------+--------------+
+| Skin infection               | \~ 11%             | \< 0.5%        | -10%         |
++------------------------------+--------------------+----------------+--------------+
 
 <br>
 
@@ -605,7 +605,7 @@ digraph G {
 
 ![](images/AUC.png){fig-align="center"}
 
-## Key pharmacokinetic variable: Volume of distribution (Vd)
+## Key pharmacokinetic variable: <br>Volume of distribution (Vd)
 
 -   The volume which appears to hold the drug if it was present in the body at the same concentration found in plasma
 
@@ -615,7 +615,7 @@ digraph G {
 
 -   Average plasma volume in adults is approximately 3 L
 
-## Key pharmacokinetic variable: Volume of distribution (Vd)
+## Key pharmacokinetic variable: <br>Volume of distribution (Vd)
 
 ![](images/vd_breakdown.png){fig-align="center" width="400"}
 
@@ -631,13 +631,91 @@ digraph G {
 :::
 
 ::: {.column width="50%"}
--   Plasma volume= 3L+
+-   Plasma volume= 3L+ Extracellular water 16 L = Total body water (\~20L)
 
--   Extracellular water 16 L
+-   Higher Vd (e.g., \> 46 L Vd)= sequestered in depot (e.g., fat) and serum concentrations will be lower
+:::
+:::::
 
--    Total body water (\~20L)
+## Volume of distribution (Vd): <br> relevance for antibiotic selection
 
--   \> 46 L Vd= sequestered in depot (e.g., fat)
+![](images/vd_clinical%20relevance.png){fig-align="center"}
+
+## Vd alterations
+
+![](images/clipboard-943880396.png)
+
+## Indentification4
+
+![](images/clipboard-1377245329.png)
+
+## Match the antibiotic to site of infection
+
+![](images/clipboard-1230498658.png)
+
+## Urinary concentrations of antibiotics
+
+![](images/clipboard-2574271174.png)
+
+## Vd changes in critical illness
+
+![](images/clipboard-20417349.png)
+
+## Anatomically-privileged sites
+
+![](images/clipboard-1890359177.png)
+
+## Drug penetration in ventilator-associated pneumonia
+
+![](images/clipboard-1264925385.png)
+
+## PK/PD indices
+
+![](images/clipboard-2657724390.png)
+
+## Identification
+
+![](images/clipboard-2182940819.png)
+
+## Indentificationm2
+
+![](images/clipboard-406664738.png)
+
+## identification3
+
+![](images/clipboard-3004890051.png)
+
+## Optimized dosing of meropenem
+
+<iframe src="https://tdmx.shinyapps.io/Meropenem/" width="100%" height="900px">
+
+</iframe>
+
+<https://www.tdmx.eu/Launch-TDMx/>
+
+## Daptomycin
+
+![](images/clipboard-3779354213.png)
+
+## Abscess
+
+::::: columns
+::: {.column width="50%"}
+Aminoglycosides
+
+-   Bind and are inactivated by purulent material
+
+-   Decrease aminoglycoside uptake into facultative aerobic bacteria at low pH
+
+Penicillins and tetracyclines 
+
+-   Bound by hemoglobin, less effective with hematoma formation
+
+-   Emphasizes importance of source control (abscess drainage, removal of prosthetic material)
+:::
+
+::: {.column width="50%"}
+![](images/clipboard-3855805086.png)
 :::
 :::::
 
@@ -645,7 +723,7 @@ digraph G {
 
 ## Principle #8: If therapy is not working, consider source control or alternative diagnosis before broadening therapy
 
-## Principle #9: Distiniguish new infection from failure of initial therapy
+## Principle #9: Distinguish new infection from failure of initial therapy
 
 ## Principle #10: The duration of therapy should be as short as possible based on available evidence (shorter is better)
 
