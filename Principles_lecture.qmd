@@ -35,7 +35,7 @@ Russell E. Lewis <br> Associate Professor of Infectious Diseases <br> Department
 
 ![](University_of_Padua_seal.svg){fig-align="left" width="75"}
 
-## Antibiotics- Medical Miracles
+## Antibiotics- The Medical Miracle
 
 ![](resistance.jpg){fig-align="center"}
 
@@ -45,21 +45,21 @@ Russell E. Lewis <br> Associate Professor of Infectious Diseases <br> Department
 
 <br>
 
-+------------------------------+--------------------+----------------+--------------+
-| Disease                      | Pre-antibiotic era | Antibiotic era | Change       |
-+==============================+====================+================+==============+
-| Community-acquired pneumonia | \~ 35%             | \~ 10%         | -25%         |
-+------------------------------+--------------------+----------------+--------------+
-| Nosocomial pneumonia         | \~ 60%             | \~ 30%         | -30%         |
-+------------------------------+--------------------+----------------+--------------+
-| Bacterial endocarditis       | \~ 100%            | \~ 25%         | -75%         |
-+------------------------------+--------------------+----------------+--------------+
-| Gram-negative bacteremia     | \~ 70%             | \~ 10%         | -60%         |
-+------------------------------+--------------------+----------------+--------------+
-| Bacterial meningitis         | \> 80%             | \< 20%         | -60%         |
-+------------------------------+--------------------+----------------+--------------+
-| Skin infection               | \~ 11%             | \< 0.5%        | -10%         |
-+------------------------------+--------------------+----------------+--------------+
++------------------------------+--------------------+----------------+-------------+
+| Disease                      | Pre-antibiotic era | Antibiotic era | Change      |
++==============================+====================+================+=============+
+| Community-acquired pneumonia | \~ 35%             | \~ 10%         | -25%        |
++------------------------------+--------------------+----------------+-------------+
+| Nosocomial pneumonia         | \~ 60%             | \~ 30%         | -30%        |
++------------------------------+--------------------+----------------+-------------+
+| Bacterial endocarditis       | \~ 100%            | \~ 25%         | -75%        |
++------------------------------+--------------------+----------------+-------------+
+| Gram-negative bacteremia     | \~ 70%             | \~ 10%         | -60%        |
++------------------------------+--------------------+----------------+-------------+
+| Bacterial meningitis         | \> 80%             | \< 20%         | -60%        |
++------------------------------+--------------------+----------------+-------------+
+| Skin infection               | \~ 11%             | \< 0.5%        | -10%        |
++------------------------------+--------------------+----------------+-------------+
 
 <br>
 
@@ -75,7 +75,7 @@ Russell E. Lewis <br> Associate Professor of Infectious Diseases <br> Department
 
 -   Aggressive chemotherapy for cancer
 
--   Fundemental aspects of critical care
+-   Fundamental aspects of critical care
 
     -   e.g., central venous catheters, mechanical ventilation
 
@@ -101,7 +101,7 @@ Source: healthdata.org
 
 ## World Health Organization (WHO) Pathogen Priority List
 
-![](images/WHO.png){fig-align="center"}
+![](images/WHO.png){fig-align="center" width="600"}
 
 ## Methicillin-resistant Staphylococcus aureus (MRSA)
 
@@ -111,7 +111,7 @@ Source: healthdata.org
 
 ![](images/CRE_ITALY.png){fig-align="center"}
 
-## Multi-drug resistant (MDR) Acinetobacter baumannii
+## Multi-drug resistant (MDR) <br>Acinetobacter baumannii
 
 ![](images/MDRABUAM_ITALY.png){fig-align="center"}
 
@@ -127,9 +127,9 @@ Source: healthdata.org
 
 -   When such an action is undertaken rarely, the harm to society is not noticeable
 
--    When it happens tens of millions of times per year, as with inappropriate antibiotic prescriptions, the collective harm to society can be catastrophic
+-   When it happens tens of millions of times per year, as with inappropriate antibiotic prescriptions, **the collective harm to society can be catastrophic**
 
--   Given the power of antibiotics to save lives, and the constant erosion of that power through their use, one of the most important functions of the physician is to serve as an expert *in the use and protection of antimicrobial agents*
+-   Given the power of antibiotics to save lives, and the constant erosion of that power through their use, **one of the most important functions of the physician is to serve as an expert *in the use and protection of antimicrobial agents***
 
 ## Antibiotic stewardship
 
@@ -165,15 +165,89 @@ Source: healthdata.org
 
 <br>
 
+<br>
+
 ### What is the most tool for deciding to start antibiotic therapy?
 
 A. Patient medical history
 
-B. Physical Exam
+B. Physical exam
 
 C. Radiological imaging (e.g., X-ray, CT or MRI)
 
 D. Microbiological tests (e.g., culture, PCR, serology)
+
+## Medical history in infectious diseases
+
+-   **What are the current symptoms** (e.g., fever, pain, cough, breathlessness, confusion, lethargy, vomiting, and any acute or subacute changes in functional status such as new urinary incontinence, falls, or decreased oral intake)
+
+    -   8 cardinal descriptors: Timing, Location, Character, Aggravating Factors, Alleviating Factors, Associated Symptoms, Severity, Setting
+
+-   **Fever**- How high, how long, what pattern?
+
+-   **Risk factors for infection** (e.g., indwelling devices -urinary catheters, vascular catheters, prosthetic joints, cardiac devices), recent medical procedures, immunosuppression, diabetes, history of injection drug use, and previous infections
+
+-   **Travel or exposure history** (e.g., recent travel (countries, regions, urban/rural, dates), exposure to animals or insect bites, contact with ill individuals, and consumption of potentially contaminated food or water)
+
+-   **Sexual history** and risk for sexually transmitted infections
+
+-   **Vaccination history**
+
+-   **What is the past medical and surgical history, medication use, and allergies?**
+
+-   **Are there any recent changes in medications or antibiotic use?**
+
+-   **What is the social history?** (e.g., living situation (e.g., long-term care facility), occupation, hobbies, and substance use, which may affect exposure risk)
+
+## Case Example
+
+::::: columns
+::: {.column width="50%"}
+-   **Chief complaint:** 34 year-old farmer from Sicily presents with worsening back pain after sitting for more than couple of hours
+
+-   **No other significant past medical history**
+
+-   **Spondylitis etiologies:** 
+
+    -   \> 50% *Staphylococcus aureus, Staphylococcus epidermidis*
+
+    -   \~ 25% *Streptococcus* spp., *Enterococcus* spp. *Pseudomonas aeruginosa,* E*nterobacter* spp., *Proteus spp. E. coli, Serratia spp.,* Anaerobes, *Mycobacterium tuberculosis (Pott’s disease)*
+:::
+
+::: {.column width="50%"}
+![Initial lateral radiograph (left) shows a cortical disruption at the inferior epiphyseal plate of L4 vertebral body (arrows). The sagittal fat suppressed contrast enhanced T1-w MR image (right) shows septic discitis (open arrow) and bone marrow edema on both L4 and L5 vertebral bodies (arrows), suggesting spondylitis.](images/spondylitis.png){fig-align="center"}
+:::
+:::::
+
+## Pertinent history!
+
+-   Patient works as a sheep and cattle farmer in a small enterprise 54 minutes from Messina that produces milk and cheese: Percorino salato and Ricotta
+
+-   Patient reported pain was first noticed at end of May after a bad case of flu “fever, achy joints, headache”
+
+-   Father (who also works on farm) also has worsening hip pain after sitting for long periods and will be evaluated by an orthopedic doctor for hip replacement. 
+
+-   Other 3 brothers and cousin who work on farm report no illness.
+
+## Could this be brucellosis?
+
+![](images/brucellosis.png){fig-align="center"}
+
+::: footer
+[@massis2005]
+:::
+
+## **Diagnosis and treatment of** <br>o**Brucellosis spondylitis**
+
+-   Blood cultures require special procedures (prolonged incubation), bone culture may be needed
+
+-   Brucella PCR from clinical specimen
+
+-   Combination serologic studies
+
+-   Treatment- Gentamicin + Doxycycline + Rifampin
+
+    -   Unconventional antibiotic regimen, would not be covered by standard spondylitis regimens
 
 ## Antibiotics are usually started empirically
 
@@ -206,12 +280,12 @@ digraph infection_timeline {
     ];
     
     // Time labels (invisible nodes for positioning)
-    node [shape=plaintext, fillcolor=transparent, color=transparent, fontcolor="#333333", fontsize=14];
+    node [shape=plaintext, fillcolor=transparent, color=transparent, fontcolor="#333333", fontsize=18];
     t0 [label="0h"];
     t1 [label="1h"];
     t24 [label="24h"];
     t48 [label="36-48h"];
-    t72 [label="72h"];
+    t72 [label="72-96h"];
     
     // Annotation labels - 200% larger (fontsize=24)
     node [fontsize=24, fontcolor="#333333"];
@@ -250,7 +324,7 @@ digraph infection_timeline {
 
 ## Antibiotics are usually started empirically {.smaller}
 
-Antibiotics should only be started if the differential diagnosis includes likely invasive bacterial infections: 90-98% of upper respiratory tract infections are caused by viruses
+Antibiotics should only be started if the differential diagnosis includes likely invasive bacterial infections: <br>**90-98% of upper respiratory tract infections are caused by viruses**
 
 ![](images/URI.png){fig-align="center"}
 
@@ -278,7 +352,11 @@ Clinicians frequently *overestimate* the risk of bacterial infection
 
 <br>
 
-The combination of fear from uncertainty of the diagnosis and lack of appreciation of how dangerous antibiotics can be is a particularly important driver of inappropriate prescriptions for upper respiratory tract illnesses in outpatient settings
+A combination of:
+
+-   Fear from uncertainty of the diagnosis
+
+-   Lack of appreciation of how dangerous antibiotics can be
 
 ::: footer
 [@tamma2017b]
@@ -298,7 +376,7 @@ The combination of fear from uncertainty of the diagnosis and lack of appreciati
 
 -   The presence of a positive culture in the absence of signs or symptoms of infection **should not** reflexively trigger antibiotic prescription.
 
--   In many cases, absent signs or symptoms of infection represent **colonization or contamination** and should not trigger treatment. <br> <br>
+-   IN the abscence of signs or symptoms of infection, a positive culture often represents **colonization or contamination** and should not trigger treatment. <br> <br>
 
 +-----------------------+-----------------------+---------------------------+------------------------------+-----------------------+
 | Wound swabs           | Urine cultures        | Bronchial alveolar lavage | Respiratory samples          | GI tract/stool        |
@@ -324,7 +402,7 @@ The combination of fear from uncertainty of the diagnosis and lack of appreciati
 
 ## Principle #2: Only use antibiotics when they alter the clinical course of patients
 
--   The administration of antibiotics should not be a reflexive response to infection, but rather should be incorporated into an overall, rational therapeutic plan for the patient.
+-   The administration of antibiotics should not be a reflexive response to infection, but should be incorporated into an overall, rational therapeutic plan for the patient.
 
 -   Patients who lack bacterial infections cannot have their clinical course improved by antibiotics (as discussed in Principle #1).
 
@@ -356,19 +434,21 @@ The combination of fear from uncertainty of the diagnosis and lack of appreciati
 
 <br> <br>
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-| Community infections                                                                                                                                                                      | Nosocomial infections                                                                                                                     |
-+===========================================================================================================================================================================================+===========================================================================================================================================+
-| Community-associated infections are infrequently caused by MDR gram-negative bacteria. <br> Empirical antibiotic coverage should not routinely considered                                 | More often caused by more resistant pathogens, and hence require coverage for P*seudomonas* or other non-fermenting gram-negative bacilli |
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-| Avoid using routine methicillin-resistant *S. aureus* (MRSA) empirical therapy in patients who are unlikely to be infected with MRSA                                                      | Greater risk for MRSA, especially is patient has recently received antibiotic therapy                                                     |
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-| Reserve the use of antimicrobials that can be used as last-line oral therapeutic options (e.g., fluoroquinolones) for infections for which there are no reasonable alternative therapies. | May require "frontline" used of lastline antibiotic if patient has risk factors for multidrug resistant infection                         |
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| Community infections                                                                                                                                                                     | Nosocomial infections                                                                                                                     |
++==========================================================================================================================================================================================+===========================================================================================================================================+
+| -   Community-associated infections are infrequently caused by MDR gram-negative bacteria.                                                                                               | More often caused by more resistant pathogens, and hence require coverage for P*seudomonas* or other non-fermenting gram-negative bacilli |
+|                                                                                                                                                                                          |                                                                                                                                           |
+| -   Empirical antibiotic coverage should not routinely considered                                                                                                                        |                                                                                                                                           |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| Avoid using routine methicillin-resistant *S. aureus* (MRSA) empirical therapy in patients who are unlikely to be infected with MRSA                                                     | Greater risk for MRSA, especially is patient has recently received antibiotic therapy                                                     |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| Reserve the use of antimicrobials that can be used as last-line oral therapeutic options (e.g., fluoroquinolones) for infections for which there are no reasonable alternative therapies | May require "frontline" used of lastline antibiotic if patient has risk factors for multidrug resistant infection                         |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
 
 <br> Special circumstances creates exceptions: For example, community-acquired pneumonia and intraabdominal, skin, and urinary infections may be caused by *Pseudomonas* in patients with cystic fibrosis or with history of bronchiectasis, chronic dialysis patient, or patient with indwelling catheters or recent surgery.
 
-## Principle #4: A lower threshold for empirical therapy should be used in critically-ill patients
+## Principle #4: There is a lower threshold for empirical therapy in critically-ill patients
 
 ![](images/ICU.png){fig-align="center" width="600"}
 
@@ -547,7 +627,6 @@ digraph G {
 
 ::::: columns
 ::: {.column width="50%"}
-
 ![](images/Vd.png){width="600"}
 :::
 
