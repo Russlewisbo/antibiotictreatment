@@ -177,9 +177,8 @@ C. Radiological imaging (e.g., X-ray, CT or MRI)
 
 D. Microbiological tests (e.g., culture, PCR, serology)
 
-
 ## Example case
-=======
+
 ## Medical history in infectious diseases
 
 -   **What are the current symptoms** (e.g., fever, pain, cough, breathlessness, confusion, lethargy, vomiting, and any acute or subacute changes in functional status such as new urinary incontinence, falls, or decreased oral intake)
@@ -240,7 +239,7 @@ D. Microbiological tests (e.g., culture, PCR, serology)
 [@massis2005]
 :::
 
-## **Diagnosis and treatment of** <br>o**Brucellosis spondylitis**
+## Diagnosis and treatment of <br>Brucellosis spondylitis
 
 -   Blood cultures require special procedures (prolonged incubation), bone culture may be needed
 
@@ -251,7 +250,6 @@ D. Microbiological tests (e.g., culture, PCR, serology)
 -   Treatment- Gentamicin + Doxycycline + Rifampin
 
     -   Unconventional antibiotic regimen, would not be covered by standard spondylitis regimens
-
 
 ## Antibiotics are usually started empirically
 
@@ -611,6 +609,8 @@ digraph G {
 
 ## Key pharmacokinetic variable: <br>Volume of distribution (Vd)
 
+<br>
+
 -   The volume which appears to hold the drug if it was present in the body at the same concentration found in plasma
 
     -   It is estimated, not directly measured
@@ -647,11 +647,23 @@ digraph G {
 
 ## Vd alterations
 
-![](images/clipboard-943880396.png)
+![](images/clipboard-943880396.png){fig-align="center"}
 
-## Indentification4
+## Vd changes in critical illness
+
+![](images/clipboard-20417349.png)
+
+## Drug penetration in ventilator-associated pneumonia
+
+![](images/clipboard-1264925385.png)
+
+## Anatomically-privileged sites
 
 ![](images/clipboard-1377245329.png)
+
+## Anatomically-privileged sites
+
+![](images/clipboard-1890359177.png)
 
 ## Match the antibiotic to site of infection
 
@@ -661,35 +673,23 @@ digraph G {
 
 ![](images/clipboard-2574271174.png)
 
-## Vd changes in critical illness
-
-![](images/clipboard-20417349.png)
-
-## Anatomically-privileged sites
-
-![](images/clipboard-1890359177.png)
-
-## Drug penetration in ventilator-associated pneumonia
-
-![](images/clipboard-1264925385.png)
-
 ## PK/PD indices
 
 ![](images/clipboard-2657724390.png)
 
-## Identification
+## How are PK/PD indicies identified?
 
 ![](images/clipboard-2182940819.png)
 
-## Indentificationm2
+## Do PK/PD indices correlate with <br> clinical outcome of antibiotic therapy
 
 ![](images/clipboard-406664738.png)
 
-## identification3
+## PK/PD characteristics of common antibiotic classes
 
 ![](images/clipboard-3004890051.png)
 
-## Optimized dosing of meropenem
+## Application: Optimized dosing of meropenem
 
 <iframe src="https://tdmx.shinyapps.io/Meropenem/" width="100%" height="900px">
 
@@ -697,7 +697,7 @@ digraph G {
 
 <https://www.tdmx.eu/Launch-TDMx/>
 
-## Daptomycin
+## Daptomycin is inactivated in the lung
 
 ![](images/clipboard-3779354213.png)
 
@@ -724,6 +724,10 @@ Penicillins and tetracyclines 
 :::::
 
 ## Principle #7: De-escalate antibiotic therapy based on microbiology results and clinical (biomarker) responses
+
+<br>
+
+![](images/microbiological workup.png){fig-align="center"}
 
 ## Principle #8: If therapy is not working, consider source control or alternative diagnosis before broadening therapy
 
