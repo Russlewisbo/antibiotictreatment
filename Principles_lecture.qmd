@@ -177,7 +177,7 @@ C. Radiological imaging (e.g., X-ray, CT or MRI)
 
 D. Microbiological tests (e.g., culture, PCR, serology)
 
-<<<<<<< HEAD
+
 ## Example case
 =======
 ## Medical history in infectious diseases
@@ -251,7 +251,7 @@ D. Microbiological tests (e.g., culture, PCR, serology)
 -   Treatment- Gentamicin + Doxycycline + Rifampin
 
     -   Unconventional antibiotic regimen, would not be covered by standard spondylitis regimens
->>>>>>> 66d0588c2cde1d543e32af513f0af25220022a57
+
 
 ## Antibiotics are usually started empirically
 
