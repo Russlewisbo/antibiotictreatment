@@ -1,6 +1,7 @@
 ---
 format:
   revealjs:
+    browser: false
     spotlight: true
     touch: true
     controls: true
@@ -813,6 +814,10 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 | ![](images/abscess.png)                   | ![](images/abdominlaabscess.png)                  | ![](images/empyema.png)                 | ![](images/spondylitis.png)                             | ![](images/biofilm.png)                     |
 +-------------------------------------------+---------------------------------------------------+-----------------------------------------+---------------------------------------------------------+---------------------------------------------+
 
+## Biofilms: A key source of antibiotic failure
+
+![](images/biofilm2.png){fig-align="center"}
+
 ## Antibiotic FAIL
 
 -   **F**alse diagnosis
@@ -837,34 +842,53 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
     -   An initial apparent response to infection followed days or weeks later by new onset of infectious signs or symptoms should prompt a complete reevaluation of the patient for a new infection, including reculturing and imaging if necessary.
 
--    In these patients, it is generally reasonable to broaden therapy to cover highly resistant pathogens.ù
+-   In these patients, it is generally reasonable to broaden therapy to cover highly resistant pathogens.
 
     -   Such patients have been exposed to recent courses of antibiotics and have a higher risk of being infected by antibiotic-resistant pathogens.
 
+<!-- -->
+
 -   When changing antibacterial therapies because of breakthrough infection or lack of response to initial therapy, it is generally advisable to change one antibiotic at a time (to a different class if possible)
 
-## Principle #10: The duration of therapy should be as short as possible based on evidence{.smaller}
+## Principle #10:The duration of therapy should be as short as possible based on evidence {.smaller}
 
-| Disease | Short course (days) | Long course (days) | Outcome |
-|----|----|----|----|
-| Bacteremia, gram-negative | 7 | 14 | Equivalent |
-| Chronic bronchitis and COPD | ≤ 5 days | ≥ 7 | Equivalent |
-| Intra-abdominal infection | 4 | 10 | Equivalent |
-| Neutropenic fever | Until afebrile and stable | Until, afebrile, stable and non-neutropenic | Equivalent |
-| Osteomyelitis, chronic | 42 | 84 | Equivalent |
-| Pneumonia, community-acquired | 3-5 | 7-10 | Equivalent |
-| Pneumonia, nosocomial (including VAP) | ≤ 8 | 10-15 | Equivalent |
-| Pyelonephritis | 5-7 | 10-14 | Equivalent |
-| Skin infections (cellulitis, major abscess, wound infections) | 5-6 | 10-14 | Equivalent |
-| Sinusitis, acute bacterial | 5 | 10 | Equivalent |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+----------------+
+| Disease                                                       | Short course (days)       | Long course (days)                          | Outcome        |
++===============================================================+===========================+=============================================+================+
+| Bacteremia, gram-negative                                     | 7                         | 14                                          | Equivalent     |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+----------------+
+| Chronic bronchitis and COPD                                   | ≤ 5 days                  | ≥ 7                                         | Equivalent     |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+----------------+
+| Intra-abdominal infection                                     | 4                         | 10                                          | Equivalent     |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+----------------+
+| Neutropenic fever                                             | Until afebrile and stable | Until, afebrile, stable and non-neutropenic | Equivalent     |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+----------------+
+| Osteomyelitis, chronic                                        | 42                        | 84                                          | Equivalent     |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+----------------+
+| Pneumonia, community-acquired                                 | 3-5                       | 7-10                                        | Equivalent     |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+----------------+
+| Pneumonia, nosocomial (including VAP)                         | ≤ 8                       | 10-15                                       | Equivalent     |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+----------------+
+| Pyelonephritis                                                | 5-7                       | 10-14                                       | Equivalent     |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+----------------+
+| Skin infections (cellulitis, major abscess, wound infections) | 5-6                       | 10-14                                       | Equivalent     |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+----------------+
+| Sinusitis, acute bacterial                                    | 5                         | 10                                          | Equivalent     |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+----------------+
 
 ::: fotter
 [@spellbergPrinciplesAntibioticTherapy2025]
 :::
 
-## Common myths of antibiotic therapy
+## Common myths of antibiotic therapy: <br> Bactericidal antibiotics are more effective than bacteriostatic
 
-## Bactericidal antibiotics are more effective than bacteriostatic
+-   Bactericidal antibiotics are more effective than bacteriostatic antibiotics?
+
+-   Bactericidal: miinimum bactericidal concentration (MBC) of the drug is fourfold or less above the MIC
+
+![](images/MIC_MBC.png){fig-align="center" width="350"}
+
+## 
 
 ## Oral therapy is less effective than IV <br> for complex infections
 
@@ -873,3 +897,5 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 ## Does combination therapy prevent resistance?
 
 ## References
+
+o
