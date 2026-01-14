@@ -45,23 +45,21 @@ Russell E. Lewis <br> Associate Professor of Infectious Diseases <br> Department
 
 <br>
 
-+------------------------------+--------------------+----------------+-------------+
-| Disease                      | Pre-antibiotic era | Antibiotic era | Change      |
-+==============================+====================+================+=============+
-| Community-acquired pneumonia | \~ 35%             | \~ 10%         | -25%        |
-+------------------------------+--------------------+----------------+-------------+
-| Nosocomial pneumonia         | \~ 60%             | \~ 30%         | -30%        |
-+------------------------------+--------------------+----------------+-------------+
-| Bacterial endocarditis       | \~ 100%            | \~ 25%         | -75%        |
-+------------------------------+--------------------+----------------+-------------+
-| Gram-negative bacteremia     | \~ 70%             | \~ 10%         | -60%        |
-+------------------------------+--------------------+----------------+-------------+
-| Bacterial meningitis         | \> 80%             | \< 20%         | -60%        |
-+------------------------------+--------------------+----------------+-------------+
-| Skin infection o             | \~ 11%             | \< 0.5%        | -10%        |
-+------------------------------+--------------------+----------------+-------------+
-
-======= +------------------------------+--------------------+----------------+--------------+ \| Disease \| Pre-antibiotic era \| Antibiotic era \| Change \| +==============================+====================+================+==============+ \| Community-acquired pneumonia \| \~ 35% \| \~ 10% \| -25% \| +------------------------------+--------------------+----------------+--------------+ \| Nosocomial pneumonia \| \~ 60% \| \~ 30% \| -30% \| +------------------------------+--------------------+----------------+--------------+ \| Bacterial endocarditis \| \~ 100% \| \~ 25% \| -75% \| +------------------------------+--------------------+----------------+--------------+ \| Gram-negative bacteremia \| \~ 70% \| \~ 10% \| -60% \| +------------------------------+--------------------+----------------+--------------+ \| Bacterial meningitis \| \> 80% \| \< 20% \| -60% \| +------------------------------+--------------------+----------------+--------------+ \| Skin infection o \| \~ 11% \| \< 0.5% \| -10% \| +------------------------------+--------------------+----------------+--------------+
++------------------------------+--------------------+----------------+--------------+
+| Disease                      | Pre-antibiotic era | Antibiotic era | Change       |
++==============================+====================+================+==============+
+| Community-acquired pneumonia | \~ 35%             | \~ 10%         | -25%         |
++------------------------------+--------------------+----------------+--------------+
+| Nosocomial pneumonia         | \~ 60%             | \~ 30%         | -30%         |
++------------------------------+--------------------+----------------+--------------+
+| Bacterial endocarditis       | \~ 100%            | \~ 25%         | -75%         |
++------------------------------+--------------------+----------------+--------------+
+| Gram-negative bacteremia     | \~ 70%             | \~ 10%         | -60%         |
++------------------------------+--------------------+----------------+--------------+
+| Bacterial meningitis         | \> 80%             | \< 20%         | -60%         |
++------------------------------+--------------------+----------------+--------------+
+| Skin infection o             | \~ 11%             | \< 0.5%        | -10%         |
++------------------------------+--------------------+----------------+--------------+
 
 <br>
 
@@ -101,23 +99,33 @@ Russell E. Lewis <br> Associate Professor of Infectious Diseases <br> Department
 Source: healthdata.org
 :::
 
-## World Health Organization (WHO) Pathogen Priority List
+## World Health Organization (WHO) <br> Pathogen Priority List
 
 ![](images/WHO.png){fig-align="center" width="600"}
 
-## Methicillin-resistant Staphylococcus aureus (MRSA)
+## Methicillin-resistant <br> *Staphylococcus aureus* (MRSA)
+
+<br>
 
 ![](images/MRSA_ITALY.png){fig-align="center"}
 
 ## Carbapenem-resistant Enterobacterales (CRE)
 
+<br>
+
 ![](images/CRE_ITALY.png){fig-align="center"}
 
-## Multi-drug resistant (MDR) <br>Acinetobacter baumannii
+## Multi-drug resistant (MDR) <br>*Acinetobacter baumannii*
+
+<br>
 
 ![](images/MDRABUAM_ITALY.png){fig-align="center"}
 
 ## Antibiotic discovery is slowing
+
+<br>
+
+<br>
 
 ![](images/discovery.png){fig-align="center"}
 
@@ -125,7 +133,7 @@ Source: healthdata.org
 
 <br> <br>
 
--   Antibiotic overprescription is a *tragedy of the commons*: individual undertakes an action that they perceive to be in their own self-interest but that causes harm to society at large
+-   Antibiotic overprescription is a ***tragedy of the commons***: individual undertakes an action that they perceive to be in their own self-interest but that causes harm to society at large
 
 -   When such an action is undertaken rarely, the harm to society is not noticeable
 
@@ -135,11 +143,15 @@ Source: healthdata.org
 
 ## Antibiotic stewardship
 
+<br>
+
 +---------------------------------------+---------------------------------------+
 | ![](images/steward1.png){width="800"} | ![](images/steward.jpeg){width="800"} |
 +---------------------------------------+---------------------------------------+
 
-## 10 Principles for effective use of <br> antibacterial therapy
+## 10 Principles for effective use of <br> antibacterial therapy {.smaller}
+
+<br>
 
 ::: nonincremental
 1.  Accurate differential diagnosis
@@ -171,23 +183,25 @@ Source: healthdata.org
 
 ### What is the most tool for deciding to start antibiotic therapy?
 
+<br>
+
 A. Patient medical history
 
 B. Physical exam
 
 C. Radiological imaging (e.g., X-ray, CT or MRI)
 
-D. Microbiological tests (e.g., culture, PCR, serology)
+D. Microbiological tests (e.g., culture, PCR, biomarkers, serology)
 
-## Medical history in infectious diseases
+## Medical history in infectious diseases {.smaller}
 
 <br>
 
 -   **What are the current symptoms** (e.g., fever, pain, cough, breathlessness, confusion, lethargy, vomiting, and any acute or subacute changes in functional status such as new urinary incontinence, falls, or decreased oral intake)
 
-    -   8 cardinal descriptors: Timing, Location, Character, Aggravating Factors, Alleviating Factors, Associated Symptoms, Severity, Setting
+    -   **8 cardinal descriptors**: Timing, Location, Character, Aggravating Factors, Alleviating Factors, Associated Symptoms, Severity, Setting
 
--   **Fever**- How high, how long, what pattern?
+-   **Fever** How high, how long, what pattern?
 
 -   **Risk factors for infection** (e.g., indwelling devices -urinary catheters, vascular catheters, prosthetic joints, cardiac devices), recent medical procedures, immunosuppression, diabetes, history of injection drug use, and previous infections
 
@@ -211,11 +225,11 @@ D. Microbiological tests (e.g., culture, PCR, serology)
 
 -   **No other significant past medical history**
 
--   **Spondylitis etiologies:** 
+-   **Spondylitis etiologies:**
 
     -   \> 50% *Staphylococcus aureus, Staphylococcus epidermidis*
 
-    -   \~ 25% *Streptococcus* spp., *Enterococcus* spp. *Pseudomonas aeruginosa,* E*nterobacter* spp., *Proteus spp. E. coli, Serratia spp.,* Anaerobes, *Mycobacterium tuberculosis (Pott’s disease)*
+    -   \~ 25% *Streptococcus* spp., *Enterococcus* spp. *Pseudomonas aeruginosa,* *Enterobacter* spp., *Proteus* spp. *E. coli*, *Serratia* spp., Anaerobes, *Mycobacterium tuberculosis* (Pott’s disease)
 :::
 
 ::: {.column width="50%"}
@@ -224,6 +238,8 @@ D. Microbiological tests (e.g., culture, PCR, serology)
 :::::
 
 ## Pertinent history!
+
+<br>
 
 -   Patient works as a sheep and cattle farmer in a small enterprise 54 minutes from Messina that produces milk and cheese: Percorino salato and Ricotta
 
@@ -235,6 +251,8 @@ D. Microbiological tests (e.g., culture, PCR, serology)
 
 ## Could this be brucellosis?
 
+<br>
+
 ![](images/brucellosis.png){fig-align="center"}
 
 ::: footer
@@ -242,6 +260,8 @@ D. Microbiological tests (e.g., culture, PCR, serology)
 :::
 
 ## Diagnosis and treatment of <br>Brucellosis spondylitis
+
+<br>
 
 -   Blood cultures require special procedures (prolonged incubation), bone culture may be needed
 
@@ -338,7 +358,7 @@ Clinicians frequently *overestimate* the risk of bacterial infection
 [@chow2012]
 :::
 
-## Clinicians frequently *underestimate* the risks of antibiotic therapy
+## But Clinicians frequently *underestimate* the risks of antibiotic therapy
 
 <br>
 
@@ -705,7 +725,7 @@ digraph G {
 
 ## Antibiotic activity in abscess
 
-## <br>**Aminoglycosides**
+<br>**Aminoglycosides**
 
 ::::: columns
 ::: {.column width="50%"}
@@ -733,17 +753,19 @@ digraph G {
 
 ## Antibiotic de-escalation
 
-<br>h
+<br>
 
--   De-escalation with pathogen identification -e.g., stopping empirical vancomycin in patient with Gram-negative bacilli in blood cultures
+-   De-escalation with pathogen identification
 
--   Improvement in fever and leukocytosis
+    -   -e.g., stopping empirical vancomycin in patient with Gram-negative bacilli in blood cultures
 
--   Empiric de-escalation of therapies for highly-resistant pathogens if they have not grown
+-   Clinical improvement-reduction in fever and leukocytosis
+
+-   Empiric de-escalation of therapies for highly-resistant pathogens if they have not grown from culture
 
     -   e.g., stopping empirical vancomycin in a patient without positive MRSA cultures
 
--   Biomarkers: C-reactive protein (limited clinical utility), procalcitonin -*areas of diagnostic stewardship as tests are frequently abused*
+-   Biomarkers: C-reactive protein (clinical utility questioned), procalcitonin -*areas of diagnostic stewardship as tests are frequently abused*
 
 ::: notes
 Clinicians often ignore negative results but may use a positive procalcitonin to justify antibiotic use
@@ -791,9 +813,56 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 | ![](images/abscess.png)                   | ![](images/abdominlaabscess.png)                  | ![](images/empyema.png)                 | ![](images/spondylitis.png)                             | ![](images/biofilm.png)                     |
 +-------------------------------------------+---------------------------------------------------+-----------------------------------------+---------------------------------------------------------+---------------------------------------------+
 
+## Antibiotic FAIL
+
+-   **F**alse diagnosis
+
+-   **A**llergies
+
+-   **I**ntercurrent infections
+
+-   **L**ocalized process
+
+\##
+
 ## Principle #9: Distinguish new infection from failure of initial therapy
 
+<br>
+
+-   New onset of infectious signs, symptoms, and biomarkers after resolution of prior infection should raise the concern of a new infection rather than persistence of the original infection
+
+-   Rarely, recrudescence of signs and symptoms may reflect emergence of antibiotic resistance on therapy from the initial pathogens
+
+    -   This may be seen more with specific bacterial pathogens, such as *Acinetobacter baumannii*, than with others.
+
+    -   An initial apparent response to infection followed days or weeks later by new onset of infectious signs or symptoms should prompt a complete reevaluation of the patient for a new infection, including reculturing and imaging if necessary.
+
+-    In these patients, it is generally reasonable to broaden therapy to cover highly resistant pathogens.ù
+
+    -   Such patients have been exposed to recent courses of antibiotics and have a higher risk of being infected by antibiotic-resistant pathogens.
+
+-   When changing antibacterial therapies because of breakthrough infection or lack of response to initial therapy, it is generally advisable to change one antibiotic at a time (to a different class if possible)
+
 ## Principle #10: The duration of therapy should be as short as possible based on available evidence (shorter is better)
+
+<br>
+
+| Disease | Short course (days) | Long course (days) | Outcome |
+|----|----|----|----|
+| Bacteremia, gram-negative | 7 | 14 | Equivalent |
+| Chronic bronchitis and COPD | ≤ 5 days | ≥ 7 | Equivalent |
+| Intra-abdominal infection | 4 | 10 | Equivalent |
+| Neutropenic fever | Until afebrile and stable | Until, afebrile, stable and non-neutropenic | Equivalent |
+| Osteomyelitis, chronic | 42 | 84 | Equivalent |
+| Pneumonia, community-acquired | 3-5 | 7-10 | Equivalent |
+| Pneumonia, nosocomial (including VAP) | ≤ 8 | 10-15 | Equivalent |
+| Pyelonephritis | 5-7 | 10-14 | Equivalent |
+| Skin infections (cellulitis, major abscess, wound infections) | 5-6 | 10-14 | Equivalent |
+| Sinusitis, acute bacterial | 5 | 10 | Equivalent |
+
+::: fotter
+[@spellbergPrinciplesAntibioticTherapy2025]
+:::
 
 ## Common myths of antibiotic therapy
 
