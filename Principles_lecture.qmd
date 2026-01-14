@@ -45,21 +45,14 @@ Russell E. Lewis <br> Associate Professor of Infectious Diseases <br> Department
 
 <br>
 
-+------------------------------+--------------------+----------------+--------------+
-| Disease                      | Pre-antibiotic era | Antibiotic era | Change       |
-+==============================+====================+================+==============+
-| Community-acquired pneumonia | \~ 35%             | \~ 10%         | -25%         |
-+------------------------------+--------------------+----------------+--------------+
-| Nosocomial pneumonia         | \~ 60%             | \~ 30%         | -30%         |
-+------------------------------+--------------------+----------------+--------------+
-| Bacterial endocarditis       | \~ 100%            | \~ 25%         | -75%         |
-+------------------------------+--------------------+----------------+--------------+
-| Gram-negative bacteremia     | \~ 70%             | \~ 10%         | -60%         |
-+------------------------------+--------------------+----------------+--------------+
-| Bacterial meningitis         | \> 80%             | \< 20%         | -60%         |
-+------------------------------+--------------------+----------------+--------------+
-| Skin infection               | \~ 11%             | \< 0.5%        | -10%         |
-+------------------------------+--------------------+----------------+--------------+
+| Disease                      | Pre-antibiotic era | Antibiotic era | Change |
+|------------------------------|--------------------|----------------|--------|
+| Community-acquired pneumonia | \~ 35%             | \~ 10%         | -25%   |
+| Nosocomial pneumonia         | \~ 60%             | \~ 30%         | -30%   |
+| Bacterial endocarditis       | \~ 100%            | \~ 25%         | -75%   |
+| Gram-negative bacteremia     | \~ 70%             | \~ 10%         | -60%   |
+| Bacterial meningitis         | \> 80%             | \< 20%         | -60%   |
+| Skin infection               | \~ 11%             | \< 0.5%        | -10%   |
 
 <br>
 
@@ -79,7 +72,7 @@ Russell E. Lewis <br> Associate Professor of Infectious Diseases <br> Department
 
     -   e.g., central venous catheters, mechanical ventilation
 
--   Care for premature infants
+-   Care for premature infants, mothers (post-partum sepsis)
 
 -   Solid organ and stem cell transplantation
 
@@ -133,9 +126,9 @@ Source: healthdata.org
 
 ## Antibiotic stewardship
 
-+---------------------------------------+---------------------------------------+
+|  |  |
+|----|----|
 | ![](images/steward1.png){width="800"} | ![](images/steward.jpeg){width="800"} |
-+---------------------------------------+---------------------------------------+
 
 ## 10 Principles for effective use of <br> antibacterial therapy
 
@@ -176,6 +169,8 @@ B. Physical exam
 C. Radiological imaging (e.g., X-ray, CT or MRI)
 
 D. Microbiological tests (e.g., culture, PCR, serology)
+
+## Example case
 
 ## Medical history in infectious diseases
 
@@ -237,7 +232,11 @@ D. Microbiological tests (e.g., culture, PCR, serology)
 [@massis2005]
 :::
 
+<<<<<<< HEAD
 ## **Diagnosis and treatment of** <br>**Brucellosis spondylitis**
+=======
+## Diagnosis and treatment of <br>Brucellosis spondylitis
+>>>>>>> 0d02eb72468c34bfbbb08c374ae283f2b447badf
 
 -   Blood cultures require special procedures (prolonged incubation), bone culture may be needed
 
@@ -378,11 +377,9 @@ A combination of:
 
 -   IN the abscence of signs or symptoms of infection, a positive culture often represents **colonization or contamination** and should not trigger treatment. <br> <br>
 
-+-----------------------+-----------------------+---------------------------+------------------------------+-----------------------+
-| Wound swabs           | Urine cultures        | Bronchial alveolar lavage | Respiratory samples          | GI tract/stool        |
-+=======================+=======================+===========================+==============================+=======================+
-| ![](images/wound.png) | ![](images/urine.png) | ![](images/BAL.png)       | ![](images/nasal%20swab.png) | ![](images/stool.png) |
-+-----------------------+-----------------------+---------------------------+------------------------------+-----------------------+
+| Wound swabs | Urine cultures | Bronchial alveolar lavage | Respiratory samples | GI tract/stool |
+|----|----|----|----|----|
+| ![](images/wound.png) | ![](images/urine.png) | ![](images/BAL.png) | ![](images/nasal%20swab.png) | ![](images/stool.png) |
 
 ## Simple stewardship interventions
 
@@ -607,6 +604,8 @@ digraph G {
 
 ## Key pharmacokinetic variable: <br>Volume of distribution (Vd)
 
+<br>
+
 -   The volume which appears to hold the drug if it was present in the body at the same concentration found in plasma
 
     -   It is estimated, not directly measured
@@ -645,9 +644,21 @@ digraph G {
 
 ![](images/clipboard-943880396.png){fig-align="center"}
 
-## Indentification4
+## Vd changes in critical illness
+
+![](images/clipboard-20417349.png)
+
+## Drug penetration in ventilator-associated pneumonia
+
+![](images/clipboard-1264925385.png)
+
+## Anatomically-privileged sites
 
 ![](images/clipboard-1377245329.png){fig-align="center"}
+
+## Anatomically-privileged sites
+
+![](images/clipboard-1890359177.png)
 
 ## Match the antibiotic to site of infection
 
@@ -657,6 +668,7 @@ digraph G {
 
 ![](images/clipboard-2574271174.png){fig-align="center"}
 
+<<<<<<< HEAD
 ## Vd changes in critical illness
 
 ![](images/clipboard-20417349.png){fig-align="center"}
@@ -669,23 +681,25 @@ digraph G {
 
 ![](images/clipboard-1264925385.png){fig-align="center"}
 
+=======
+>>>>>>> 0d02eb72468c34bfbbb08c374ae283f2b447badf
 ## PK/PD indices
 
 ![](images/clipboard-2657724390.png)
 
-## Identification
+## How are PK/PD indicies identified?
 
 ![](images/clipboard-2182940819.png)
 
-## Indentificationm2
+## Do PK/PD indices correlate with <br> clinical outcome of antibiotic therapy
 
 ![](images/clipboard-406664738.png)
 
-## identification3
+## PK/PD characteristics of common antibiotic classes
 
 ![](images/clipboard-3004890051.png)
 
-## Optimized dosing of meropenem
+## Application: Optimized dosing of meropenem
 
 <iframe src="https://tdmx.shinyapps.io/Meropenem/" width="100%" height="900px">
 
@@ -693,11 +707,11 @@ digraph G {
 
 <https://www.tdmx.eu/Launch-TDMx/>
 
-## Daptomycin
+## Daptomycin is inactivated in the lung
 
 ![](images/clipboard-3779354213.png)
 
-## Abscess
+## Antibiotic activity in abscess
 
 ::::: columns
 ::: {.column width="50%"}
@@ -720,6 +734,23 @@ digraph G {
 :::::
 
 ## Principle #7: De-escalate antibiotic therapy based on microbiology results and clinical (biomarker) responses
+
+<br>
+
+![](images/microbiological%20workup.png){fig-align="center"}
+
+## Antibiotic de-escalation
+
+-   De-escalation with pathogen identification -e.g., stopping empirical vancomycin in patient with Gram-negative bacilli in blood cultures
+
+## Effect of gram-strain guided initial therapy
+
+![](images/grace_trial.png){fig-align="center"}
+
+Gram strain guided therapy resulted in a 30% reduction in use of anti-peudomonal agents and 40% reduction in MRSA agents
+
+::: footer
+:::
 
 ## Principle #8: If therapy is not working, consider source control or alternative diagnosis before broadening therapy
 
