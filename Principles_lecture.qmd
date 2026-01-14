@@ -237,7 +237,7 @@ D. Microbiological tests (e.g., culture, PCR, serology)
 [@massis2005]
 :::
 
-## **Diagnosis and treatment of** <br>o**Brucellosis spondylitis**
+## **Diagnosis and treatment of** <br>**Brucellosis spondylitis**
 
 -   Blood cultures require special procedures (prolonged incubation), bone culture may be needed
 
@@ -627,7 +627,7 @@ digraph G {
 
 ::::: columns
 ::: {.column width="50%"}
-![](images/Vd.png){width="600"}
+![](images/Vd.png){fig-align="center" width="600"}
 :::
 
 ::: {.column width="50%"}
@@ -643,31 +643,31 @@ digraph G {
 
 ## Vd alterations
 
-![](images/clipboard-943880396.png)
+![](images/clipboard-943880396.png){fig-align="center"}
 
 ## Indentification4
 
-![](images/clipboard-1377245329.png)
+![](images/clipboard-1377245329.png){fig-align="center"}
 
 ## Match the antibiotic to site of infection
 
-![](images/clipboard-1230498658.png)
+![](images/clipboard-1230498658.png){fig-align="center"}
 
 ## Urinary concentrations of antibiotics
 
-![](images/clipboard-2574271174.png)
+![](images/clipboard-2574271174.png){fig-align="center"}
 
 ## Vd changes in critical illness
 
-![](images/clipboard-20417349.png)
+![](images/clipboard-20417349.png){fig-align="center"}
 
 ## Anatomically-privileged sites
 
-![](images/clipboard-1890359177.png)
+![](images/clipboard-1890359177.png){fig-align="center"}
 
 ## Drug penetration in ventilator-associated pneumonia
 
-![](images/clipboard-1264925385.png)
+![](images/clipboard-1264925385.png){fig-align="center"}
 
 ## PK/PD indices
 
@@ -701,13 +701,13 @@ digraph G {
 
 ::::: columns
 ::: {.column width="50%"}
-Aminoglycosides
+**Aminoglycosides**
 
 -   Bind and are inactivated by purulent material
 
 -   Decrease aminoglycoside uptake into facultative aerobic bacteria at low pH
 
-Penicillins and tetracyclines 
+**Penicillins and tetracyclines** 
 
 -   Bound by hemoglobin, less effective with hematoma formation
 
