@@ -45,14 +45,21 @@ Russell E. Lewis <br> Associate Professor of Infectious Diseases <br> Department
 
 <br>
 
-| Disease                      | Pre-antibiotic era | Antibiotic era | Change |
-|------------------------------|--------------------|----------------|--------|
-| Community-acquired pneumonia | \~ 35%             | \~ 10%         | -25%   |
-| Nosocomial pneumonia         | \~ 60%             | \~ 30%         | -30%   |
-| Bacterial endocarditis       | \~ 100%            | \~ 25%         | -75%   |
-| Gram-negative bacteremia     | \~ 70%             | \~ 10%         | -60%   |
-| Bacterial meningitis         | \> 80%             | \< 20%         | -60%   |
-| Skin infection            o   | \~ 11%             | \< 0.5%        | -10%   |
++------------------------------+--------------------+----------------+--------------+
+| Disease                      | Pre-antibiotic era | Antibiotic era | Change       |
++==============================+====================+================+==============+
+| Community-acquired pneumonia | \~ 35%             | \~ 10%         | -25%         |
++------------------------------+--------------------+----------------+--------------+
+| Nosocomial pneumonia         | \~ 60%             | \~ 30%         | -30%         |
++------------------------------+--------------------+----------------+--------------+
+| Bacterial endocarditis       | \~ 100%            | \~ 25%         | -75%         |
++------------------------------+--------------------+----------------+--------------+
+| Gram-negative bacteremia     | \~ 70%             | \~ 10%         | -60%         |
++------------------------------+--------------------+----------------+--------------+
+| Bacterial meningitis         | \> 80%             | \< 20%         | -60%         |
++------------------------------+--------------------+----------------+--------------+
+| Skin infection o             | \~ 11%             | \< 0.5%        | -10%         |
++------------------------------+--------------------+----------------+--------------+
 
 <br>
 
@@ -126,9 +133,9 @@ Source: healthdata.org
 
 ## Antibiotic stewardship
 
-|  |  |
-|----|----|
++---------------------------------------+---------------------------------------+
 | ![](images/steward1.png){width="800"} | ![](images/steward.jpeg){width="800"} |
++---------------------------------------+---------------------------------------+
 
 ## 10 Principles for effective use of <br> antibacterial therapy
 
@@ -373,9 +380,11 @@ A combination of:
 
 -   IN the abscence of signs or symptoms of infection, a positive culture often represents **colonization or contamination** and should not trigger treatment. <br> <br>
 
-| Wound swabs | Urine cultures | Bronchial alveolar lavage | Respiratory samples | GI tract/stool |
-|----|----|----|----|----|
-| ![](images/wound.png) | ![](images/urine.png) | ![](images/BAL.png) | ![](images/nasal%20swab.png) | ![](images/stool.png) |
++-----------------------+-----------------------+---------------------------+------------------------------+-----------------------+
+| Wound swabs           | Urine cultures        | Bronchial alveolar lavage | Respiratory samples          | GI tract/stool        |
++=======================+=======================+===========================+==============================+=======================+
+| ![](images/wound.png) | ![](images/urine.png) | ![](images/BAL.png)       | ![](images/nasal%20swab.png) | ![](images/stool.png) |
++-----------------------+-----------------------+---------------------------+------------------------------+-----------------------+
 
 ## Simple stewardship interventions
 
@@ -770,15 +779,15 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
     -   Signs of inflammation (*rubor, tumor, dolor, calor)*
     -   Biomarkers (procalcitonin)
 
-## Source control
+## Source control{.smaller}
+<br>
+<br>
 
-|                                           | Col2 | Col3 | Col4 | Col5 |
-|-------------------------------------------|------|------|------|------|
-| Occult subcutaneous abscess in cellulitus |      |      |      |      |
-
--   Occult subcutaneus abscess in patient failing cellulitis therapy
--   New abscess formation during treatment of intrabdominal infectiopn
--   
++-------------------------------------------+---------------------------------------------------+-----------------------------------------+---------------------------------------------------------+---------------------------------------------+
+| Occult subcutaneous abscess in cellulitus | New abscess formation in intraabdominal infection | Empyema in community-acquired pneumonia | Visceral or skeletal abscess in patient with bacteremia | Failure to remove a central venous catheter |
++-------------------------------------------+---------------------------------------------------+-----------------------------------------+---------------------------------------------------------+---------------------------------------------+
+| ![](images/abscess.png)                   | ![](images/abdominlaabscess.png)                  | ![](images/empyema.png)                 | ![](images/spondylitis.png)                             | ![](images/biofilm.png)                     |
++-------------------------------------------+---------------------------------------------------+-----------------------------------------+---------------------------------------------------------+---------------------------------------------+
 
 ## Principle #9: Distinguish new infection from failure of initial therapy
 
