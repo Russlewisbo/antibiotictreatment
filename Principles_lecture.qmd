@@ -52,7 +52,7 @@ Russell E. Lewis <br> Associate Professor of Infectious Diseases <br> Department
 | Bacterial endocarditis       | \~ 100%            | \~ 25%         | -75%   |
 | Gram-negative bacteremia     | \~ 70%             | \~ 10%         | -60%   |
 | Bacterial meningitis         | \> 80%             | \< 20%         | -60%   |
-| Skin infection            o   | \~ 11%             | \< 0.5%        | -10%   |
+| Skin infection o             | \~ 11%             | \< 0.5%        | -10%   |
 
 <br>
 
