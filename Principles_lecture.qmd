@@ -843,9 +843,7 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
 -   When changing antibacterial therapies because of breakthrough infection or lack of response to initial therapy, it is generally advisable to change one antibiotic at a time (to a different class if possible)
 
-## Principle #10: The duration of therapy should be as short as possible based on available evidence (shorter is better)
-
-<br>
+## Principle #10: The duration of therapy should be as short as possible based on evidence{.smaller}
 
 | Disease | Short course (days) | Long course (days) | Outcome |
 |----|----|----|----|
