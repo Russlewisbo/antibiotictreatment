@@ -52,7 +52,7 @@ Russell E. Lewis <br> Associate Professor of Infectious Diseases <br> Department
 | Bacterial endocarditis       | \~ 100%            | \~ 25%         | -75%   |
 | Gram-negative bacteremia     | \~ 70%             | \~ 10%         | -60%   |
 | Bacterial meningitis         | \> 80%             | \< 20%         | -60%   |
-| Skin infection               | \~ 11%             | \< 0.5%        | -10%   |
+| Skin infection            o   | \~ 11%             | \< 0.5%        | -10%   |
 
 <br>
 
@@ -220,7 +220,7 @@ D. Microbiological tests (e.g., culture, PCR, serology)
 
 -   Patient reported pain was first noticed at end of May after a bad case of flu “fever, achy joints, headache”
 
--   Father (who also works on farm) also has worsening hip pain after sitting for long periods and will be evaluated by an orthopedic doctor for hip replacement. 
+-   Father (who also works on farm) also has worsening hip pain after sitting for long periods and will be evaluated by an orthopedic doctor for hip replacement.
 
 -   Other 3 brothers and cousin who work on farm report no illness.
 
@@ -762,7 +762,7 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
 ## Principle #8: If therapy is not working, consider source control or alternative diagnosis before assuming resistance and broadening therapy
 
--   Treatment descisions may need If an antibiotic therapy has not improved:
+-   Treatment decisions may need If an antibiotic therapy has not improved:
 
     -   Fever curve
     -   White blood cell count
