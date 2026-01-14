@@ -868,7 +868,7 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
 ## Bactericidal antibiotics are more effective than bacteriostatic
 
-## Oral therapy is less effective than IV for complex infections
+## Oral therapy is less effective than IV <br> for complex infections
 
 ## Combination therapy: *The good, the bad,...the ugly*
 
