@@ -702,11 +702,11 @@ Aminoglycosides
 
 -   Decrease aminoglycoside uptake into facultative aerobic bacteria at low pH
 
-Penicillins and tetracyclines 
+-   Penicillins and tetracyclines
 
--   Bound by hemoglobin, less effective with hematoma formation
+    -   Bound by hemoglobin, less effective with hematoma formation
 
--   Emphasizes importance of source control (abscess drainage, removal of prosthetic material)
+    -   Emphasizes importance of source control (abscess drainage, removal of prosthetic material)
 :::
 
 ::: {.column width="50%"}
@@ -724,16 +724,61 @@ Penicillins and tetracyclines 
 
 -   De-escalation with pathogen identification -e.g., stopping empirical vancomycin in patient with Gram-negative bacilli in blood cultures
 
-## Effect of gram-strain guided initial therapy
+-   Improvement in fever and leukocytosis
 
-![](images/grace_trial.png){fig-align="center"}
+-   Empiric de-escalation of therapies for highly-resistant pathogens if they have not grown
 
-Gram strain guided therapy resulted in a 30% reduction in use of anti-peudomonal agents and 40% reduction in MRSA agents
+    -   e.g., stopping empirical vancomycin in a patient without positive MRSA cultures
 
-::: footer
+-   Biomarkers: C-reactive protein (limited clinical utility), procalcitonin -*areas of diagnostic stewardship as tests are frequently abused*
+
+::: notes
+Clinicians often ignore negative results but may use a positive procalcitonin to justify antibiotic use
 :::
 
-## Principle #8: If therapy is not working, consider source control or alternative diagnosis before broadening therapy
+## Incorporation of procalcitonin into therapeutic decisions reduces antibiotic use
+
+![](images/pct.png){fig-align="center"}
+
+::: footer
+[@schuetzProcalcitoninGuideInitiation2012]
+:::
+
+## Choosing therapy based on gram-stain vs. guidelines
+
+![](images/grace_trial.png){fig-align="center" width="1200"}
+
+-   Gram strain guided therapy resulted in a 30% reduction in use of anti-pseudomonal agents and 40% reduction in MRSA agents
+
+-   Gram-stain guided therapy resulted in higher rate of appropriate antibiotic escalation (7% vs. 1%, p=0.03)
+
+::: footer
+[@yoshimura2022]
+:::
+
+## Susceptibility testing
+
+![](images/MIC.png){fig-align="center"}
+
+## Principle #8: If therapy is not working, consider source control or alternative diagnosis before assuming resistance and broadening therapy
+
+-   Treatment descisions may need If an antibiotic therapy has not improved:
+
+    -   Fever curve
+    -   White blood cell count
+    -   Purulent secretions
+    -   Signs of inflammation (*rubor, tumor, dolor, calor)*
+    -   Biomarkers (procalcitonin)
+
+## Source control
+
+|                                           | Col2 | Col3 | Col4 | Col5 |
+|-------------------------------------------|------|------|------|------|
+| Occult subcutaneous abscess in cellulitus |      |      |      |      |
+
+-   Occult subcutaneus abscess in patient failing cellulitis therapy
+-   New abscess formation during treatment of intrabdominal infectiopn
+-   
 
 ## Principle #9: Distinguish new infection from failure of initial therapy
 
