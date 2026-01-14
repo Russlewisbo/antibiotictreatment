@@ -45,14 +45,23 @@ Russell E. Lewis <br> Associate Professor of Infectious Diseases <br> Department
 
 <br>
 
-| Disease                      | Pre-antibiotic era | Antibiotic era | Change |
-|------------------------------|--------------------|----------------|--------|
-| Community-acquired pneumonia | \~ 35%             | \~ 10%         | -25%   |
-| Nosocomial pneumonia         | \~ 60%             | \~ 30%         | -30%   |
-| Bacterial endocarditis       | \~ 100%            | \~ 25%         | -75%   |
-| Gram-negative bacteremia     | \~ 70%             | \~ 10%         | -60%   |
-| Bacterial meningitis         | \> 80%             | \< 20%         | -60%   |
-| Skin infection o             | \~ 11%             | \< 0.5%        | -10%   |
++------------------------------+--------------------+----------------+-------------+
+| Disease                      | Pre-antibiotic era | Antibiotic era | Change      |
++==============================+====================+================+=============+
+| Community-acquired pneumonia | \~ 35%             | \~ 10%         | -25%        |
++------------------------------+--------------------+----------------+-------------+
+| Nosocomial pneumonia         | \~ 60%             | \~ 30%         | -30%        |
++------------------------------+--------------------+----------------+-------------+
+| Bacterial endocarditis       | \~ 100%            | \~ 25%         | -75%        |
++------------------------------+--------------------+----------------+-------------+
+| Gram-negative bacteremia     | \~ 70%             | \~ 10%         | -60%        |
++------------------------------+--------------------+----------------+-------------+
+| Bacterial meningitis         | \> 80%             | \< 20%         | -60%        |
++------------------------------+--------------------+----------------+-------------+
+| Skin infection o             | \~ 11%             | \< 0.5%        | -10%        |
++------------------------------+--------------------+----------------+-------------+
+
+======= +------------------------------+--------------------+----------------+--------------+ \| Disease \| Pre-antibiotic era \| Antibiotic era \| Change \| +==============================+====================+================+==============+ \| Community-acquired pneumonia \| \~ 35% \| \~ 10% \| -25% \| +------------------------------+--------------------+----------------+--------------+ \| Nosocomial pneumonia \| \~ 60% \| \~ 30% \| -30% \| +------------------------------+--------------------+----------------+--------------+ \| Bacterial endocarditis \| \~ 100% \| \~ 25% \| -75% \| +------------------------------+--------------------+----------------+--------------+ \| Gram-negative bacteremia \| \~ 70% \| \~ 10% \| -60% \| +------------------------------+--------------------+----------------+--------------+ \| Bacterial meningitis \| \> 80% \| \< 20% \| -60% \| +------------------------------+--------------------+----------------+--------------+ \| Skin infection o \| \~ 11% \| \< 0.5% \| -10% \| +------------------------------+--------------------+----------------+--------------+
 
 <br>
 
@@ -126,9 +135,9 @@ Source: healthdata.org
 
 ## Antibiotic stewardship
 
-|  |  |
-|----|----|
++---------------------------------------+---------------------------------------+
 | ![](images/steward1.png){width="800"} | ![](images/steward.jpeg){width="800"} |
++---------------------------------------+---------------------------------------+
 
 ## 10 Principles for effective use of <br> antibacterial therapy
 
@@ -170,9 +179,9 @@ C. Radiological imaging (e.g., X-ray, CT or MRI)
 
 D. Microbiological tests (e.g., culture, PCR, serology)
 
-## Example case
-
 ## Medical history in infectious diseases
+
+<br>
 
 -   **What are the current symptoms** (e.g., fever, pain, cough, breathlessness, confusion, lethargy, vomiting, and any acute or subacute changes in functional status such as new urinary incontinence, falls, or decreased oral intake)
 
@@ -373,9 +382,11 @@ A combination of:
 
 -   IN the abscence of signs or symptoms of infection, a positive culture often represents **colonization or contamination** and should not trigger treatment. <br> <br>
 
-| Wound swabs | Urine cultures | Bronchial alveolar lavage | Respiratory samples | GI tract/stool |
-|----|----|----|----|----|
-| ![](images/wound.png) | ![](images/urine.png) | ![](images/BAL.png) | ![](images/nasal%20swab.png) | ![](images/stool.png) |
++-----------------------+-----------------------+---------------------------+------------------------------+-----------------------+
+| Wound swabs           | Urine cultures        | Bronchial alveolar lavage | Respiratory samples          | GI tract/stool        |
++=======================+=======================+===========================+==============================+=======================+
+| ![](images/wound.png) | ![](images/urine.png) | ![](images/BAL.png)       | ![](images/nasal%20swab.png) | ![](images/stool.png) |
++-----------------------+-----------------------+---------------------------+------------------------------+-----------------------+
 
 ## Simple stewardship interventions
 
@@ -654,7 +665,7 @@ digraph G {
 
 ## Anatomically-privileged sites
 
-![](images/clipboard-1890359177.png)
+![](images/clipboard-1890359177.png){width="800"}
 
 ## Match the antibiotic to site of infection
 
@@ -694,15 +705,15 @@ digraph G {
 
 ## Antibiotic activity in abscess
 
+## <br>**Aminoglycosides**
+
 ::::: columns
 ::: {.column width="50%"}
-Aminoglycosides
-
 -   Bind and are inactivated by purulent material
 
 -   Decrease aminoglycoside uptake into facultative aerobic bacteria at low pH
 
--   Penicillins and tetracyclines
+-   **Penicillins and tetracyclines**
 
     -   Bound by hemoglobin, less effective with hematoma formation
 
@@ -722,6 +733,8 @@ Aminoglycosides
 
 ## Antibiotic de-escalation
 
+<br>h
+
 -   De-escalation with pathogen identification -e.g., stopping empirical vancomycin in patient with Gram-negative bacilli in blood cultures
 
 -   Improvement in fever and leukocytosis
@@ -736,15 +749,13 @@ Aminoglycosides
 Clinicians often ignore negative results but may use a positive procalcitonin to justify antibiotic use
 :::
 
-## Incorporation of procalcitonin into therapeutic decisions reduces antibiotic use
-
-![](images/pct.png){fig-align="center"}
+## Incorporation of procalcitonin into therapeutic decisions reduces antibiotic use<br>
 
 ::: footer
 [@schuetzProcalcitoninGuideInitiation2012]
 :::
 
-## Choosing therapy based on gram-stain vs. guidelines
+## Choosing therapy : <br> gram-stain vs. guidelines
 
 ![](images/grace_trial.png){fig-align="center" width="1200"}
 
@@ -770,15 +781,15 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
     -   Signs of inflammation (*rubor, tumor, dolor, calor)*
     -   Biomarkers (procalcitonin)
 
-## Source control
+## Source control {.smaller}
 
-|                                           | Col2 | Col3 | Col4 | Col5 |
-|-------------------------------------------|------|------|------|------|
-| Occult subcutaneous abscess in cellulitus |      |      |      |      |
+<br> <br>
 
--   Occult subcutaneus abscess in patient failing cellulitis therapy
--   New abscess formation during treatment of intrabdominal infectiopn
--   
++-------------------------------------------+---------------------------------------------------+-----------------------------------------+---------------------------------------------------------+---------------------------------------------+
+| Occult subcutaneous abscess in cellulitus | New abscess formation in intraabdominal infection | Empyema in community-acquired pneumonia | Visceral or skeletal abscess in patient with bacteremia | Failure to remove a central venous catheter |
++-------------------------------------------+---------------------------------------------------+-----------------------------------------+---------------------------------------------------------+---------------------------------------------+
+| ![](images/abscess.png)                   | ![](images/abdominlaabscess.png)                  | ![](images/empyema.png)                 | ![](images/spondylitis.png)                             | ![](images/biofilm.png)                     |
++-------------------------------------------+---------------------------------------------------+-----------------------------------------+---------------------------------------------------------+---------------------------------------------+
 
 ## Principle #9: Distinguish new infection from failure of initial therapy
 
