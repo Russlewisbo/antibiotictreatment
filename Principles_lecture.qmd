@@ -45,21 +45,14 @@ Russell E. Lewis <br> Associate Professor of Infectious Diseases <br> Department
 
 <br>
 
-+------------------------------+--------------------+----------------+--------------+
-| Disease                      | Pre-antibiotic era | Antibiotic era | Change       |
-+==============================+====================+================+==============+
-| Community-acquired pneumonia | \~ 35%             | \~ 10%         | -25%         |
-+------------------------------+--------------------+----------------+--------------+
-| Nosocomial pneumonia         | \~ 60%             | \~ 30%         | -30%         |
-+------------------------------+--------------------+----------------+--------------+
-| Bacterial endocarditis       | \~ 100%            | \~ 25%         | -75%         |
-+------------------------------+--------------------+----------------+--------------+
-| Gram-negative bacteremia     | \~ 70%             | \~ 10%         | -60%         |
-+------------------------------+--------------------+----------------+--------------+
-| Bacterial meningitis         | \> 80%             | \< 20%         | -60%         |
-+------------------------------+--------------------+----------------+--------------+
-| Skin infection               | \~ 11%             | \< 0.5%        | -10%         |
-+------------------------------+--------------------+----------------+--------------+
+| Disease                      | Pre-antibiotic era | Antibiotic era | Change |
+|------------------------------|--------------------|----------------|--------|
+| Community-acquired pneumonia | \~ 35%             | \~ 10%         | -25%   |
+| Nosocomial pneumonia         | \~ 60%             | \~ 30%         | -30%   |
+| Bacterial endocarditis       | \~ 100%            | \~ 25%         | -75%   |
+| Gram-negative bacteremia     | \~ 70%             | \~ 10%         | -60%   |
+| Bacterial meningitis         | \> 80%             | \< 20%         | -60%   |
+| Skin infection               | \~ 11%             | \< 0.5%        | -10%   |
 
 <br>
 
@@ -133,9 +126,9 @@ Source: healthdata.org
 
 ## Antibiotic stewardship
 
-+---------------------------------------+---------------------------------------+
+|  |  |
+|----|----|
 | ![](images/steward1.png){width="800"} | ![](images/steward.jpeg){width="800"} |
-+---------------------------------------+---------------------------------------+
 
 ## 10 Principles for effective use of <br> antibacterial therapy
 
@@ -380,11 +373,9 @@ A combination of:
 
 -   IN the abscence of signs or symptoms of infection, a positive culture often represents **colonization or contamination** and should not trigger treatment. <br> <br>
 
-+-----------------------+-----------------------+---------------------------+------------------------------+-----------------------+
-| Wound swabs           | Urine cultures        | Bronchial alveolar lavage | Respiratory samples          | GI tract/stool        |
-+=======================+=======================+===========================+==============================+=======================+
-| ![](images/wound.png) | ![](images/urine.png) | ![](images/BAL.png)       | ![](images/nasal%20swab.png) | ![](images/stool.png) |
-+-----------------------+-----------------------+---------------------------+------------------------------+-----------------------+
+| Wound swabs | Urine cultures | Bronchial alveolar lavage | Respiratory samples | GI tract/stool |
+|----|----|----|----|----|
+| ![](images/wound.png) | ![](images/urine.png) | ![](images/BAL.png) | ![](images/nasal%20swab.png) | ![](images/stool.png) |
 
 ## Simple stewardship interventions
 
@@ -701,7 +692,7 @@ digraph G {
 
 ![](images/clipboard-3779354213.png)
 
-## Abscess
+## Antibiotic activity in abscess
 
 ::::: columns
 ::: {.column width="50%"}
@@ -727,7 +718,20 @@ Penicillins and tetracyclines 
 
 <br>
 
-![](images/microbiological workup.png){fig-align="center"}
+![](images/microbiological%20workup.png){fig-align="center"}
+
+## Antibiotic de-escalation
+
+-   De-escalation with pathogen identification -e.g., stopping empirical vancomycin in patient with Gram-negative bacilli in blood cultures
+
+## Effect of gram-strain guided initial therapy
+
+![](images/grace_trial.png){fig-align="center"}
+
+Gram strain guided therapy resulted in a 30% reduction in use of anti-peudomonal agents and 40% reduction in MRSA agents
+
+::: footer
+:::
 
 ## Principle #8: If therapy is not working, consider source control or alternative diagnosis before broadening therapy
 
