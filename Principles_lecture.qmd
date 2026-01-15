@@ -1072,7 +1072,59 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
 <br>
 
-![](images/Screenshot 2026-01-15 101119.png){fig-align="center"}
+![](images/Screenshot%202026-01-15%20101119.png){fig-align="center"}
+
+## Combination therapy: *The good*
+
+<br>
+
+-   **Spectrum**: More than one drug is required to provide adequate coverage
+
+    -   e.g., adding macrolide or doxycycline to cover atypical pathogens not treated by backbone ß-lactam
+
+    -   Specific ICU ward or hospital ward with high rates of MDR
+
+-   **Preventing emergence of resistance in specific clinical scenarios**
+
+    -   Tuberculosis: Slow growth, non-replicating or low-replicating persister cells and can achieve high bacterial densities in cavitary disease with spontaneous mutations
+
+    -   HIV and hepatitis C: Resistance converts a treatable (HIV) or curable (HCV) infection into a fatal illness
+
+## Combination therapy: *The good, cont.*
+
+-   **Two active agents results in superior clinical outcomes compared to single active agent**
+
+    -   Slow growing infection/non replicating persisters- e.g. anti-tubular activity of rifampin and PZA ensure (1) empirical therapy is active; (2) prevent emergence of resistance; (3) improve clinical cure with shorter duration of therapy
+
+    -   Bone and joint infections (nonreplicating bacteria in biofilm): Reduced relapse rates with addition of rifampin, especially to fluoroquinolones
+
+## Exotoxin-mediated infections- Necrotizing fasciitis
+
+::::: columns
+::: {.column width="50%"}
+![](images/necr.png){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+-   Streptococci or *Clostriudium* infections that are extremely destructive and aggressive
+-   Addition of clindamycin or linezolid as a 2nd agent terminates protein synthgesis: shutting down toxin production in the bacteria
+-   Adding protein synthesis inhibitors to backbone antibacterial therapy has been associated with improved survival in retrospective studies
+:::
+:::::
+
+## Eukaryotic infections: Combination therapy is beneficial
+
+-   Cryptococcal meningitis (fungal infection): Amphotericin B + 5-FC
+
+-   Protozoal infection (*Plasmodium vivax P. ovale*): Primaquine added to backbone therapy to kill hepatic -phase hypnozoites not killed by other agents, which lead to late relapse
+
+-   Acute amebic colitis: Metronidazole + luminicidal agent (iodoquinol or paromomycin) to kill encysted, non-meatabolically actuve organisms in the bowel lumen
+
+-   Nematode infections: Doxycycline added to ivermectin or albendazole to kill commensal bacteria *Wolbachia*, which play a role in the parasite viability and fertility.
+
+-   Neurocystosis: Albendazole plus praziquantel: Dula mechanism of killing and pharmacokinetic interaction leading to higher drug exposures in the CNS and cysts within the sequestered site
+
+## Combination therapy *the bad-Redundant definitive therapy for "typical infections"*
 
 ## Does combination therapy prevent resistance?
 
