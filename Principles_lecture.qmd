@@ -1,6 +1,7 @@
 ---
 format:
   revealjs:
+    browser: false
     spotlight: true
     touch: true
     controls: true
@@ -99,23 +100,33 @@ Russell E. Lewis <br> Associate Professor of Infectious Diseases <br> Department
 Source: healthdata.org
 :::
 
-## World Health Organization (WHO) Pathogen Priority List
+## World Health Organization (WHO) <br> Pathogen Priority List
 
 ![](images/WHO.png){fig-align="center" width="600"}
 
-## Methicillin-resistant Staphylococcus aureus (MRSA)
+## Methicillin-resistant <br> *Staphylococcus aureus* (MRSA)
+
+<br>
 
 ![](images/MRSA_ITALY.png){fig-align="center"}
 
 ## Carbapenem-resistant Enterobacterales (CRE)
 
+<br>
+
 ![](images/CRE_ITALY.png){fig-align="center"}
 
-## Multi-drug resistant (MDR) <br>Acinetobacter baumannii
+## Multi-drug resistant (MDR) <br>*Acinetobacter baumannii*
+
+<br>
 
 ![](images/MDRABUAM_ITALY.png){fig-align="center"}
 
 ## Antibiotic discovery is slowing
+
+<br>
+
+<br>
 
 ![](images/discovery.png){fig-align="center"}
 
@@ -123,7 +134,7 @@ Source: healthdata.org
 
 <br> <br>
 
--   Antibiotic overprescription is a *tragedy of the commons*: individual undertakes an action that they perceive to be in their own self-interest but that causes harm to society at large
+-   Antibiotic overprescription is a ***tragedy of the commons***: individual undertakes an action that they perceive to be in their own self-interest but that causes harm to society at large
 
 -   When such an action is undertaken rarely, the harm to society is not noticeable
 
@@ -133,11 +144,15 @@ Source: healthdata.org
 
 ## Antibiotic stewardship
 
+<br>
+
 +---------------------------------------+---------------------------------------+
 | ![](images/steward1.png){width="800"} | ![](images/steward.jpeg){width="800"} |
 +---------------------------------------+---------------------------------------+
 
-## 10 Principles for effective use of <br> antibacterial therapy
+## 10 Principles for effective use of <br> antibacterial therapy {.smaller}
+
+<br>
 
 ::: nonincremental
 1.  Accurate differential diagnosis
@@ -169,23 +184,25 @@ Source: healthdata.org
 
 ### What is the most tool for deciding to start antibiotic therapy?
 
+<br>
+
 A. Patient medical history
 
 B. Physical exam
 
 C. Radiological imaging (e.g., X-ray, CT or MRI)
 
-D. Microbiological tests (e.g., culture, PCR, serology)
+D. Microbiological tests (e.g., culture, PCR, biomarkers, serology)
 
-## Example case
+## Medical history in infectious diseases {.smaller}
 
-## Medical history in infectious diseases
+<br>
 
 -   **What are the current symptoms** (e.g., fever, pain, cough, breathlessness, confusion, lethargy, vomiting, and any acute or subacute changes in functional status such as new urinary incontinence, falls, or decreased oral intake)
 
-    -   8 cardinal descriptors: Timing, Location, Character, Aggravating Factors, Alleviating Factors, Associated Symptoms, Severity, Setting
+    -   **8 cardinal descriptors**: Timing, Location, Character, Aggravating Factors, Alleviating Factors, Associated Symptoms, Severity, Setting
 
--   **Fever**- How high, how long, what pattern?
+-   **Fever** How high, how long, what pattern?
 
 -   **Risk factors for infection** (e.g., indwelling devices -urinary catheters, vascular catheters, prosthetic joints, cardiac devices), recent medical procedures, immunosuppression, diabetes, history of injection drug use, and previous infections
 
@@ -209,11 +226,11 @@ D. Microbiological tests (e.g., culture, PCR, serology)
 
 -   **No other significant past medical history**
 
--   **Spondylitis etiologies:** 
+-   **Spondylitis etiologies:**
 
     -   \> 50% *Staphylococcus aureus, Staphylococcus epidermidis*
 
-    -   \~ 25% *Streptococcus* spp., *Enterococcus* spp. *Pseudomonas aeruginosa,* E*nterobacter* spp., *Proteus spp. E. coli, Serratia spp.,* Anaerobes, *Mycobacterium tuberculosis (Pott’s disease)*
+    -   \~ 25% *Streptococcus* spp., *Enterococcus* spp. *Pseudomonas aeruginosa,* *Enterobacter* spp., *Proteus* spp. *E. coli*, *Serratia* spp., Anaerobes, *Mycobacterium tuberculosis* (Pott’s disease)
 :::
 
 ::: {.column width="50%"}
@@ -222,6 +239,8 @@ D. Microbiological tests (e.g., culture, PCR, serology)
 :::::
 
 ## Pertinent history!
+
+<br>
 
 -   Patient works as a sheep and cattle farmer in a small enterprise 54 minutes from Messina that produces milk and cheese: Percorino salato and Ricotta
 
@@ -233,6 +252,8 @@ D. Microbiological tests (e.g., culture, PCR, serology)
 
 ## Could this be brucellosis?
 
+<br>
+
 ![](images/brucellosis.png){fig-align="center"}
 
 ::: footer
@@ -240,6 +261,8 @@ D. Microbiological tests (e.g., culture, PCR, serology)
 :::
 
 ## Diagnosis and treatment of <br>Brucellosis spondylitis
+
+<br>
 
 -   Blood cultures require special procedures (prolonged incubation), bone culture may be needed
 
@@ -336,7 +359,7 @@ Clinicians frequently *overestimate* the risk of bacterial infection
 [@chow2012]
 :::
 
-## Clinicians frequently *underestimate* the risks of antibiotic therapy
+## But Clinicians frequently *underestimate* the risks of antibiotic therapy
 
 <br>
 
@@ -663,7 +686,7 @@ digraph G {
 
 ## Anatomically-privileged sites
 
-![](images/clipboard-1890359177.png)
+![](images/clipboard-1890359177.png){width="800"}
 
 ## Match the antibiotic to site of infection
 
@@ -673,21 +696,115 @@ digraph G {
 
 ![](images/clipboard-2574271174.png)
 
+## Second key pharmacokinetic variable: Clearance (CL)
+
+::::: columns
+::: {.column width="30%"}
+![](images/clearance.png){fig-align="center"}
+:::
+
+::: {.column width="70%"}
+-   **Drug elimination from the body**
+
+    -   Described by volume of blood removed of drug unit per time
+
+    -   Unit of measure mL/min or L/hr
+
+-   Clearance is affected by patient’s disease, organ function genetics, interactions with other drugs…etc.
+
+-   **Total body clearance:**
+
+    -   CL renal + CL hepatic + CL other
+
+-   Formulas for calculating antibiotic clearance can be found in the medical literature or some drug references
+:::
+:::::
+
+## Important distinctions between Vd and CL in antibiotic dosing
+
+-   **Vd and CL are both physiologically-based**
+
+    -   A change in patient fluid status or distribution can affect volume of distribution (Vd)
+
+    -   A change in patient kidney or liver function affects drug clearance (CL)
+
+<!-- -->
+
+-   **However, these parameters do not directly interact with each other**
+
+    -   A change in volume of distribution does not change clearance and vice versa
+
+-   **Volume of distribution is useful for calculating an initial dose of antibiotic regimens (loading dose)**
+
+-   **Clearance is useful for calculating maintenance doses of antibiotic regimens**
+
+    -   *CL is NOT USED to determine how much of an initial dose (or loading dose) of an antibiotic to give to a patient*
+
+## Most antibiotics are eliminated via the kidneys and maintenance doses must be adjusted for renal function
+
+![](images/mero-dose%20adjustment.png){fig-align="center"}
+
+## Estimating renal function
+
+Cockcroft-Gault formula (other formulas MDRD…etc.)
+
+<br>
+
+$$
+ \text{CrCl (mL/min)} = \frac{(140 - \text{age}) \times \text{weight (kg)}}{72 \times \text{SCr (mg/dL)}} \times 0.85 \text{ (if female)} 
+$$
+
+<br>
+
+-   Formula developed primarily in Caucasian males with chronic renal disease
+
+-   Does not take into account effects on older age, comorbidities and drug interactions with renal tubular secretion
+
+-   Antibiotic dosing in dialysis (drug-specific dosing guidance)
+
+## Problems of using serum creatinine-based dosing adjustments
+
+-   Antibiotic renal dose adjustments in drug labels are based on patients with chronic kidney disease
+
+-   Renal impairment is acute, not chronic, in up to 50% of patients with infection **and frequently resolves within the first 48 hours**
+
+-   Creatinine-based equations for estimates of CrCl are based on steady-state conditions, and not as accurate in acute kidney injury
+
+    -   Decreases in SeCr are delayed with respect to injury resolution
+
+-   **Renal dose reduction in the first 48 hours of therapy may unnecessarily result in underdosing of antibiotics, especially for safe antibiotics**
+
+::: aside
+[@crassRenalDosingAntibiotics2019]
+:::
+
+## Hepatic clearance of antibiotics
+
+![](images/hepatic.png){fig-align="center"}
+
+## Drug interaction screening
+
+<br> <br>
+
+https://www.uptodate.com/contents/search <br> [UptoDate](https://www.uptodate.com/contents/search)
+
 ## PK/PD indices
 
-![](images/clipboard-2657724390.png)
+![](images/clipboard-2657724390.png){fig-align="center"}
 
 ## How are PK/PD indicies identified?
 
-![](images/clipboard-2182940819.png)
+![](images/clipboard-2182940819.png){fig-align="center"}
 
 ## Do PK/PD indices correlate with <br> clinical outcome of antibiotic therapy
 
-![](images/clipboard-406664738.png)
+<br>
+
+![](images/clipboard-406664738.png){fig-align="center"}
 
 ## PK/PD characteristics of common antibiotic classes
 
-![](images/clipboard-3004890051.png)
+![](images/clipboard-3004890051.png){fig-align="center"}
 
 ## Application: Optimized dosing of meropenem
 
@@ -699,19 +816,19 @@ digraph G {
 
 ## Daptomycin is inactivated in the lung
 
-![](images/clipboard-3779354213.png)
+![](images/clipboard-3779354213.png){fig-align="center"}
 
 ## Antibiotic activity in abscess
 
+<br>**Aminoglycosides**
+
 ::::: columns
 ::: {.column width="50%"}
-Aminoglycosides
-
 -   Bind and are inactivated by purulent material
 
 -   Decrease aminoglycoside uptake into facultative aerobic bacteria at low pH
 
--   Penicillins and tetracyclines
+-   **Penicillins and tetracyclines**
 
     -   Bound by hemoglobin, less effective with hematoma formation
 
@@ -731,21 +848,25 @@ Aminoglycosides
 
 ## Antibiotic de-escalation
 
--   De-escalation with pathogen identification -e.g., stopping empirical vancomycin in patient with Gram-negative bacilli in blood cultures
+<br>
 
--   Improvement in fever and leukocytosis
+-   **De-escalation with pathogen identification**
 
--   Empiric de-escalation of therapies for highly-resistant pathogens if they have not grown
+    -   e.g., stopping empirical vancomycin in patient with Gram-negative bacilli in blood cultures
+
+-   **Clinical improvement-reduction in fever and leukocytosis**
+
+-   Empiric de-escalation of therapies for highly-resistant pathogens if they have not grown from culture
 
     -   e.g., stopping empirical vancomycin in a patient without positive MRSA cultures
 
--   Biomarkers: C-reactive protein (limited clinical utility), procalcitonin -*areas of diagnostic stewardship as tests are frequently abused*
+-   Biomarkers: C-reactive protein (clinical utility questioned), procalcitonin -*areas of diagnostic stewardship as tests are frequently abused*
 
 ::: notes
 Clinicians often ignore negative results but may use a positive procalcitonin to justify antibiotic use
 :::
 
-## Incorporation of procalcitonin into therapeutic decisions reduces antibiotic use
+## Incorporation of procalcitonin into therapeutic decisions reduces antibiotic use<br>
 
 ![](images/pct.png){fig-align="center"}
 
@@ -753,7 +874,7 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 [@schuetzProcalcitoninGuideInitiation2012]
 :::
 
-## Choosing therapy based on gram-stain vs. guidelines
+## Choosing therapy : <br> gram-stain vs. guidelines
 
 ![](images/grace_trial.png){fig-align="center" width="1200"}
 
@@ -765,7 +886,7 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 [@yoshimura2022]
 :::
 
-## Susceptibility testing
+## Susceptibility testing-Mean inhibitory concentration
 
 ![](images/MIC.png){fig-align="center"}
 
@@ -779,29 +900,185 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
     -   Signs of inflammation (*rubor, tumor, dolor, calor)*
     -   Biomarkers (procalcitonin)
 
-## Source control{.smaller}
-<br>
-<br>
+## Source control {.smaller}
+
+<br> <br>
 
 +-------------------------------------------+---------------------------------------------------+-----------------------------------------+---------------------------------------------------------+---------------------------------------------+
-| Occult subcutaneous abscess in cellulitus | New abscess formation in intraabdominal infection | Empyema in community-acquired pneumonia | Visceral or skeletal abscess in patient with bacteremia | Failure to remove a central venous catheter |
+| Occult subcutaneous abscess in cellulitis | New abscess formation in intraabdominal infection | Empyema in community-acquired pneumonia | Visceral or skeletal abscess in patient with bacteremia | Failure to remove a central venous catheter |
 +-------------------------------------------+---------------------------------------------------+-----------------------------------------+---------------------------------------------------------+---------------------------------------------+
 | ![](images/abscess.png)                   | ![](images/abdominlaabscess.png)                  | ![](images/empyema.png)                 | ![](images/spondylitis.png)                             | ![](images/biofilm.png)                     |
 +-------------------------------------------+---------------------------------------------------+-----------------------------------------+---------------------------------------------------------+---------------------------------------------+
 
-## Principle #9: Distinguish new infection from failure of initial therapy
+## Biofilms: A key source of antibiotic failure
 
+<<<<<<< HEAD
 
 
 ## Principle #10: The duration of therapy should be as short as possible based on available evidence (shorter is better)
+=======
+![](images/biofilm2.png){fig-align="center"}
+
+## Antibiotic FAIL
+
+<br>
+
+<br>
+
+-   **F**alse diagnosis
+
+-   **A**llergies
+
+-   **I**ntercurrent infections
+
+-   **L**ocalized process
+
+## Principle #9: Distinguish new infection from failure of initial therapy {.smaller}
+
+<br>
+
+-   New onset of infectious signs, symptoms, and biomarkers after resolution of prior infection should raise the concern of a new infection rather than persistence of the original infection
+
+-   Rarely, recrudescence of signs and symptoms may reflect emergence of antibiotic resistance on therapy from the initial pathogens
+
+    -   This may be seen more with specific bacterial pathogens, such as *Acinetobacter baumannii*, than with others
+
+    -   An initial apparent response to infection followed days or weeks later by new onset of infectious signs or symptoms should prompt a complete reevaluation of the patient for a new infection, including reculturing and imaging if necessary
+
+-   In these patients, it is generally reasonable to broaden therapy to cover highly resistant pathogens
+
+    -   Such patients have been exposed to recent courses of antibiotics and have a higher risk of being infected by antibiotic-resistant pathogens
+
+-   When changing antibacterial therapies because of breakthrough infection or lack of response to initial therapy, it is generally advisable to change one antibiotic at a time (to a different class if possible)
+
+## Principle #10:The duration of therapy should be as short as possible based on evidence <br> {.smaller}
+
++---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
+| Disease                                                       | Short course (days)       | Long course (days)                          | Outcome    |
++===============================================================+===========================+=============================================+============+
+| Bacteremia, gram-negative                                     | 7                         | 14                                          | Equivalent |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
+| Chronic bronchitis and COPD                                   | ≤ 5 days                  | ≥ 7                                         | Equivalent |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
+| Intra-abdominal infection                                     | 4                         | 10                                          | Equivalent |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
+| Neutropenic fever                                             | Until afebrile and stable | Until, afebrile, stable and non-neutropenic | Equivalent |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
+| Osteomyelitis, chronic                                        | 42                        | 84                                          | Equivalent |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
+| Pneumonia, community-acquired                                 | 3-5                       | 7-10                                        | Equivalent |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
+| Pneumonia, nosocomial (including VAP)                         | ≤ 8                       | 10-15                                       | Equivalent |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
+| Pyelonephritis                                                | 5-7                       | 10-14                                       | Equivalent |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
+| Skin infections (cellulitis, major abscess, wound infections) | 5-6                       | 10-14                                       | Equivalent |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
+| Sinusitis, acute bacterial                                    | 5                         | 10                                          | Equivalent |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
+
+::: fotter
+[@spellbergPrinciplesAntibioticTherapy2025]
+:::
+>>>>>>> 9ef28ff8dada7856e1a50ff144c3e5e8eb99e792
 
 ## Common myths of antibiotic therapy
 
-## Bactericidal antibiotics are more effective than bacteriostatic
+## Myth #1:<br> "Bactericidal" antibiotics are more effective than "bacteriostatic" {.smaller}
 
-## Oral therapy is less effective than IV for complex infections
+-   Bactericidal activity: concentration of drug that results in 1000-fold reduction in inoculum within 24 hours
 
-## Combination therapy: *The good, the bad,...the ugly*
+-   Bactericidal antibiotic: MBC of drug is 4-fold or less above the MIC
+
+![](images/MIC_MBC.png){fig-align="center" width="350"}
+
+*However, "bacteriostatic" drugs do kill bacteria, they just require higher concentrations*
+
+## Systematic literature reviews: *cidal vs. static antibiotics for bacterial infections*
+
+-   56 randomized controlled trials identified
+
+-   49/56 found no difference in clinical outcomes, including highly-lethal infections in critically-ill patients
+
+    -   Typhoid fever, severe pneumonia, severe sepsis
+
+-   6 trials reported linezolid (static antibiotic) to be superior to "cidal" agents (vancomycin, teicoplanin or cephalosporins)
+
+-   1 trial found imipenem superior to tigecycline in ventilator associated pneumonia- however tigecycline dosage was too low: A subsequent study using double to dose of tigecycline found no difference
+
+::: footer
+[@wald-dicklerBustingMythStatic2017]
+:::
+
+## Other examples where more rapid bactericidal activity failed to show clinical superiority {background-image="\\images\\busted.png" background-opacity="0.2"}
+
+-   Daptomycin (rapidly bactericidal) vs. vancomycin (slowly bactericidal) against *Staphylococcus aureus* bacteremia and right-sided endocarditis
+
+-   Addition of aminoglycosides to ß-lactams or ß-lactams to vancomycin/daptomycin results in more rapid kill of staphylococci, but in clinical trials no improvement in outcomes and higher rates of nephrotoxicity
+
+-   Bacterial endocarditis: Historical artifact?
+
+    -   Early studies compared high Vd drugs (tetracyclines, marcolides) to penicillins (low Vd drugs) for endocarditis
+
+    -   Low blood concentrations with tetracyclines and macrolides makes them a poor choice for high-grade bloodstream infections
+
+## Myth #2: Oral antibioic therapy is less effective than IV <br> for complex infections
+
+<br> <br>
+
+-   **Osteomyelitis**: Earlier studies with oral sulfanilamide, erythromycin, tetracycline with low blood and bone concentrations were associated with higher failure rates-did not surpass pathon MICs
+
+-   **However**, numerous modern antibiotics can acheive levels in blood and bone that are well in excess of target pathogen MICs
+
+## Oral is the new IV
+
+::: panel-tabset
+### Osteomyelitis
+
+![](images\osteo_meta.png)
+
+### Bacteremia
+
+![](images\bactermia_meta.png)
+
+### Endocarditis
+
+![](images\endo_meta.png)
+:::
+
+::: aside
+[@wald-dicklerOralNewIV2022]
+:::
+
+## Transitioning to oral therapy: Key considerations
+
+<br>
+
+-   Is the patient hemodynamically stable?
+
+-   Will the patient absorb the medication (functioning GI tract)?
+
+-   Can the patient take drugs by mouth
+
+-   Do we have an antibiotic option with good bioavailability for the infection?
+
+## Oral bioavailability of antibiotics
+
+![](images/bioavail.png){fig-align="center"}
+
+## Myth #3: Combination therapy: <br>*The good, the bad,...and the ugly*
+
+-   Are 2, 3 or 4 drugs better than 1?.....it depends on the situation
+
+-   **Synergistic combination** the killing effect of two or more antibiotics is greater than the added effect of each antibiotic by itself.
+
+-   Clinically, suggests that the success rate (however measured) is better when the two antibiotics are administered simultaneously
+
+## Microbiological rationale: Checkerboard test
+
+<br>
+
+![](images/Screenshot 2026-01-15 101119.png){fig-align="center"}
 
 ## Does combination therapy prevent resistance?
 
