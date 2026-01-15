@@ -784,28 +784,27 @@ $$
 
 ## Drug interaction screening
 
-<br>
-<br>
+<br> <br>
 
-https://www.uptodate.com/contents/search <br>
-[UptoDate](https://www.uptodate.com/contents/search)
+https://www.uptodate.com/contents/search <br> [UptoDate](https://www.uptodate.com/contents/search)
 
 ## PK/PD indices
 
-![](images/clipboard-2657724390.png)
-
+![](images/clipboard-2657724390.png){fig-align="center"}
 
 ## How are PK/PD indicies identified?
 
-![](images/clipboard-2182940819.png)
+![](images/clipboard-2182940819.png){fig-align="center"}
 
 ## Do PK/PD indices correlate with <br> clinical outcome of antibiotic therapy
 
-![](images/clipboard-406664738.png)
+<br>
+
+![](images/clipboard-406664738.png){fig-align="center"}
 
 ## PK/PD characteristics of common antibiotic classes
 
-![](images/clipboard-3004890051.png)
+![](images/clipboard-3004890051.png){fig-align="center"}
 
 ## Application: Optimized dosing of meropenem
 
@@ -817,7 +816,7 @@ https://www.uptodate.com/contents/search <br>
 
 ## Daptomycin is inactivated in the lung
 
-![](images/clipboard-3779354213.png)
+![](images/clipboard-3779354213.png){fig-align="center"}
 
 ## Antibiotic activity in abscess
 
@@ -851,11 +850,11 @@ https://www.uptodate.com/contents/search <br>
 
 <br>
 
--   De-escalation with pathogen identification
+-   **De-escalation with pathogen identification**
 
-    -   -e.g., stopping empirical vancomycin in patient with Gram-negative bacilli in blood cultures
+    -   e.g., stopping empirical vancomycin in patient with Gram-negative bacilli in blood cultures
 
--   Clinical improvement-reduction in fever and leukocytosis
+-   **Clinical improvement-reduction in fever and leukocytosis**
 
 -   Empiric de-escalation of therapies for highly-resistant pathogens if they have not grown from culture
 
@@ -868,6 +867,8 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 :::
 
 ## Incorporation of procalcitonin into therapeutic decisions reduces antibiotic use<br>
+
+![](images/pct.png){fig-align="center"}
 
 ::: footer
 [@schuetzProcalcitoninGuideInitiation2012]
@@ -915,6 +916,10 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
 ## Antibiotic FAIL
 
+<br>
+
+<br>
+
 -   **F**alse diagnosis
 
 -   **A**llergies
@@ -923,7 +928,7 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
 -   **L**ocalized process
 
-## Principle #9: Distinguish new infection from failure of initial therapy
+## Principle #9: Distinguish new infection from failure of initial therapy {.smaller}
 
 <br>
 
@@ -931,13 +936,13 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
 -   Rarely, recrudescence of signs and symptoms may reflect emergence of antibiotic resistance on therapy from the initial pathogens
 
-    -   This may be seen more with specific bacterial pathogens, such as *Acinetobacter baumannii*, than with others.
+    -   This may be seen more with specific bacterial pathogens, such as *Acinetobacter baumannii*, than with others
 
-    -   An initial apparent response to infection followed days or weeks later by new onset of infectious signs or symptoms should prompt a complete reevaluation of the patient for a new infection, including reculturing and imaging if necessary.
+    -   An initial apparent response to infection followed days or weeks later by new onset of infectious signs or symptoms should prompt a complete reevaluation of the patient for a new infection, including reculturing and imaging if necessary
 
--   In these patients, it is generally reasonable to broaden therapy to cover highly resistant pathogens.
+-   In these patients, it is generally reasonable to broaden therapy to cover highly resistant pathogens
 
-    -   Such patients have been exposed to recent courses of antibiotics and have a higher risk of being infected by antibiotic-resistant pathogens.
+    -   Such patients have been exposed to recent courses of antibiotics and have a higher risk of being infected by antibiotic-resistant pathogens
 
 -   When changing antibacterial therapies because of breakthrough infection or lack of response to initial therapy, it is generally advisable to change one antibiotic at a time (to a different class if possible)
 
@@ -973,7 +978,7 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
 ## Common myths of antibiotic therapy
 
-## Myth 1:<br> Bactericidal antibiotics are more effective than bacteriostatic {.smaller}
+## Myth #1:<br> "Bactericidal" antibiotics are more effective than "bacteriostatic" {.smaller}
 
 -   Bactericidal activity: concentration of drug that results in 1000-fold reduction in inoculum within 24 hours
 
@@ -1011,11 +1016,13 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
     -   Low blood concentrations with tetracyclines and macrolides makes them a poor choice for high-grade bloodstream infections
 
-## Myth 2: Oral therapy is less effective than IV <br> for complex infections
+## Myth #2: Oral antibioic therapy is less effective than IV <br> for complex infections
 
--   Osteomyelitis: Earlier studies with oral sulfanilamide, erythromycin, tetracycline with low blood and bone concentrations were associated with higher failure rates-did not surpass pathon MICs
+<br> <br>
 
--   *However*, numerous modern antibiotics can acheive levels in blood and bone that are well in excess of target pathogen MICs
+-   **Osteomyelitis**: Earlier studies with oral sulfanilamide, erythromycin, tetracycline with low blood and bone concentrations were associated with higher failure rates-did not surpass pathon MICs
+
+-   **However**, numerous modern antibiotics can acheive levels in blood and bone that are well in excess of target pathogen MICs
 
 ## Oral is the new IV
 
@@ -1043,16 +1050,30 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
 -   Is the patient hemodynamically stable?
 
--   Will the patient absorb the medication (Functioning GI tract)?
+-   Will the patient absorb the medication (functioning GI tract)?
 
 -   Can the patient take drugs by mouth
 
 -   Do we have an antibiotic option with good bioavailability for the infection?
 
-## Combination therapy: *The good, the bad,...the ugly*
+## Oral bioavailability of antibiotics
+
+![](images/bioavail.png){fig-align="center"}
+
+## Myth #3: Combination therapy: <br>*The good, the bad,...and the ugly*
+
+-   Are 2, 3 or 4 drugs better than 1?.....it depends on the situation
+
+-   **Synergistic combination** the killing effect of two or more antibiotics is greater than the added effect of each antibiotic by itself.
+
+-   Clinically, suggests that the success rate (however measured) is better when the two antibiotics are administered simultaneously
+
+## Microbiological rationale: Checkerboard test
+
+<br>
+
+![](images/Screenshot 2026-01-15 101119.png){fig-align="center"}
 
 ## Does combination therapy prevent resistance?
 
 ## References
-
-o
