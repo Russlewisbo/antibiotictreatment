@@ -40,6 +40,32 @@ Russell E. Lewis <br> Associate Professor of Infectious Diseases <br> Department
 
 ![](resistance.jpg){fig-align="center"}
 
+## Medicine pre-antibiotics
+
+::::: columns
+::: {.column width="50%"}
+![](images/rx.png){fig-align="center" width="600"}
+
+A copy of a doctor’s legal prescription for alcohol issued to a patient in Massachusetts in 1925. The doctor here wrote in a common Latin term, “spts frumenti” or spiritus frumenti, meaning whiskey
+:::
+
+::: {.column width="50%"}
+![](images/ginger.png){fig-align="center" width="300"}
+:::
+:::::
+
+## Dawn of antibiotic discovery {.smaller}
+
+<br>
+
++--------------------------------------+----------------------------------------------------+-------------------------------------+
+| Paul Ehrlich, Salvarsan 1909         | Alexander Fleming, Penicilllin 1929 <br>           | Gerhard Domagk, Sulfanilamides 1931 |
+|                                      |                                                    |                                     |
+|                                      | Purified and tested by Florey, Chain, Heatley-1940 |                                     |
++======================================+====================================================+=====================================+
+| ![](images/Erhlich.png){width="300"} | ![](images/Fleming.png){width="406"}               | ![](images/Domagk.png){width="250"} |
++--------------------------------------+----------------------------------------------------+-------------------------------------+
+
 ## Mortality reduction with antibiotic therapy {.smaller}
 
 <br>
@@ -912,11 +938,6 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
 ## Biofilms: A key source of antibiotic failure
 
-<<<<<<< HEAD
-
-
-## Principle #10: The duration of therapy should be as short as possible based on available evidence (shorter is better)
-=======
 ![](images/biofilm2.png){fig-align="center"}
 
 ## Antibiotic FAIL
@@ -980,7 +1001,6 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 ::: fotter
 [@spellbergPrinciplesAntibioticTherapy2025]
 :::
->>>>>>> 9ef28ff8dada7856e1a50ff144c3e5e8eb99e792
 
 ## Common myths of antibiotic therapy
 
@@ -1132,6 +1152,48 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
 ## Combination therapy *the bad-Redundant definitive therapy for "typical infections"*
 
+<br>
+
+-   Very few data supporting the use of two active agents for acute, pyogenic bacterial infections
+
+    -   Organisms are in planktonic growth, not multiple phases of life cycle
+
+    -   No commensal organisms inside the bacteria to kill
+
+    -   Pharmacology and killing activity of single agents is good
+
+## Combination therapy for *Pseudomonas aeruginosa*
+
+![](images/psa_meta.png){fig-align="center"}
+
+-   Combination therapy studies for severe infections/sepsis have also found no advantage for dual therapy
+
+-   Dual therapy more likely to result in toxicity and microbiom harm- potential resistance to 2 drug classes
+
+::: aside
+[@huCombinationAntibioticTherapy2013]
+:::
+
+## Combination therapy- *The ugly: imperfect data*
+
+-   Fungal infections outside cryptococcosis
+
+    -   Candida infections- no clear benefit
+
+    -   Aspergillus infection- possible benefit with echinocandins and triazoles
+
 ## Does combination therapy prevent resistance?
+
+<br>
+
+-   ***Yes-** Tuberculosis, HIV, HCV*
+
+-   In test tubes (in theory) may work- *but Pyrrhic victory- greater selection for resistance, greater impact on microbiome?*
+
+## Conclusions {background-image="images/antibiotic-resistance.jpg" background-opacity="0.3"}
+
+-   Antibiotic therapy are miracle cures that have fundamentally altered the practice of medicine
+-   Their incredible power to effectively treat patients is fleeting
+-   Physicians bear the burden of using antibiotics effectively to heal and cure patients while preserving this awesome power
 
 ## References
