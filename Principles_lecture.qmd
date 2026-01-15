@@ -696,9 +696,104 @@ digraph G {
 
 ![](images/clipboard-2574271174.png)
 
+## Second key pharmacokinetic variable: Clearance (CL)
+
+::::: columns
+::: {.column width="30%"}
+![](images/clearance.png){fig-align="center"}
+:::
+
+::: {.column width="70%"}
+-   **Drug elimination from the body**
+
+    -   Described by volume of blood removed of drug unit per time
+
+    -   Unit of measure mL/min or L/hr
+
+-   Clearance is affected by patient’s disease, organ function genetics, interactions with other drugs…etc.
+
+-   **Total body clearance:**
+
+    -   CL renal + CL hepatic + CL other
+
+-   Formulas for calculating antibiotic clearance can be found in the medical literature or some drug references
+:::
+:::::
+
+## Important distinctions between Vd and CL in antibiotic dosing
+
+-   **Vd and CL are both physiologically-based**
+
+    -   A change in patient fluid status or distribution can affect volume of distribution (Vd)
+
+    -   A change in patient kidney or liver function affects drug clearance (CL)
+
+<!-- -->
+
+-   **However, these parameters do not directly interact with each other**
+
+    -   A change in volume of distribution does not change clearance and vice versa
+
+-   **Volume of distribution is useful for calculating an initial dose of antibiotic regimens (loading dose)**
+
+-   **Clearance is useful for calculating maintenance doses of antibiotic regimens**
+
+    -   *CL is NOT USED to determine how much of an initial dose (or loading dose) of an antibiotic to give to a patient*
+
+## Most antibiotics are eliminated via the kidneys and maintenance doses must be adjusted for renal function
+
+![](images/mero-dose%20adjustment.png){fig-align="center"}
+
+## Estimating renal function
+
+Cockcroft-Gault formula (other formulas MDRD…etc.)
+
+<br>
+
+$$
+ \text{CrCl (mL/min)} = \frac{(140 - \text{age}) \times \text{weight (kg)}}{72 \times \text{SCr (mg/dL)}} \times 0.85 \text{ (if female)} 
+$$
+
+<br>
+
+-   Formula developed primarily in Caucasian males with chronic renal disease
+
+-   Does not take into account effects on older age, comorbidities and drug interactions with renal tubular secretion
+
+-   Antibiotic dosing in dialysis (drug-specific dosing guidance)
+
+## Problems of using serum creatinine-based dosing adjustments
+
+-   Antibiotic renal dose adjustments in drug labels are based on patients with chronic kidney disease
+
+-   Renal impairment is acute, not chronic, in up to 50% of patients with infection **and frequently resolves within the first 48 hours**
+
+-   Creatinine-based equations for estimates of CrCl are based on steady-state conditions, and not as accurate in acute kidney injury
+
+    -   Decreases in SeCr are delayed with respect to injury resolution
+
+-   **Renal dose reduction in the first 48 hours of therapy may unnecessarily result in underdosing of antibiotics, especially for safe antibiotics**
+
+::: aside
+[@crassRenalDosingAntibiotics2019]
+:::
+
+## Hepatic clearance of antibiotics
+
+![](images/hepatic.png){fig-align="center"}
+
+## Drug interaction screening
+
+<br>
+<br>
+
+https://www.uptodate.com/contents/search <br>
+[UptoDate](https://www.uptodate.com/contents/search)
+
 ## PK/PD indices
 
 ![](images/clipboard-2657724390.png)
+
 
 ## How are PK/PD indicies identified?
 
@@ -790,7 +885,7 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 [@yoshimura2022]
 :::
 
-## Susceptibility testing
+## Susceptibility testing-Mean inhibitory concentration
 
 ![](images/MIC.png){fig-align="center"}
 
@@ -809,7 +904,7 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 <br> <br>
 
 +-------------------------------------------+---------------------------------------------------+-----------------------------------------+---------------------------------------------------------+---------------------------------------------+
-| Occult subcutaneous abscess in cellulitus | New abscess formation in intraabdominal infection | Empyema in community-acquired pneumonia | Visceral or skeletal abscess in patient with bacteremia | Failure to remove a central venous catheter |
+| Occult subcutaneous abscess in cellulitis | New abscess formation in intraabdominal infection | Empyema in community-acquired pneumonia | Visceral or skeletal abscess in patient with bacteremia | Failure to remove a central venous catheter |
 +-------------------------------------------+---------------------------------------------------+-----------------------------------------+---------------------------------------------------------+---------------------------------------------+
 | ![](images/abscess.png)                   | ![](images/abdominlaabscess.png)                  | ![](images/empyema.png)                 | ![](images/spondylitis.png)                             | ![](images/biofilm.png)                     |
 +-------------------------------------------+---------------------------------------------------+-----------------------------------------+---------------------------------------------------------+---------------------------------------------+
@@ -828,8 +923,6 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
 -   **L**ocalized process
 
-\##
-
 ## Principle #9: Distinguish new infection from failure of initial therapy
 
 <br>
@@ -846,51 +939,115 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
     -   Such patients have been exposed to recent courses of antibiotics and have a higher risk of being infected by antibiotic-resistant pathogens.
 
-<!-- -->
-
 -   When changing antibacterial therapies because of breakthrough infection or lack of response to initial therapy, it is generally advisable to change one antibiotic at a time (to a different class if possible)
 
-## Principle #10:The duration of therapy should be as short as possible based on evidence {.smaller}
+## Principle #10:The duration of therapy should be as short as possible based on evidence <br> {.smaller}
 
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+----------------+
-| Disease                                                       | Short course (days)       | Long course (days)                          | Outcome        |
-+===============================================================+===========================+=============================================+================+
-| Bacteremia, gram-negative                                     | 7                         | 14                                          | Equivalent     |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+----------------+
-| Chronic bronchitis and COPD                                   | ≤ 5 days                  | ≥ 7                                         | Equivalent     |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+----------------+
-| Intra-abdominal infection                                     | 4                         | 10                                          | Equivalent     |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+----------------+
-| Neutropenic fever                                             | Until afebrile and stable | Until, afebrile, stable and non-neutropenic | Equivalent     |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+----------------+
-| Osteomyelitis, chronic                                        | 42                        | 84                                          | Equivalent     |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+----------------+
-| Pneumonia, community-acquired                                 | 3-5                       | 7-10                                        | Equivalent     |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+----------------+
-| Pneumonia, nosocomial (including VAP)                         | ≤ 8                       | 10-15                                       | Equivalent     |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+----------------+
-| Pyelonephritis                                                | 5-7                       | 10-14                                       | Equivalent     |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+----------------+
-| Skin infections (cellulitis, major abscess, wound infections) | 5-6                       | 10-14                                       | Equivalent     |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+----------------+
-| Sinusitis, acute bacterial                                    | 5                         | 10                                          | Equivalent     |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+----------------+
++---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
+| Disease                                                       | Short course (days)       | Long course (days)                          | Outcome    |
++===============================================================+===========================+=============================================+============+
+| Bacteremia, gram-negative                                     | 7                         | 14                                          | Equivalent |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
+| Chronic bronchitis and COPD                                   | ≤ 5 days                  | ≥ 7                                         | Equivalent |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
+| Intra-abdominal infection                                     | 4                         | 10                                          | Equivalent |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
+| Neutropenic fever                                             | Until afebrile and stable | Until, afebrile, stable and non-neutropenic | Equivalent |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
+| Osteomyelitis, chronic                                        | 42                        | 84                                          | Equivalent |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
+| Pneumonia, community-acquired                                 | 3-5                       | 7-10                                        | Equivalent |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
+| Pneumonia, nosocomial (including VAP)                         | ≤ 8                       | 10-15                                       | Equivalent |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
+| Pyelonephritis                                                | 5-7                       | 10-14                                       | Equivalent |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
+| Skin infections (cellulitis, major abscess, wound infections) | 5-6                       | 10-14                                       | Equivalent |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
+| Sinusitis, acute bacterial                                    | 5                         | 10                                          | Equivalent |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
 
 ::: fotter
 [@spellbergPrinciplesAntibioticTherapy2025]
 :::
 
-## Common myths of antibiotic therapy: <br> Bactericidal antibiotics are more effective than bacteriostatic
+## Common myths of antibiotic therapy
 
--   Bactericidal antibiotics are more effective than bacteriostatic antibiotics?
+## Myth 1:<br> Bactericidal antibiotics are more effective than bacteriostatic {.smaller}
 
--   Bactericidal: miinimum bactericidal concentration (MBC) of the drug is fourfold or less above the MIC
+-   Bactericidal activity: concentration of drug that results in 1000-fold reduction in inoculum within 24 hours
+
+-   Bactericidal antibiotic: MBC of drug is 4-fold or less above the MIC
 
 ![](images/MIC_MBC.png){fig-align="center" width="350"}
 
-## 
+*However, "bacteriostatic" drugs do kill bacteria, they just require higher concentrations*
 
-## Oral therapy is less effective than IV <br> for complex infections
+## Systematic literature reviews: *cidal vs. static antibiotics for bacterial infections*
+
+-   56 randomized controlled trials identified
+
+-   49/56 found no difference in clinical outcomes, including highly-lethal infections in critically-ill patients
+
+    -   Typhoid fever, severe pneumonia, severe sepsis
+
+-   6 trials reported linezolid (static antibiotic) to be superior to "cidal" agents (vancomycin, teicoplanin or cephalosporins)
+
+-   1 trial found imipenem superior to tigecycline in ventilator associated pneumonia- however tigecycline dosage was too low: A subsequent study using double to dose of tigecycline found no difference
+
+::: footer
+[@wald-dicklerBustingMythStatic2017]
+:::
+
+## Other examples where more rapid bactericidal activity failed to show clinical superiority {background-image="\\images\\busted.png" background-opacity="0.2"}
+
+-   Daptomycin (rapidly bactericidal) vs. vancomycin (slowly bactericidal) against *Staphylococcus aureus* bacteremia and right-sided endocarditis
+
+-   Addition of aminoglycosides to ß-lactams or ß-lactams to vancomycin/daptomycin results in more rapid kill of staphylococci, but in clinical trials no improvement in outcomes and higher rates of nephrotoxicity
+
+-   Bacterial endocarditis: Historical artifact?
+
+    -   Early studies compared high Vd drugs (tetracyclines, marcolides) to penicillins (low Vd drugs) for endocarditis
+
+    -   Low blood concentrations with tetracyclines and macrolides makes them a poor choice for high-grade bloodstream infections
+
+## Myth 2: Oral therapy is less effective than IV <br> for complex infections
+
+-   Osteomyelitis: Earlier studies with oral sulfanilamide, erythromycin, tetracycline with low blood and bone concentrations were associated with higher failure rates-did not surpass pathon MICs
+
+-   *However*, numerous modern antibiotics can acheive levels in blood and bone that are well in excess of target pathogen MICs
+
+## Oral is the new IV
+
+::: panel-tabset
+### Osteomyelitis
+
+![](images\osteo_meta.png)
+
+### Bacteremia
+
+![](images\bactermia_meta.png)
+
+### Endocarditis
+
+![](images\endo_meta.png)
+:::
+
+::: aside
+[@wald-dicklerOralNewIV2022]
+:::
+
+## Transitioning to oral therapy: Key considerations
+
+<br>
+
+-   Is the patient hemodynamically stable?
+
+-   Will the patient absorb the medication (Functioning GI tract)?
+
+-   Can the patient take drugs by mouth
+
+-   Do we have an antibiotic option with good bioavailability for the infection?
 
 ## Combination therapy: *The good, the bad,...the ugly*
 
