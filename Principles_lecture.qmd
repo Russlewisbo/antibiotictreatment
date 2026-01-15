@@ -912,6 +912,11 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
 ## Biofilms: A key source of antibiotic failure
 
+<<<<<<< HEAD
+
+
+## Principle #10: The duration of therapy should be as short as possible based on available evidence (shorter is better)
+=======
 ![](images/biofilm2.png){fig-align="center"}
 
 ## Antibiotic FAIL
@@ -975,6 +980,7 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 ::: fotter
 [@spellbergPrinciplesAntibioticTherapy2025]
 :::
+>>>>>>> 9ef28ff8dada7856e1a50ff144c3e5e8eb99e792
 
 ## Common myths of antibiotic therapy
 
