@@ -791,6 +791,8 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
 ## Principle #9: Distinguish new infection from failure of initial therapy
 
+
+
 ## Principle #10: The duration of therapy should be as short as possible based on available evidence (shorter is better)
 
 ## Common myths of antibiotic therapy
