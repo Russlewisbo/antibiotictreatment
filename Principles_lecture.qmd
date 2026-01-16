@@ -456,11 +456,17 @@ A combination of:
 
 ## Principle #2: Only use antibiotics when they alter the clinical course of patients
 
+::::: columns
+::: {.column width="50%"}
 -   The administration of antibiotics should not be a reflexive response to infection, but should be incorporated into an overall, rational therapeutic plan for the patient.
 
 -   Patients who lack bacterial infections cannot have their clinical course improved by antibiotics (as discussed in Principle #1).
+:::
 
-    ![Chronic osteomyelitis with exposed bone](images/osteo.png){fig-align="center"}
+::: {.column width="50%"}
+![](images/osteo.png){fig-align="center"}
+:::
+:::::
 
 ## Ethical dilemmas for use of antimicrobial therapy
 
@@ -568,7 +574,7 @@ Dose-dependent increase in the risk of opportunistic infections \> 10 mg of pred
 | Diffuse bilateral infiltrates         | Patchy areas of ground-glass attenuation |
 +---------------------------------------+------------------------------------------+
 
-## Principle #6: Use PK/PD principles to optimize  <br> treatment selection and dosing
+## Principle #6: Use PK/PD principles to optimize <br> treatment selection and dosing
 
 ```{dot}
 digraph G {
