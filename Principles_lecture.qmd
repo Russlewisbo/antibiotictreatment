@@ -1,6 +1,7 @@
 ---
 format:
   revealjs:
+    self-contained: true
     browser: false
     spotlight: true
     touch: true
