@@ -14,7 +14,7 @@ format:
     slide-number: true
     incremental: false
     multiplex: true
-    chalkboard: true
+    chalkboard: false
     theme: [default, custom.scss]
     filters:
      - highlight-text
@@ -184,7 +184,7 @@ Source: healthdata.org
 ::: nonincremental
 1.  Accurate differential diagnosis
 
-2.  Only use antibiotics when they alter the clinical course
+2.  Only use antibiotics when they alter the clinical course of disease
 
 3.  Empirically target microbes in differential diagnosis
 
@@ -192,7 +192,7 @@ Source: healthdata.org
 
 5.  Host factors affect the spectrum of empirical therapy
 
-6.  PK/PD principles impact optimal treatment
+6.  Use PK/PD principles to select and optimally dose treatment
 
 7.  De-escalate antibiotic therapy based on microbiology results and clinical (biomarker) responses
 
@@ -219,9 +219,11 @@ B. Physical exam
 
 C. Radiological imaging (e.g., X-ray, CT or MRI)
 
-D. Microbiological tests (e.g., culture, PCR, biomarkers, serology)
+D. Biomarkers of infections (e.g., c-reactive protein, procalcitonin)
 
-## Medical history in infectious diseases {.smaller}
+D. Microbiological tests (e.g., culture, PCR, serology)
+
+## Medical history is the most important tool for diagnosis in infectious diseases {.smaller}
 
 <br>
 
