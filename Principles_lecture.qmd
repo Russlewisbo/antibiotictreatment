@@ -272,7 +272,9 @@ D. Microbiological tests (e.g., culture, PCR, serology)
 <br>
 
 -   Patient works as a sheep and cattle farmer in a small enterprise 54 minutes from Messina that produces milk and cheese: Percorino salato and Ricotta
+
 -   Patient reported pain was first noticed at end of May after a bad case of flu “fever, achy joints, headache"
+
 -   Father (who also works on farm) also has worsening hip pain after sitting for long periods and will be evaluated by an orthopedic doctor for hip replacement.
 
 -   Other 3 brothers and cousin who work on farm report no illness.
@@ -428,7 +430,7 @@ A combination of:
 
 -   The presence of a positive culture in the absence of signs or symptoms of infection **should not** reflexively trigger antibiotic prescription.
 
--   IN the abscence of signs or symptoms of infection, a positive culture often represents **colonization or contamination** and should not trigger treatment. <br> <br>
+-   In the absence of signs or symptoms of infection, a positive culture often represents **colonization or contamination** and should not trigger treatment. <br> <br> <br>
 
 +-----------------------+-----------------------+---------------------------+------------------------------+-----------------------+
 | Wound swabs           | Urine cultures        | Bronchial alveolar lavage | Respiratory samples          | GI tract/stool        |
@@ -498,7 +500,7 @@ A combination of:
 | Reserve the use of antimicrobials that can be used as last-line oral therapeutic options (e.g., fluoroquinolones) for infections for which there are no reasonable alternative therapies | May require "frontline" used of lastline antibiotic if patient has risk factors for multidrug resistant infection                         |
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
 
-<br> Special circumstances creates exceptions: For example, community-acquired pneumonia and intraabdominal, skin, and urinary infections may be caused by *Pseudomonas* in patients with cystic fibrosis or with history of bronchiectasis, chronic dialysis patient, or patient with indwelling catheters or recent surgery.
+<br> <br> *Special circumstances creates exceptions: For example, community-acquired pneumonia and intraabdominal, skin, and urinary infections may be caused by Pseudomonas in patients with cystic fibrosis or with history of bronchiectasis, chronic dialysis patient, or patient with indwelling catheters or recent surgery.*
 
 ## Principle #4: There is a lower threshold for empirical therapy in critically-ill patients
 
@@ -566,7 +568,7 @@ Dose-dependent increase in the risk of opportunistic infections \> 10 mg of pred
 | Diffuse bilateral infiltrates         | Patchy areas of ground-glass attenuation |
 +---------------------------------------+------------------------------------------+
 
-## Principle #6: PK/PD principles impact optimal treatment
+## Principle #6: Use PK/PD principles to optimize  <br> treatment selection and dosing
 
 ```{dot}
 digraph G {
@@ -723,6 +725,10 @@ digraph G {
 
 ![](images/clipboard-2574271174.png)
 
+::: aside
+[@gilbert2006a]
+:::
+
 ## Second key pharmacokinetic variable: Clearance (CL)
 
 ::::: columns
@@ -754,8 +760,6 @@ digraph G {
     -   A change in patient fluid status or distribution can affect volume of distribution (Vd)
 
     -   A change in patient kidney or liver function affects drug clearance (CL)
-
-<!-- -->
 
 -   **However, these parameters do not directly interact with each other**
 
