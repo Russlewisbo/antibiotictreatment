@@ -73,21 +73,14 @@ A copy of a doctor’s legal prescription for alcohol issued to a patient in Mas
 
 <br>
 
-+------------------------------+--------------------+----------------+--------------+
-| Disease                      | Pre-antibiotic era | Antibiotic era | Change       |
-+==============================+====================+================+==============+
-| Community-acquired pneumonia | \~ 35%             | \~ 10%         | -25%         |
-+------------------------------+--------------------+----------------+--------------+
-| Nosocomial pneumonia         | \~ 60%             | \~ 30%         | -30%         |
-+------------------------------+--------------------+----------------+--------------+
-| Bacterial endocarditis       | \~ 100%            | \~ 25%         | -75%         |
-+------------------------------+--------------------+----------------+--------------+
-| Gram-negative bacteremia     | \~ 70%             | \~ 10%         | -60%         |
-+------------------------------+--------------------+----------------+--------------+
-| Bacterial meningitis         | \> 80%             | \< 20%         | -60%         |
-+------------------------------+--------------------+----------------+--------------+
-| Skin infection o             | \~ 11%             | \< 0.5%        | -10%         |
-+------------------------------+--------------------+----------------+--------------+
+| Disease                      | Pre-antibiotic era | Antibiotic era | Change |
+|------------------------------|--------------------|----------------|--------|
+| Community-acquired pneumonia | \~ 35%             | \~ 10%         | -25%   |
+| Nosocomial pneumonia         | \~ 60%             | \~ 30%         | -30%   |
+| Bacterial endocarditis       | \~ 100%            | \~ 25%         | -75%   |
+| Gram-negative bacteremia     | \~ 70%             | \~ 10%         | -60%   |
+| Bacterial meningitis         | \> 80%             | \< 20%         | -60%   |
+| Skin infection o             | \~ 11%             | \< 0.5%        | -10%   |
 
 <br>
 
@@ -173,9 +166,9 @@ Source: healthdata.org
 
 <br>
 
-+---------------------------------------+---------------------------------------+
+|  |  |
+|----|----|
 | ![](images/steward1.png){width="800"} | ![](images/steward.jpeg){width="800"} |
-+---------------------------------------+---------------------------------------+
 
 ## 10 Principles for effective use of <br> antibacterial therapy {.smaller}
 
@@ -430,11 +423,9 @@ A combination of:
 
 -   IN the abscence of signs or symptoms of infection, a positive culture often represents **colonization or contamination** and should not trigger treatment. <br> <br>
 
-+-----------------------+-----------------------+---------------------------+------------------------------+-----------------------+
-| Wound swabs           | Urine cultures        | Bronchial alveolar lavage | Respiratory samples          | GI tract/stool        |
-+=======================+=======================+===========================+==============================+=======================+
-| ![](images/wound.png) | ![](images/urine.png) | ![](images/BAL.png)       | ![](images/nasal%20swab.png) | ![](images/stool.png) |
-+-----------------------+-----------------------+---------------------------+------------------------------+-----------------------+
+| Wound swabs | Urine cultures | Bronchial alveolar lavage | Respiratory samples | GI tract/stool |
+|----|----|----|----|----|
+| ![](images/wound.png) | ![](images/urine.png) | ![](images/BAL.png) | ![](images/nasal%20swab.png) | ![](images/stool.png) |
 
 ## Simple stewardship interventions
 
@@ -931,11 +922,10 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
 <br> <br>
 
-+-------------------------------------------+---------------------------------------------------+-----------------------------------------+---------------------------------------------------------+---------------------------------------------+
+|  |  |  |  |  |
+|----|----|----|----|----|
 | Occult subcutaneous abscess in cellulitis | New abscess formation in intraabdominal infection | Empyema in community-acquired pneumonia | Visceral or skeletal abscess in patient with bacteremia | Failure to remove a central venous catheter |
-+-------------------------------------------+---------------------------------------------------+-----------------------------------------+---------------------------------------------------------+---------------------------------------------+
-| ![](images/abscess.png)                   | ![](images/abdominlaabscess.png)                  | ![](images/empyema.png)                 | ![](images/spondylitis.png)                             | ![](images/biofilm.png)                     |
-+-------------------------------------------+---------------------------------------------------+-----------------------------------------+---------------------------------------------------------+---------------------------------------------+
+| ![](images/abscess.png) | ![](images/abdominlaabscess.png) | ![](images/empyema.png) | ![](images/spondylitis.png) | ![](images/biofilm.png) |
 
 ## Biofilms: A key source of antibiotic failure
 
@@ -975,29 +965,18 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
 ## Principle #10:The duration of therapy should be as short as possible based on evidence <br> {.smaller}
 
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
-| Disease                                                       | Short course (days)       | Long course (days)                          | Outcome    |
-+===============================================================+===========================+=============================================+============+
-| Bacteremia, gram-negative                                     | 7                         | 14                                          | Equivalent |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
-| Chronic bronchitis and COPD                                   | ≤ 5 days                  | ≥ 7                                         | Equivalent |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
-| Intra-abdominal infection                                     | 4                         | 10                                          | Equivalent |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
-| Neutropenic fever                                             | Until afebrile and stable | Until, afebrile, stable and non-neutropenic | Equivalent |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
-| Osteomyelitis, chronic                                        | 42                        | 84                                          | Equivalent |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
-| Pneumonia, community-acquired                                 | 3-5                       | 7-10                                        | Equivalent |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
-| Pneumonia, nosocomial (including VAP)                         | ≤ 8                       | 10-15                                       | Equivalent |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
-| Pyelonephritis                                                | 5-7                       | 10-14                                       | Equivalent |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
-| Skin infections (cellulitis, major abscess, wound infections) | 5-6                       | 10-14                                       | Equivalent |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
-| Sinusitis, acute bacterial                                    | 5                         | 10                                          | Equivalent |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
+| Disease | Short course (days) | Long course (days) | Outcome |
+|----|----|----|----|
+| Bacteremia, gram-negative | 7 | 14 | Equivalent |
+| Chronic bronchitis and COPD | ≤ 5 days | ≥ 7 | Equivalent |
+| Intra-abdominal infection | 4 | 10 | Equivalent |
+| Neutropenic fever | Until afebrile and stable | Until, afebrile, stable and non-neutropenic | Equivalent |
+| Osteomyelitis, chronic | 42 | 84 | Equivalent |
+| Pneumonia, community-acquired | 3-5 | 7-10 | Equivalent |
+| Pneumonia, nosocomial (including VAP) | ≤ 8 | 10-15 | Equivalent |
+| Pyelonephritis | 5-7 | 10-14 | Equivalent |
+| Skin infections (cellulitis, major abscess, wound infections) | 5-6 | 10-14 | Equivalent |
+| Sinusitis, acute bacterial | 5 | 10 | Equivalent |
 
 ::: fotter
 [@spellbergPrinciplesAntibioticTherapy2025]
