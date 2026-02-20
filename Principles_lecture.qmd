@@ -80,7 +80,7 @@ A copy of a doctor’s legal prescription for alcohol issued to a patient in Mas
 | Bacterial endocarditis       | \~ 100%            | \~ 25%         | -75%   |
 | Gram-negative bacteremia     | \~ 70%             | \~ 10%         | -60%   |
 | Bacterial meningitis         | \> 80%             | \< 20%         | -60%   |
-| Skin infection o             | \~ 11%             | \< 0.5%        | -10%   |
+| Cellulitis          | \~ 11%             | \< 0.5%        | -10%   |
 
 <br>
 
@@ -112,7 +112,7 @@ A copy of a doctor’s legal prescription for alcohol issued to a patient in Mas
 
 ## Current antibiotic resistance statistics
 
-<iframe src="https://vizhub.healthdata.org/microbe/?settings=eyIxIjoia2V5X2ZpbmRpbmdzIiwiMiI6ImJhciIsIjMiOiJhbXIiLCI0IjoyMiwiNSI6MSwiNiI6MywiNyI6MywiOCI6MSwiOSI6MSwiMTIiOjMsIjEzIjoxLCIxNCI6MSwiMTUiOjEsIjE2IjoxLCIxNyI6MywiMTgiOjIwMjEsIjE5IjpmYWxzZSwiMjAiOmZhbHNlLCIyMiI6MSwiMjQiOiJlbiIsIjI1Ijoic3luZHJvbWUiLCIyNiI6WzEsMiwzLDQsNSw2LDcsOCw5LDEwLDIyXSwiMjciOls0LDMxLDY0LDEwMywxMzcsMTU4LDE2Nl0sIjI4IjpbMiwzLDQsNSw2LDcsOCw5LDEwLDExLDEyLDEzXSwiMjkiOlsxLDJdLCIzMCI6WzEsNywxMSwxNywyMywyMl0sIjMxIjpbIjEtMSIsIjEtMiJdLCIzMiI6IjEtMSIsIjMzIjpbMSwyXX0=" width="100%" height="900px">
+<iframe src="https://vizhub.healthdata.org/microbe/?settings=eyIxIjoia2V5X2ZpbmRpbmdzIiwiMiI6ImJhciIsIjMiOiJhbXIiLCI0IjoyMiwiNSI6MSwiNiI6MywiNyI6MywiOCI6MSwiOSI6MSwiMTIiOjMsIjEzIjoxLCIxNCI6MSwiMTUiOjEsIjE2IjoxLCIxNyI6MywiMTgiOjIwMjEsIjE5IjpmYWxzZSwiMjAiOmZhbHNlLCIyMiI6MSwiMjQiOiJlbiIsIjI1Ijoic3luZHJvbWUiLCIyNiI6WzEsMiwzLDQsNSw2LDcsOCw5LDEwLDIyXSwiMjciOls0LDMxLDY0LDEwMywxMzcsMTU4LDE2Nl0sIjI4IjpbMiwzLDQsNSw2LDcsOCw5LDEwLDExLDEyLDEzXSwiMjkiOlsxLDJdLCIzMCI6WzEsNywxMSwxNywyMywyMl0sIjMxIjpbIjEtMSIsIjEtMiJdLCIzMiI6IjEtMSIsIjMzIjpbMSwyXX0=" width="90%" height="900px">
 
 </iframe>
 
@@ -120,7 +120,7 @@ A copy of a doctor’s legal prescription for alcohol issued to a patient in Mas
 Source: healthdata.org
 :::
 
-## World Health Organization (WHO) <br> Pathogen Priority List
+## World Health Organization (WHO) <br> Pathogen Priority List {.smaller}
 
 ![](images/WHO.png){fig-align="center" width="600"}
 
@@ -214,7 +214,7 @@ C. Radiological imaging (e.g., X-ray, CT or MRI)
 
 D. Biomarkers of infections (e.g., c-reactive protein, procalcitonin)
 
-D. Microbiological tests (e.g., culture, PCR, serology)
+E. Microbiological tests (e.g., culture, PCR, serology)
 
 ## Medical history is the most important tool for diagnosis in infectious diseases {.smaller}
 
@@ -228,7 +228,7 @@ D. Microbiological tests (e.g., culture, PCR, serology)
 
 -   **Risk factors for infection** (e.g., indwelling devices -urinary catheters, vascular catheters, prosthetic joints, cardiac devices), recent medical procedures, immunosuppression, diabetes, history of injection drug use, and previous infections
 
--   **Travel or exposure history** (e.g., recent travel (countries, regions, urban/rural, dates), exposure to animals or insect bites, contact with ill individuals, and consumption of potentially contaminated food or water)
+-   **Travel or exposure history** (e.g., recent travel -countries, regions, urban/rural, dates, exposure to animals or insect bites, contact with ill individuals, and consumption of potentially contaminated food or water)
 
 -   **Sexual history** and risk for sexually transmitted infections
 
@@ -277,12 +277,15 @@ D. Microbiological tests (e.g., culture, PCR, serology)
 <br>
 
 ![](images/brucellosis.png){fig-align="center"}
+Zoonotic Gram-negative coccobacilli
 
 ::: footer
 [@massis2005]
 :::
 
-## Diagnosis and treatment of <br>Brucellosis spondylitis
+## Diagnosis and treatment of <br>Brucellosis spondylitis: <br> 
+
+ <center>Specialized diagnostics and treatments! </center>
 
 <br>
 
@@ -381,7 +384,7 @@ Clinicians frequently *overestimate* the risk of bacterial infection
 [@chow2012]
 :::
 
-## But Clinicians frequently *underestimate* the risks of antibiotic therapy
+## But doctors frequently *underestimate* the risks of antibiotic therapy
 
 <br>
 
