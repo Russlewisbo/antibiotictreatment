@@ -25,21 +25,27 @@ filters:
   - highlight-text
 ---
 
-## Principles of Antibiotic Therapy
+## Principles of Antibiotic Therapy {background-color="#9B0014"}
 
 <br> <br>
+
+<center>
 
 Russell E. Lewis <br> Associate Professor of Infectious Diseases <br> Department of Molecular Medicine <br> University of Padua
 
 <br> {{< fa solid envelope size=1x >}} russelledward.lewis\@unipd.it <br> {{< fa brands github size=1x >}} https://github.com/Russlewisbo
 
-![](University_of_Padua_seal.svg){fig-align="left" width="75"}
+</center>
+
++---------------------------------------------+-----------------------------------------------+
+| ![](images/dmmunipd_logo.jpeg){width="100"} | ![](images/unipd_seal_white.svg){width="100"} |
++---------------------------------------------+-----------------------------------------------+
 
 ## Antibiotics- The Medical Miracle
 
 ![](resistance.jpg){fig-align="center" width="800"}
 
-## Medicine pre-antibiotics
+## Medicine in the pre-antibiotic era
 
 ::::: columns
 ::: {.column width="50%"}
@@ -201,13 +207,13 @@ Source: healthdata.org
 10. The duration of therapy should be as short as possible based on available evidence (shorter is better)
 :::
 
-## Principle #1: Accurate differential diagnosis
+# Principle #1: Develop an accurate <br> differential diagnosis {background-color="#9B0014"}
 
 <br>
 
 <br>
 
-### What is the most tool for deciding to start antibiotic therapy?
+## What is the most important component in diagnosing infectious diseases?
 
 <br>
 
@@ -221,7 +227,7 @@ D. Biomarkers of infections (e.g., c-reactive protein, procalcitonin)
 
 E. Microbiological tests (e.g., culture, PCR, serology)
 
-## Medical history is the most important tool for diagnosis in infectious diseases {.smaller}
+## Medical history is 80% of diagnosis in <br> infectious diseases {.smaller}
 
 <br>
 
@@ -289,7 +295,7 @@ E. Microbiological tests (e.g., culture, PCR, serology)
 
 ## Diagnosis and treatment of <br>Brucellosis spondylitis: <br>
 
-<center>Specialized diagnostics and treatments!</center>
+<center>*Specialized diagnostics and therapy!*</center>
 
 <br>
 
@@ -382,13 +388,13 @@ Antibiotics should only be started if the differential diagnosis includes likely
 
 ![](images/URI.png){fig-align="center" width="400"}
 
-Clinicians frequently *overestimate* the risk of bacterial infection
+<center>Clinicians frequently *overestimate* the risk of bacterial infection</center>
 
 ::: footer
 [@chow2012]
 :::
 
-## But doctors frequently *underestimate* the risks of antibiotic therapy
+## Doctors frequently *underestimate* the risks of antibiotic therapy
 
 <br>
 
@@ -428,9 +434,9 @@ A combination of:
 
 <br>
 
--   The presence of a positive culture in the absence of signs or symptoms of infection **should not** reflexively trigger antibiotic prescription.
+-   The presence of a positive culture in the absence of signs or symptoms of infection **should not** reflexively trigger antibiotic prescription
 
--   Without symptoms, a positive culture often represents **colonization or contamination** **and should not necessarily trigger treatment**. <br> <br> <br>
+-   Without symptoms, a positive culture often represents **colonization or contamination** **and should not necessarily trigger treatment** <br> <br> <br>
 
 +-----------------------+-----------------------+---------------------------+------------------------------+-----------------------+
 | Wound swabs           | Urine cultures        | Bronchial alveolar lavage | Respiratory samples          | GI tract/stool        |
@@ -454,7 +460,9 @@ A combination of:
 [@luu2021]
 :::
 
-## Principle #2: Only use antibiotics when they alter the clinical course of patients
+# Principle #2: Only use antibiotics when they alter the clinical course of patients {background-color="#9B0014"}
+
+## Antibiotics are not the only answer
 
 <br>
 
@@ -468,7 +476,7 @@ A combination of:
 ::: {.column width="50%"}
 <br>
 
-![](images/osteo.png){fig-align="center"}
+![](images/osteo.png){fig-align="center" width="200"}
 :::
 :::::
 
@@ -480,7 +488,7 @@ A combination of:
 |----------------------------|--------------------------|
 | ![](images/terminal.png)   | ![](images/HIV.png)      |
 
-## Principle #3: Empirically target microbes in differential diagnosis
+## Principle #3: Empirically target microbes in differential diagnosis {background-color="#9B0014"}
 
 ## Know the spectrum of activity
 
@@ -514,7 +522,7 @@ A combination of:
 
 <br> <br> *Special circumstances creates exceptions: For example, community-acquired pneumonia and intraabdominal, skin, and urinary infections may be caused by Pseudomonas in patients with cystic fibrosis or with history of bronchiectasis, chronic dialysis patient, or patient with indwelling catheters or recent surgery.*
 
-## Principle #4: There is a lower threshold for empirical therapy in critically-ill patients
+# Principle #4: There is a lower threshold for empirical therapy in critically-ill patients {background-color="#9B0014"}
 
 ![](images/ICU.png){fig-align="center" width="600"}
 
@@ -522,7 +530,7 @@ A combination of:
 
 ![](images/kumar.png){fig-align="center"}
 
-::: footer
+::: aside
 [@kumar2006]
 :::
 
@@ -532,7 +540,7 @@ A combination of:
 
 ![](images/immunocompromise.png){fig-align="center"}
 
-## Common immunocompromised conditions
+## Common immunocompromised conditions {.smaller}
 
 +-------------------------+-------------------------------------------------------------------------------------+
 | ![](images/patient.png) | 1.  Chronic diseases (e.g., type 1 diabetes, chronic obstructive pulmonary disease) |
@@ -737,7 +745,7 @@ digraph G {
 
 ## Urinary concentrations of antibiotics
 
-![](images/clipboard-2574271174.png)
+![](images/clipboard-2574271174.png){fig-align="center" width="600"}
 
 ::: aside
 [@gilbert2006a]
@@ -837,11 +845,11 @@ $$
 
 <br> <br>
 
-https://www.uptodate.com/contents/search <br> [UptoDate](https://www.uptodate.com/contents/search)
+<center>https://www.uptodate.com/contents/search <br> [UptoDate](https://www.uptodate.com/contents/search)</center>
 
 ## PK/PD indices
 
-![](images/clipboard-2657724390.png){fig-align="center"}
+![](images/clipboard-2657724390.png){fig-align="center" width="800"}
 
 ## How are PK/PD indicies identified?
 
@@ -893,7 +901,7 @@ https://www.uptodate.com/contents/search <br> [UptoDate](https://www.uptodate.co
 :::
 :::::
 
-## Principle #7: De-escalate antibiotic therapy based on microbiology results and clinical (biomarker) responses
+## Principle #7: De-escalate antibiotic therapy based on microbiology results and clinical (biomarker) responses 
 
 <br>
 
@@ -929,7 +937,7 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
 ## Choosing therapy : <br> gram-stain vs. guidelines {.smaller}
 
-![](images/grace_trial.png){fig-align="center" width="1200"}
+![](images/grace_trial.png){fig-align="center" width="800"}
 
 -   Gram strain guided therapy resulted in a 30% reduction in use of anti-pseudomonal agents and 40% reduction in MRSA agents
 
@@ -945,7 +953,8 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
 ## Principle #8: If therapy is not working, consider source control or alternative diagnosis before assuming resistance and broadening therapy
 
--   Treatment decisions may need If an antibiotic therapy has not improved:
+-   Consider changing antibiotics of the following parameters do not improve:
+<br> <br>
 
     -   Fever curve
     -   White blood cell count
@@ -985,19 +994,19 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
 <br>
 
--   *New onset of infectious signs, symptoms, and biomarkers after resolution of prior infection should raise the concern of a new infection rather than persistence of the original infection*
+-   **New onset of infectious signs, symptoms, and biomarkers after resolution of prior infection should raise the concern of a new infection rather than persistence of the original infection**
 
--   *Rarely, recrudescence of signs and symptoms may reflect emergence of antibiotic resistance on therapy from the initial pathogens*
+-   **Rarely, recrudescence of signs and symptoms may reflect emergence of antibiotic resistance on therapy from the initial pathogens**
 
     -   This may be seen more with specific bacterial pathogens, such as *Acinetobacter baumannii*, than with others
 
     -   An initial apparent response to infection followed days or weeks later by new onset of infectious signs or symptoms should prompt a complete reevaluation of the patient for a new infection, including reculturing and imaging if necessary
 
--   *In these patients, it is generally reasonable to broaden therapy to cover highly resistant pathogens*
+-   **I*n these patients, it is generally reasonable to broaden therapy to cover highly resistant pathogens**
 
     -   Such patients have been exposed to recent courses of antibiotics and have a higher risk of being infected by antibiotic-resistant pathogens
 
--   *When changing antibacterial therapies because of breakthrough infection or lack of response to initial therapy, it is generally advisable to change one antibiotic at a time (to a different class if possible)*
+-   **When changing antibacterial therapies because of breakthrough infection or lack of response to initial therapy, it is generally advisable to change one antibiotic at a time (to a different class if possible)**
 
 ## Principle #10: The duration of therapy should be as short as possible based on evidence <br> {.smaller}
 
@@ -1027,13 +1036,15 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 | Sinusitis, acute bacterial                                    | 5                         | 10                                          | Equivalent |
 +---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
 
-::: fotter
+::: {.aside}
 [@spellbergPrinciplesAntibioticTherapy2025]
 :::
 
-## Common myths of antibiotic therapy
 
-## Myth #1:<br> "Bactericidal" antibiotics are more effective <br> than "bacteriostatic" {.smaller}
+
+# Common myths of antibiotic therapy {background-color="#9B0014"}
+
+## Myth 1:<br> "Bactericidal" antibiotics are more effective <br> than "bacteriostatic" {.smaller}
 
 -   Bactericidal activity: concentration of drug that results in 1000-fold reduction in inoculum within 24 hours
 
@@ -1073,7 +1084,7 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
     -   Low blood concentrations with tetracyclines and macrolides makes them a poor choice for high-grade bloodstream infections
 
-## Myth #2: Oral antibioic therapy is less effective <br> than IV for complex infections
+## Myth 2: Oral antibioic therapy is less effective <br> than IV for complex infections
 
 <br> <br>
 
