@@ -117,7 +117,7 @@ A copy of a doctor’s legal prescription for alcohol issued to a patient in Mas
 
 ## Current antibiotic resistance statistics {.smaller}
 
-<iframe src="https://vizhub.healthdata.org/microbe/?settings=eyIxIjoia2V5X2ZpbmRpbmdzIiwiMiI6ImJhciIsIjMiOiJhbXIiLCI0IjoyMiwiNSI6MSwiNiI6MywiNyI6MywiOCI6MSwiOSI6MSwiMTIiOjMsIjEzIjoxLCIxNCI6MSwiMTUiOjEsIjE2IjoxLCIxNyI6MywiMTgiOjIwMjEsIjE5IjpmYWxzZSwiMjAiOmZhbHNlLCIyMiI6MSwiMjQiOiJlbiIsIjI1Ijoic3luZHJvbWUiLCIyNiI6WzEsMiwzLDQsNSw2LDcsOCw5LDEwLDIyXSwiMjciOls0LDMxLDY0LDEwMywxMzcsMTU4LDE2Nl0sIjI4IjpbMiwzLDQsNSw2LDcsOCw5LDEwLDExLDEyLDEzXSwiMjkiOlsxLDJdLCIzMCI6WzEsNywxMSwxNywyMywyMl0sIjMxIjpbIjEtMSIsIjEtMiJdLCIzMiI6IjEtMSIsIjMzIjpbMSwyXX0=" width="100%" height="900px">
+<iframe src="https://vizhub.healthdata.org/microbe/?settings=eyIxIjoia2V5X2ZpbmRpbmdzIiwiMiI6ImJhciIsIjMiOiJhbXIiLCI0IjoyMiwiNSI6MSwiNiI6MywiNyI6MywiOCI6MSwiOSI6MSwiMTIiOjMsIjEzIjoxLCIxNCI6MSwiMTUiOjEsIjE2IjoxLCIxNyI6MywiMTgiOjIwMjEsIjE5IjpmYWxzZSwiMjAiOmZhbHNlLCIyMiI6MSwiMjQiOiJlbiIsIjI1Ijoic3luZHJvbWUiLCIyNiI6WzEsMiwzLDQsNSw2LDcsOCw5LDEwLDIyXSwiMjciOls0LDMxLDY0LDEwMywxMzcsMTU4LDE2Nl0sIjI4IjpbMiwzLDQsNSw2LDcsOCw5LDEwLDExLDEyLDEzXSwiMjkiOlsxLDJdLCIzMCI6WzEsNywxMSwxNywyMywyMl0sIjMxIjpbIjEtMSIsIjEtMiJdLCIzMiI6IjEtMSIsIjMzIjpbMSwyXX0=" width="90%" height="700px">
 
 </iframe>
 
@@ -127,7 +127,7 @@ Source: healthdata.org
 
 ## World Health Organization (WHO) <br> Pathogen Priority List {.smaller}
 
-![](images/WHO.png){fig-align="center" width="600"}
+![](images/WHO.png){fig-align="center" width="500"}
 
 ## Methicillin-resistant <br> *Staphylococcus aureus* (MRSA)
 
@@ -418,7 +418,7 @@ A combination of:
 
 ## Association of adverse events with antibiotic use in hospitalized patients
 
-![](images/adverseeffects.png){fig-align="center"}
+![](images/adverseeffects.png){fig-align="center" width="800"}
 
 ::: footer
 [@tamma2017b]
@@ -440,7 +440,7 @@ A combination of:
 
 ## Simple stewardship interventions
 
-![](images/computer.png){fig-align="center"}
+![](images/computer.png){fig-align="center" width="400"}
 
 ::: footer
 [@luu2021]
@@ -448,7 +448,7 @@ A combination of:
 
 ## Simple stewardship intervention- a big impact!\|
 
-![](images/outcomes.png){fig-align="center"}
+![](images/outcomes.png){fig-align="center" width="400"}
 
 ::: footer
 [@luu2021]
