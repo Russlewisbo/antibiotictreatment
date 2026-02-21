@@ -31,12 +31,11 @@ filters:
 
 <center>
 
-Russell E. Lewis <br> Associate Professor of Infectious Diseases <br> Department of Molecular Medicine <br> University of Padua
+Prof. Russell Lewis <br> Department of Molecular Medicine <br> University of Padua
 
 <br> {{< fa solid envelope size=1x >}} russelledward.lewis\@unipd.it <br> {{< fa brands github size=1x >}} https://github.com/Russlewisbo
 
-<br>
-slides available at: www.padovaid.com
+<br> slides available at: www.padovaid.com
 
 </center>
 
@@ -54,7 +53,7 @@ slides available at: www.padovaid.com
 ::: {.column width="50%"}
 ![](images/rx.png){fig-align="center" width="600"}
 
-A copy of a doctor’s legal prescription for alcohol issued to a patient in Massachusetts in 1925. The doctor here wrote in a common Latin term, “spts frumenti” or spiritus frumenti, meaning whiskey
+A copy of a doctor’s prescription issued to a patient in Massachusetts in 1925. The doctor here wrote in a common Latin term, “Spts frumenti” or *spiritus frumenti* -i.e. whiskey
 :::
 
 ::: {.column width="50%"}
@@ -74,7 +73,7 @@ A copy of a doctor’s legal prescription for alcohol issued to a patient in Mas
 | ![](images/Erhlich.png){width="300"} | ![](images/Fleming.png){width="406"}               | ![](images/Domagk.png){width="250"} |
 +--------------------------------------+----------------------------------------------------+-------------------------------------+
 
-## Mortality reduction with antibiotic therapy {.smaller}
+## Mortality reduction with antibiotic therapy
 
 <br>
 
@@ -98,7 +97,7 @@ A copy of a doctor’s legal prescription for alcohol issued to a patient in Mas
 
 <br>
 
-::: footer
+::: aside
 [@spellberg2025]
 :::
 
@@ -120,7 +119,7 @@ A copy of a doctor’s legal prescription for alcohol issued to a patient in Mas
 
 -   **Antibiotics created a revolution in the practice of medicine, transforming a primarily diagnostic-focused field to a *therapeutic, interventional* profession**
 
-::: footer
+::: aside
 [@spellberg2025]
 :::
 
@@ -130,7 +129,7 @@ A copy of a doctor’s legal prescription for alcohol issued to a patient in Mas
 
 </iframe>
 
-::: footer
+::: aside
 Source: healthdata.org
 :::
 
@@ -184,9 +183,7 @@ Source: healthdata.org
 | ![](images/steward1.png){width="800"} | ![](images/steward.jpeg){width="800"} |
 +---------------------------------------+---------------------------------------+
 
-## 10 Principles for effective use of <br> antibacterial therapy {.smaller}
-
-<br>
+## Principles for effective antibiotic use
 
 ::: nonincremental
 1.  Accurate differential diagnosis
@@ -230,13 +227,13 @@ D. Biomarkers of infections (e.g., c-reactive protein, procalcitonin)
 
 E. Microbiological tests (e.g., culture, PCR, serology)
 
-## Medical history is 80% of diagnosis in <br> infectious diseases {.smaller}
+## Medical history is 80% of diagnosis? {.smaller}
 
 <br>
 
 -   **What are the current symptoms** (e.g., fever, pain, cough, breathlessness, confusion, lethargy, vomiting, and any acute or subacute changes in functional status such as new urinary incontinence, falls, or decreased oral intake)
 
-    -   **8 cardinal descriptors**: Timing, Location, Character, Aggravating Factors, Alleviating Factors, Associated Symptoms, Severity, Setting
+    -   **8 cardinal descriptors**: Timing, Location, Character, Aggravating factors, Alleviating factors, Associated symptoms, Severity, Setting
 
 -   **Fever** How high, how long, what pattern?
 
@@ -248,11 +245,11 @@ E. Microbiological tests (e.g., culture, PCR, serology)
 
 -   **Vaccination history**
 
--   **What is the past medical and surgical history, medication use, and allergies?**
+-   **Past medical and surgical history, medication use, and allergies?**
 
--   **Are there any recent changes in medications or antibiotic use?**
+-   **Recent changes in medications or antibiotic use?**
 
--   **What is the social history?** (e.g., living situation (e.g., long-term care facility), occupation, hobbies, and substance use, which may affect exposure risk)
+-   **Social history?** (e.g. long-term care facility, occupation, hobbies, substance use, unusual exposures)
 
 ## Case Example
 
@@ -274,7 +271,7 @@ E. Microbiological tests (e.g., culture, PCR, serology)
 :::
 :::::
 
-## Pertinent history!
+## Pertinent history
 
 <br>
 
@@ -282,9 +279,9 @@ E. Microbiological tests (e.g., culture, PCR, serology)
 
 -   Patient reported pain was first noticed at end of May after a bad case of flu “fever, achy joints, headache"
 
--   Father (who also works on farm) also has worsening hip pain after sitting for long periods and will be evaluated by an orthopedic doctor for hip replacement.
+-   Father (who also works on farm) also has worsening hip pain after sitting for long periods and will be evaluated by an orthopedic doctor for hip replacement
 
--   Other 3 brothers and cousin who work on farm report no illness.
+-   Other 3 brothers and cousin who work on farm report no illness
 
 ## Could this be brucellosis?
 
@@ -292,7 +289,7 @@ E. Microbiological tests (e.g., culture, PCR, serology)
 
 ![](images/brucellosis.png){fig-align="center"} Zoonotic Gram-negative coccobacilli
 
-::: footer
+::: aside
 [@massis2005]
 :::
 
@@ -302,7 +299,7 @@ E. Microbiological tests (e.g., culture, PCR, serology)
 
 <br>
 
--   Blood cultures require special procedures (prolonged incubation), bone culture may be needed
+-   Blood cultures require special procedures (prolonged incubation), bone biopsy culture may be needed
 
 -   Brucella PCR from clinical specimen
 
@@ -310,7 +307,7 @@ E. Microbiological tests (e.g., culture, PCR, serology)
 
 -   Treatment- Gentamicin + Doxycycline + Rifampin
 
-    -   Unconventional antibiotic regimen, would not be covered by standard spondylitis regimens
+    -   Unconventional treatment: would not be covered by standard spondylitis treatment regimens
 
 ## Antibiotics are usually started empirically {.smaller}
 
@@ -387,13 +384,13 @@ digraph infection_timeline {
 
 ## Antibiotics are usually started empirically {.smaller}
 
-Antibiotics should only be started if the differential diagnosis includes likely invasive bacterial infections: <br>**90-98% of upper respiratory tract infections are caused by viruses**
+Antibiotics should only be started if the differential diagnosis includes likely invasive bacterial infections: <br>**\>90% of upper respiratory tract infections are caused by viruses**
 
 ![](images/URI.png){fig-align="center" width="400"}
 
 <center>Clinicians frequently *overestimate* the risk of bacterial infection</center>
 
-::: footer
+::: aside
 [@chow2012]
 :::
 
@@ -407,13 +404,9 @@ Antibiotics should only be started if the differential diagnosis includes likely
 ## 1 in 5 patients given antibiotic prescriptions are harmed by them because of adverse events or superinfection by resistant pathogens or *Clostridioides difficile*
 :::
 
-<br>
-
 ::: callout-warning
 ## Every additional 10 days of antibiotic therapy confers a 3% increased risk of an adverse drug effect
 :::
-
-<br>
 
 A combination of:
 
@@ -421,7 +414,7 @@ A combination of:
 
 -   Lack of appreciation of how dangerous antibiotics can be
 
-::: footer
+::: aside
 [@tamma2017b]
 :::
 
@@ -429,7 +422,7 @@ A combination of:
 
 ![](images/adverseeffects.png){fig-align="center" width="600"}
 
-::: footer
+::: aside
 [@tamma2017b]
 :::
 
@@ -437,9 +430,9 @@ A combination of:
 
 <br>
 
--   The presence of a positive culture in the absence of signs or symptoms of infection **should not** reflexively trigger antibiotic prescription
+-   A positive culture in the absence of signs or symptoms of infection **should not** reflexively trigger antibiotic therapy
 
--   Without symptoms, a positive culture often represents **colonization or contamination** **and should not necessarily trigger treatment** <br> <br> <br>
+-   Without symptoms, a positive culture often represents **colonization or contamination** <br>
 
 +-----------------------+-----------------------+---------------------------+------------------------------+-----------------------+
 | Wound swabs           | Urine cultures        | Bronchial alveolar lavage | Respiratory samples          | GI tract/stool        |
@@ -451,19 +444,19 @@ A combination of:
 
 ![](images/computer.png){fig-align="center" width="400"}
 
-::: footer
+::: aside
 [@luu2021]
 :::
 
 ## Simple stewardship intervention {.smaller}
 
-![](images/outcomes.png){fig-align="center" width="400"}
+![](images/outcomes.png){fig-align="center" width="600"}
 
-::: footer
+::: aside
 [@luu2021]
 :::
 
-# Principle #2: Only use antibiotics when they alter the clinical course of patients {background-color="#9B0014"}
+# Principle #2: Only use antibiotics when they alter a patient's clinical course of patients {background-color="#9B0014"}
 
 ## Antibiotics are not the only answer
 
@@ -480,6 +473,8 @@ A combination of:
 <br>
 
 ![](images/osteo.png){fig-align="center" width="200"}
+
+Classic example: osteomyelitis with persistently exposed bone
 :::
 :::::
 
@@ -523,7 +518,7 @@ A combination of:
 | Reserve the use of antimicrobials that can be used as last-line oral therapeutic options (e.g., fluoroquinolones) for infections for which there are no reasonable alternative therapies | May require "frontline" used of lastline antibiotic if patient has risk factors for multidrug resistant infection                             |
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
 
-<br> <br> *Special circumstances creates exceptions: For example, community-acquired pneumonia and intraabdominal, skin, and urinary infections may be caused by Pseudomonas in patients with cystic fibrosis or with history of bronchiectasis, chronic dialysis patient, or patient with indwelling catheters or recent surgery.*
+<br> <br> *Special circumstances create exceptions: For example, community-acquired pneumonia and intraabdominal, skin, and urinary infections may be caused by Pseudomonas in patients with cystic fibrosis or with history of bronchiectasis, chronic dialysis patient, or patient with indwelling catheters or recent surgery.*
 
 # Principle #4: There is a lower threshold for empirical therapy in critically-ill patients {background-color="#9B0014"}
 
@@ -539,8 +534,7 @@ A combination of:
 
 ## Principle #5: Host factors affect the spectrum of empirical therapy {.smaller}
 
-![](images/immunocompromise.png){fig-align="center"}
-
+![](images/immunocompromise.png){fig-align="center" width="800"}
 
 ## Common immunocompromised conditions {.smaller}
 
@@ -1213,7 +1207,7 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
     -   Pharmacology and killing activity of single agents is good
 
-## Combination therapy for  <br>*Pseudomonas aeruginosa*
+## Combination therapy for <br>*Pseudomonas aeruginosa*
 
 ![](images/psa_meta.png){fig-align="center" width="800"}
 
