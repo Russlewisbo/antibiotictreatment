@@ -424,7 +424,7 @@ A combination of:
 
 ## Association of adverse events with antibiotic use in hospitalized patients
 
-![](images/adverseeffects.png){fig-align="center" width="800"}
+![](images/adverseeffects.png){fig-align="center" width="600"}
 
 ::: footer
 [@tamma2017b]
@@ -452,7 +452,7 @@ A combination of:
 [@luu2021]
 :::
 
-## Simple stewardship intervention- a big impact!\|
+## Simple stewardship intervention {.smaller}
 
 ![](images/outcomes.png){fig-align="center" width="400"}
 
@@ -534,11 +534,10 @@ A combination of:
 [@kumar2006]
 :::
 
-## Principle #5: Host factors affect the spectrum of empirical therapy
-
-<br>
+## Principle #5: Host factors affect the spectrum of empirical therapy {.smaller}
 
 ![](images/immunocompromise.png){fig-align="center"}
+
 
 ## Common immunocompromised conditions {.smaller}
 
@@ -795,7 +794,7 @@ digraph G {
 
     -   *CL is NOT USED to determine how much of an initial dose (or loading dose) of an antibiotic to give to a patient*
 
-## Most antibiotics are eliminated via the kidneys and maintenance doses must be adjusted for renal function
+## Most antibiotics are eliminated via the kidneys and maintenance doses must be adjusted for renal function {.smaller}
 
 ![](images/mero-dose%20adjustment.png){fig-align="center"}
 
