@@ -901,7 +901,7 @@ $$
 :::
 :::::
 
-## Principle #7: De-escalate antibiotic therapy based on microbiology results and clinical (biomarker) responses 
+## Principle #7: De-escalate antibiotic therapy based on microbiology results and clinical (biomarker) responses
 
 <br>
 
@@ -953,8 +953,7 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
 ## Principle #8: If therapy is not working, consider source control or alternative diagnosis before assuming resistance and broadening therapy
 
--   Consider changing antibiotics of the following parameters do not improve:
-<br> <br>
+-   Consider changing antibiotics of the following parameters do not improve: <br> <br>
 
     -   Fever curve
     -   White blood cell count
@@ -1002,7 +1001,7 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
     -   An initial apparent response to infection followed days or weeks later by new onset of infectious signs or symptoms should prompt a complete reevaluation of the patient for a new infection, including reculturing and imaging if necessary
 
--   **I*n these patients, it is generally reasonable to broaden therapy to cover highly resistant pathogens**
+-   \*\*I\*n these patients, it is generally reasonable to broaden therapy to cover highly resistant pathogens\*\*
 
     -   Such patients have been exposed to recent courses of antibiotics and have a higher risk of being infected by antibiotic-resistant pathogens
 
@@ -1036,11 +1035,9 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 | Sinusitis, acute bacterial                                    | 5                         | 10                                          | Equivalent |
 +---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
 
-::: {.aside}
+::: aside
 [@spellbergPrinciplesAntibioticTherapy2025]
 :::
-
-
 
 # Common myths of antibiotic therapy {background-color="#9B0014"}
 
@@ -1054,7 +1051,7 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
 *However, "bacteriostatic" drugs do kill bacteria, they just require higher concentrations*
 
-## Systematic literature reviews: *cidal vs. static antibiotics for bacterial infections*
+## Systematic literature reviews: *cidal vs. static* <br> antibiotics for bacterial infections\*
 
 <br> <br>
 
@@ -1066,7 +1063,9 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
 -   6 trials reported linezolid (static antibiotic) to be superior to "cidal" agents (vancomycin, teicoplanin or cephalosporins)
 
--   1 trial found imipenem superior to tigecycline in ventilator associated pneumonia- however tigecycline dosage was too low: A subsequent study using double to dose of tigecycline found no difference
+-   1 trial found imipenem superior to tigecycline in ventilator associated pneumonia- however tigecycline dosage was too low:
+
+    -   A subsequent study using double to dose of tigecycline found no difference
 
 ::: footer
 [@wald-dicklerBustingMythStatic2017]
@@ -1093,6 +1092,8 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 -   **However**, numerous modern antibiotics can acheive levels in blood and bone that are well in excess of target pathogen MICs
 
 ## Oral is the new IV
+
+<br>
 
 ::: panel-tabset
 ### Osteomyelitis
@@ -1210,9 +1211,9 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
     -   Pharmacology and killing activity of single agents is good
 
-## Combination therapy for *Pseudomonas aeruginosa*
+## Combination therapy for  <br>*Pseudomonas aeruginosa*
 
-![](images/psa_meta.png){fig-align="center"}
+![](images/psa_meta.png){fig-align="center" width="800"}
 
 -   Combination therapy studies for severe infections/sepsis have also found no advantage for dual therapy
 
