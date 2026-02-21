@@ -37,7 +37,7 @@ Russell E. Lewis <br> Associate Professor of Infectious Diseases <br> Department
 
 ## Antibiotics- The Medical Miracle
 
-![](resistance.jpg){fig-align="center"}
+![](resistance.jpg){fig-align="center" width="800"}
 
 ## Medicine pre-antibiotics
 
@@ -115,7 +115,7 @@ A copy of a doctor’s legal prescription for alcohol issued to a patient in Mas
 [@spellberg2025]
 :::
 
-## Current antibiotic resistance statistics
+## Current antibiotic resistance statistics {.smaller}
 
 <iframe src="https://vizhub.healthdata.org/microbe/?settings=eyIxIjoia2V5X2ZpbmRpbmdzIiwiMiI6ImJhciIsIjMiOiJhbXIiLCI0IjoyMiwiNSI6MSwiNiI6MywiNyI6MywiOCI6MSwiOSI6MSwiMTIiOjMsIjEzIjoxLCIxNCI6MSwiMTUiOjEsIjE2IjoxLCIxNyI6MywiMTgiOjIwMjEsIjE5IjpmYWxzZSwiMjAiOmZhbHNlLCIyMiI6MSwiMjQiOiJlbiIsIjI1Ijoic3luZHJvbWUiLCIyNiI6WzEsMiwzLDQsNSw2LDcsOCw5LDEwLDIyXSwiMjciOls0LDMxLDY0LDEwMywxMzcsMTU4LDE2Nl0sIjI4IjpbMiwzLDQsNSw2LDcsOCw5LDEwLDExLDEyLDEzXSwiMjkiOlsxLDJdLCIzMCI6WzEsNywxMSwxNywyMywyMl0sIjMxIjpbIjEtMSIsIjEtMiJdLCIzMiI6IjEtMSIsIjMzIjpbMSwyXX0=" width="100%" height="900px">
 
@@ -303,7 +303,7 @@ E. Microbiological tests (e.g., culture, PCR, serology)
 
     -   Unconventional antibiotic regimen, would not be covered by standard spondylitis regimens
 
-## Antibiotics are usually started empirically
+## Antibiotics are usually started empirically {.smaller}
 
 ```{dot}
 digraph infection_timeline {
@@ -380,7 +380,7 @@ digraph infection_timeline {
 
 Antibiotics should only be started if the differential diagnosis includes likely invasive bacterial infections: <br>**90-98% of upper respiratory tract infections are caused by viruses**
 
-![](images/URI.png){fig-align="center"}
+![](images/URI.png){fig-align="center" width="400"}
 
 Clinicians frequently *overestimate* the risk of bacterial infection
 
@@ -1000,31 +1000,32 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 -   *When changing antibacterial therapies because of breakthrough infection or lack of response to initial therapy, it is generally advisable to change one antibiotic at a time (to a different class if possible)*
 
 ## Principle #10: The duration of therapy should be as short as possible based on evidence <br> {.smaller}
+
 <br>
 
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+-------------+
-| Disease                                                       | Short course (days)       | Long course (days)                          | Outcome     |
-+===============================================================+===========================+=============================================+=============+
-| Bacteremia, gram-negative                                     | 7                         | 14                                          | Equivalent  |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+-------------+
-| Chronic bronchitis and COPD                                   | ≤ 5 days                  | ≥ 7                                         | Equivalent  |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+-------------+
-| Intra-abdominal infection                                     | 4                         | 10                                          | Equivalent  |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+-------------+
-| Neutropenic fever                                             | Until afebrile and stable | Until, afebrile, stable and non-neutropenic | Equivalent  |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+-------------+
-| Osteomyelitis, chronic                                        | 42                        | 84                                          | Equivalent  |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+-------------+
-| Pneumonia, community-acquired                                 | 3-5                       | 7-10                                        | Equivalent  |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+-------------+
-| Pneumonia, nosocomial (including VAP)                         | ≤ 8                       | 10-15                                       | Equivalent  |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+-------------+
-| Pyelonephritis                                                | 5-7                       | 10-14                                       | Equivalent  |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+-------------+
-| Skin infections (cellulitis, major abscess, wound infections) | 5-6                       | 10-14                                       | Equivalent  |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+-------------+
-| Sinusitis, acute bacterial                                    | 5                         | 10                                          | Equivalent  |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+-------------+
++---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
+| Disease                                                       | Short course (days)       | Long course (days)                          | Outcome    |
++===============================================================+===========================+=============================================+============+
+| Bacteremia, gram-negative                                     | 7                         | 14                                          | Equivalent |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
+| Chronic bronchitis and COPD                                   | ≤ 5 days                  | ≥ 7                                         | Equivalent |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
+| Intra-abdominal infection                                     | 4                         | 10                                          | Equivalent |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
+| Neutropenic fever                                             | Until afebrile and stable | Until, afebrile, stable and non-neutropenic | Equivalent |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
+| Osteomyelitis, chronic                                        | 42                        | 84                                          | Equivalent |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
+| Pneumonia, community-acquired                                 | 3-5                       | 7-10                                        | Equivalent |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
+| Pneumonia, nosocomial (including VAP)                         | ≤ 8                       | 10-15                                       | Equivalent |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
+| Pyelonephritis                                                | 5-7                       | 10-14                                       | Equivalent |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
+| Skin infections (cellulitis, major abscess, wound infections) | 5-6                       | 10-14                                       | Equivalent |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
+| Sinusitis, acute bacterial                                    | 5                         | 10                                          | Equivalent |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+------------+
 
 ::: fotter
 [@spellbergPrinciplesAntibioticTherapy2025]
@@ -1032,7 +1033,7 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
 ## Common myths of antibiotic therapy
 
-## Myth #1:<br> "Bactericidal" antibiotics are more effective  <br> than "bacteriostatic" {.smaller}
+## Myth #1:<br> "Bactericidal" antibiotics are more effective <br> than "bacteriostatic" {.smaller}
 
 -   Bactericidal activity: concentration of drug that results in 1000-fold reduction in inoculum within 24 hours
 
@@ -1043,6 +1044,7 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 *However, "bacteriostatic" drugs do kill bacteria, they just require higher concentrations*
 
 ## Systematic literature reviews: *cidal vs. static antibiotics for bacterial infections*
+
 <br> <br>
 
 -   56 randomized controlled trials identified
@@ -1071,7 +1073,7 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
     -   Low blood concentrations with tetracyclines and macrolides makes them a poor choice for high-grade bloodstream infections
 
-## Myth #2: Oral antibioic therapy is less effective  <br> than IV for complex infections
+## Myth #2: Oral antibioic therapy is less effective <br> than IV for complex infections
 
 <br> <br>
 
@@ -1116,6 +1118,7 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 ![](images/bioavail.png){fig-align="center"}
 
 ## Myth #3: Combination therapy: <br>*The good, the bad,...and the ugly*
+
 <br> <br>
 
 -   Are 2, 3 or 4 drugs better than 1?.....it depends on the situation
@@ -1147,6 +1150,7 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
     -   HIV and hepatitis C: Resistance converts a treatable (HIV) or curable (HCV) infection into a fatal illness
 
 ## Combination therapy: *The good, cont.*
+
 <br> <br>
 
 -   **Two active agents results in superior clinical outcomes compared to single active agent**
@@ -1156,7 +1160,8 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
     -   Bone and joint infections (nonreplicating bacteria in biofilm): Reduced relapse rates with addition of rifampin, especially to fluoroquinolones
 
 ## Exotoxin-mediated infections- <br> Necrotizing fasciitis
-<br> <br> 
+
+<br> <br>
 
 ::::: columns
 ::: {.column width="50%"}
@@ -1207,6 +1212,7 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 :::
 
 ## Combination therapy- *The ugly: imperfect data*
+
 <br> <br>
 
 -   Fungal infections outside cryptococcosis
@@ -1230,4 +1236,5 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 -   Physicians bear the burden of using antibiotics effectively to heal and cure patients while preserving this awesome power
 
 ## References
+
 <br> <br>

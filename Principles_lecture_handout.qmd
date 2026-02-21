@@ -1,0 +1,372 @@
+---
+title: "Principles of Antibiotic Therapy - Handout"
+author: "Russell E. Lewis"
+date: today
+format:
+  pdf:
+    documentclass: article
+    geometry:
+      - margin=0.5in
+    fontsize: 9pt
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    colorlinks: true
+    keep-tex: false
+    fig-width: 6
+    fig-height: 4
+bibliography: references.bib
+csl: diagnostic-microbiology-and-infectious-disease.csl
+---
+
+\newpage
+
+# Introduction
+
+## Antibiotics - The Medical Miracle
+
+Antibiotics have revolutionized medicine and dramatically reduced mortality from bacterial infections.
+
+## Medicine Pre-Antibiotics
+
+Before antibiotics, doctors relied on limited treatments including alcohol prescriptions and herbal remedies.
+
+## Dawn of Antibiotic Discovery
+
+Key discoveries:
+
+- **Paul Ehrlich** - Salvarsan (1909)
+- **Alexander Fleming** - Penicillin (1929), purified by Florey, Chain, Heatley (1940)
+- **Gerhard Domagk** - Sulfanilamides (1931)
+
+## Mortality Reduction with Antibiotic Therapy
+
+| Disease | Pre-antibiotic era | Antibiotic era | Change |
+|---------|-------------------|----------------|--------|
+| Community-acquired pneumonia | ~35% | ~10% | -25% |
+| Nosocomial pneumonia | ~60% | ~30% | -30% |
+| Bacterial endocarditis | ~100% | ~25% | -75% |
+| Gram-negative bacteremia | ~70% | ~10% | -60% |
+| Bacterial meningitis | >80% | <20% | -60% |
+| Cellulitis | ~11% | <0.5% | -10% |
+
+[@spellberg2025]
+
+# Current Challenges
+
+## Antibiotic Resistance
+
+Antibiotic resistance is a growing global health threat. The WHO has identified priority pathogens including:
+
+- **Critical Priority**: Carbapenem-resistant Acinetobacter baumannii, Pseudomonas aeruginosa, and Enterobacteriaceae
+- **High Priority**: MRSA, vancomycin-resistant Enterococcus, etc.
+
+## Slowing Antibiotic Discovery
+
+New antibiotic development has dramatically slowed while resistance continues to increase.
+
+## Antibiotics as a Societal Trust
+
+- Antibiotic overprescription represents a "tragedy of the commons"
+- Individual prescriptions may seem harmless, but collective impact is catastrophic
+- Physicians must serve as experts in use and protection of antimicrobial agents
+
+# The 10 Principles of Effective Antibiotic Therapy
+
+## Principle #1: Accurate Differential Diagnosis
+
+**Medical history is the most important diagnostic tool**
+
+Key elements:
+- Current symptoms (8 cardinal descriptors: Timing, Location, Character, Aggravating Factors, Alleviating Factors, Associated Symptoms, Severity, Setting)
+- Fever patterns
+- Risk factors for infection
+- Travel and exposure history
+- Sexual history
+- Vaccination status
+- Past medical/surgical history
+- Social history
+
+### Case Example: Brucellosis Spondylitis
+
+A 34-year-old sheep and cattle farmer from Sicily with back pain. Detailed history revealed occupational exposure leading to diagnosis of Brucellosis, requiring specialized treatment with Gentamicin + Doxycycline + Rifampin.
+
+### Antibiotics Are Usually Started Empirically
+
+The typical timeline:
+- 0h: Suspect infection
+- 1h: Culture suspected sites, **begin empiric therapy**
+- 24h: Gram stain results
+- 36-48h: Identification
+- 72-96h: Susceptibilities available, **change to definitive therapy**
+
+**Important**: 90-98% of upper respiratory tract infections are caused by viruses and do not require antibiotics.
+
+## Principle #2: Only Use Antibiotics When They Alter Clinical Course
+
+- Antibiotics should be part of a rational therapeutic plan, not a reflexive response
+- Patients without bacterial infections cannot benefit from antibiotics
+- Consider ethical dilemmas: end-of-life care, non-adherent patients
+
+### Risks of Antibiotic Therapy
+
+::: {.callout-warning}
+- 1 in 5 patients given antibiotics are harmed by adverse events or superinfection
+- Every additional 10 days of therapy = 3% increased risk of adverse effects
+:::
+
+### Positive Cultures ≠ Proof of Infection
+
+Without symptoms, positive cultures often represent colonization or contamination:
+- Wound swabs
+- Urine cultures (asymptomatic bacteriuria)
+- Respiratory samples
+- Stool cultures
+
+## Principle #3: Empirically Target Microbes in Differential Diagnosis
+
+### Know the Spectrum of Activity
+
+Use resources like the Sanford Guide to understand antibiotic coverage.
+
+### Community vs. Nosocomial Infections
+
+**Community infections:**
+- Infrequently caused by MDR gram-negative bacteria
+- Avoid routine MRSA coverage unless risk factors present
+- Reserve last-line agents (e.g., fluoroquinolones) for appropriate cases
+
+**Nosocomial infections:**
+- More likely caused by resistant pathogens
+- May require coverage for Pseudomonas or non-fermenting gram-negatives
+- Greater MRSA risk, especially with recent antibiotic use
+
+## Principle #4: Lower Threshold for Empirical Therapy in Critically-Ill Patients
+
+### Antibiotic Timing is Critical in Septic Shock
+
+Early appropriate antibiotic therapy dramatically improves survival in septic shock. Each hour of delay in appropriate therapy increases mortality. [@kumar2006]
+
+## Principle #5: Host Factors Affect Spectrum of Empirical Therapy
+
+### Common Immunocompromised Conditions
+
+1. Chronic diseases (diabetes, COPD)
+2. Autoimmune diseases
+3. Genetic diseases
+4. Cancer/chemotherapy
+5. HIV
+6. Transplant recipients
+7. Advanced age
+8. Malnutrition
+9. **Chronic corticosteroid use** (>10 mg prednisone equivalents for 2-4 weeks)
+10. Chronic infections
+11. Smoking
+
+### Special Consideration: PCP vs. CAP
+
+Immunocompromised patients on corticosteroids may develop Pneumocystis jirovecii pneumonia (PCP) rather than typical community-acquired pneumonia.
+
+## Principle #6: Use PK/PD Principles to Optimize Treatment
+
+### Key Pharmacokinetic Variables
+
+**Volume of Distribution (Vd):**
+- Volume that appears to hold the drug at plasma concentration
+- Average plasma volume: ~3L
+- Higher Vd = lower serum concentrations
+- Important for loading dose calculations
+
+**Clearance (CL):**
+- Drug elimination from body (mL/min or L/hr)
+- CL total = CL renal + CL hepatic + CL other
+- Important for maintenance dose calculations
+- Affected by organ function
+
+### Important Distinctions
+
+- Vd and CL are physiologically-based but do not interact
+- **Vd determines loading dose**
+- **CL determines maintenance dose**
+- Most antibiotics eliminated via kidneys - adjust for renal function
+
+### Renal Function Estimation
+
+Cockcroft-Gault formula:
+$$\text{CrCl (mL/min)} = \frac{(140 - \text{age}) \times \text{weight (kg)}}{72 \times \text{SCr (mg/dL)}} \times 0.85 \text{ (if female)}$$
+
+**Problems with creatinine-based dosing:**
+- Based on chronic kidney disease, not acute
+- Delayed decrease in creatinine with injury resolution
+- May lead to unnecessary underdosing in first 48 hours
+
+### PK/PD Indices
+
+Three main patterns:
+- **Concentration-dependent**: Peak/MIC ratio (aminoglycosides, fluoroquinolones)
+- **Time-dependent**: %T>MIC (β-lactams)
+- **AUC-dependent**: AUC/MIC ratio (vancomycin, linezolid)
+
+### Site-Specific Considerations
+
+- Match antibiotic penetration to infection site
+- Anatomically-privileged sites (CNS, eye, prostate) require special consideration
+- Urinary concentrations often much higher than serum
+- Daptomycin inactivated in lung (don't use for pneumonia)
+- Aminoglycosides bound by purulent material (emphasizes need for source control)
+
+## Principle #7: De-escalate Based on Microbiology and Clinical Response
+
+### De-escalation Strategies
+
+- Stop unnecessary coverage when pathogen identified
+- Clinical improvement (reduced fever, leukocytosis)
+- Stop empiric therapy for resistant pathogens if not isolated
+- Use biomarkers appropriately (procalcitonin)
+
+### Gram Stain-Guided Therapy
+
+Gram stain results can guide early de-escalation, reducing use of anti-pseudomonal agents by 30% and MRSA agents by 40%. [@yoshimura2022]
+
+### Susceptibility Testing
+
+Mean Inhibitory Concentration (MIC) determines which antibiotics are appropriate for documented infections.
+
+## Principle #8: If Therapy Not Working, Consider Source Control or Alternative Diagnosis
+
+### Treatment Failure Indicators
+
+- Persistent fever
+- Elevated white blood cell count
+- Continued purulent secretions
+- Ongoing signs of inflammation
+- Biomarker elevation
+
+### Source Control Issues
+
+Common problems:
+- Occult abscess formation
+- Empyema
+- Biofilm on indwelling devices
+- Failure to remove infected foreign material
+
+### Remember: Antibiotic FAIL
+
+- **F**alse diagnosis
+- **A**llergies
+- **I**ntercurrent infections
+- **L**ocalized process requiring drainage
+
+## Principle #9: Distinguish New Infection from Failure of Initial Therapy
+
+- New symptoms after resolution suggest new infection, not persistence
+- Rarely, emergence of resistance from initial pathogens
+- Reculture and image if necessary
+- Reasonable to broaden therapy in patients with recent antibiotic exposure
+- Change one antibiotic at a time when possible
+
+## Principle #10: Duration Should Be As Short As Possible
+
+### Evidence for Shorter Courses
+
+| Disease | Short course | Long course | Outcome |
+|---------|-------------|-------------|---------|
+| Bacteremia, gram-negative | 7 days | 14 days | Equivalent |
+| COPD exacerbation | ≤5 days | ≥7 days | Equivalent |
+| Intra-abdominal infection | 4 days | 10 days | Equivalent |
+| Neutropenic fever | Until stable | Until non-neutropenic | Equivalent |
+| Osteomyelitis, chronic | 42 days | 84 days | Equivalent |
+| Pneumonia, CAP | 3-5 days | 7-10 days | Equivalent |
+| Pneumonia, VAP | ≤8 days | 10-15 days | Equivalent |
+| Pyelonephritis | 5-7 days | 10-14 days | Equivalent |
+| Skin infections | 5-6 days | 10-14 days | Equivalent |
+| Sinusitis, acute | 5 days | 10 days | Equivalent |
+
+[@spellbergPrinciplesAntibioticTherapy2025]
+
+# Common Myths of Antibiotic Therapy
+
+## Myth #1: "Bactericidal" Antibiotics Are More Effective Than "Bacteriostatic"
+
+### Evidence Against This Myth
+
+- 56 randomized controlled trials reviewed
+- 49/56 found no difference in clinical outcomes
+- 6 trials showed linezolid (bacteriostatic) superior to bactericidal agents
+- Examples of failed superiority:
+  - Daptomycin vs. vancomycin for S. aureus bacteremia
+  - Adding aminoglycosides to β-lactams (no benefit, more toxicity)
+
+[@wald-dicklerBustingMythStatic2017]
+
+## Myth #2: Oral Antibiotics Are Less Effective Than IV
+
+### Modern Evidence
+
+**Osteomyelitis**: Historical poor outcomes with drugs having low bone concentrations (sulfanilamide, erythromycin, tetracycline). Modern antibiotics achieve excellent bone levels.
+
+**Meta-analyses show equivalence for:**
+- Osteomyelitis
+- Bacteremia  
+- Endocarditis
+
+[@wald-dicklerOralNewIV2022]
+
+### Transition to Oral Therapy Checklist
+
+- Patient hemodynamically stable?
+- Functioning GI tract?
+- Can take drugs by mouth?
+- Antibiotic option with good bioavailability available?
+
+**Key**: Many modern antibiotics have excellent oral bioavailability (fluoroquinolones, linezolid, metronidazole, etc.)
+
+## Myth #3: Combination Therapy Is Always Better
+
+### The Good: When Combination Helps
+
+**Broader spectrum needed:**
+- Adding macrolide/doxycycline for atypicals in pneumonia
+- High MDR prevalence requiring broader coverage
+
+**Preventing resistance:**
+- Tuberculosis (slow growth, persisters, high bacterial density)
+- HIV and hepatitis C (resistance = fatal outcome)
+
+**Superior outcomes with two agents:**
+- Rifampin combinations for bone/joint infections (reduces relapse)
+- Cryptococcal meningitis (amphotericin B + 5-FC)
+- Necrotizing fasciitis (add clindamycin/linezolid to stop toxin production)
+
+**Eukaryotic infections:**
+- Multiple life cycle stages require different agents
+- Pharmacokinetic interactions enhance penetration
+
+### The Bad: Redundant Definitive Therapy
+
+- Few data supporting two active agents for acute pyogenic bacterial infections
+- Organisms in planktonic growth, not multiple life phases
+- Single agent pharmacology and killing is good
+
+**Pseudomonas aeruginosa**: Meta-analysis shows no benefit of combination therapy, with increased toxicity risk. [@huCombinationAntibioticTherapy2013]
+
+### The Ugly: Imperfect Data
+
+- Fungal infections outside cryptococcosis: unclear benefit (except possible Aspergillus with echinocandins + triazoles)
+- Theoretical benefit in test tubes may not translate clinically
+- Greater selection for resistance
+- Greater microbiome impact
+
+# Conclusions
+
+- Antibiotics are miracle cures that fundamentally altered medical practice
+- Their power to treat infections is fleeting due to resistance
+- Physicians bear responsibility for:
+  - Using antibiotics effectively to heal patients
+  - Preserving antibiotic effectiveness through stewardship
+  - Serving as experts in antimicrobial use and protection
+
+# References
+
+::: {#refs}
+:::
