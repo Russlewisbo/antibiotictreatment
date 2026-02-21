@@ -71,21 +71,21 @@ A copy of a doctor’s legal prescription for alcohol issued to a patient in Mas
 
 <br>
 
-+------------------------------+--------------------+----------------+-------------+
-| Disease                      | Pre-antibiotic era | Antibiotic era | Change      |
-+==============================+====================+================+=============+
-| Community-acquired pneumonia | \~ 35%             | \~ 10%         | -25%        |
-+------------------------------+--------------------+----------------+-------------+
-| Nosocomial pneumonia         | \~ 60%             | \~ 30%         | -30%        |
-+------------------------------+--------------------+----------------+-------------+
-| Bacterial endocarditis       | \~ 100%            | \~ 25%         | -75%        |
-+------------------------------+--------------------+----------------+-------------+
-| Gram-negative bacteremia     | \~ 70%             | \~ 10%         | -60%        |
-+------------------------------+--------------------+----------------+-------------+
-| Bacterial meningitis         | \> 80%             | \< 20%         | -60%        |
-+------------------------------+--------------------+----------------+-------------+
-| Cellulitis                   | \~ 11%             | \< 0.5%        | -10%        |
-+------------------------------+--------------------+----------------+-------------+
++------------------------------+--------------------+----------------+--------------+
+| Disease                      | Pre-antibiotic era | Antibiotic era | Change       |
++==============================+====================+================+==============+
+| Community-acquired pneumonia | \~ 35%             | \~ 10%         | -25%         |
++------------------------------+--------------------+----------------+--------------+
+| Nosocomial pneumonia         | \~ 60%             | \~ 30%         | -30%         |
++------------------------------+--------------------+----------------+--------------+
+| Bacterial endocarditis       | \~ 100%            | \~ 25%         | -75%         |
++------------------------------+--------------------+----------------+--------------+
+| Gram-negative bacteremia     | \~ 70%             | \~ 10%         | -60%         |
++------------------------------+--------------------+----------------+--------------+
+| Bacterial meningitis         | \> 80%             | \< 20%         | -60%         |
++------------------------------+--------------------+----------------+--------------+
+| Cellulitis                   | \~ 11%             | \< 0.5%        | -10%         |
++------------------------------+--------------------+----------------+--------------+
 
 <br>
 
@@ -430,7 +430,7 @@ A combination of:
 
 -   The presence of a positive culture in the absence of signs or symptoms of infection **should not** reflexively trigger antibiotic prescription.
 
--   In the absence of signs or symptoms of infection, a positive culture often represents **colonization or contamination** **and should not necessarily trigger treatment**. <br> <br> <br>
+-   Without symptoms, a positive culture often represents **colonization or contamination** **and should not necessarily trigger treatment**. <br> <br> <br>
 
 +-----------------------+-----------------------+---------------------------+------------------------------+-----------------------+
 | Wound swabs           | Urine cultures        | Bronchial alveolar lavage | Respiratory samples          | GI tract/stool        |
@@ -484,6 +484,8 @@ A combination of:
 
 ## Know the spectrum of activity
 
+<br> <br>
+
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------+
 | -   Spectrum of activity of the empirical antiinfective agents prescribed should be tailored to cover the likely microbial flora that cause the diseases in the differential diagnosis | ![](images/Sanford.png)                        |
 |                                                                                                                                                                                        |                                                |
@@ -498,17 +500,17 @@ A combination of:
 
 <br> <br>
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-| Community infections                                                                                                                                                                     | Nosocomial infections                                                                                                                     |
-+==========================================================================================================================================================================================+===========================================================================================================================================+
-| -   Community-associated infections are infrequently caused by MDR gram-negative bacteria.                                                                                               | More often caused by more resistant pathogens, and hence require coverage for P*seudomonas* or other non-fermenting gram-negative bacilli |
-|                                                                                                                                                                                          |                                                                                                                                           |
-| -   Empirical antibiotic coverage should not routinely considered                                                                                                                        |                                                                                                                                           |
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-| Avoid using routine methicillin-resistant *S. aureus* (MRSA) empirical therapy in patients who are unlikely to be infected with MRSA                                                     | Greater risk for MRSA, especially is patient has recently received antibiotic therapy                                                     |
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-| Reserve the use of antimicrobials that can be used as last-line oral therapeutic options (e.g., fluoroquinolones) for infections for which there are no reasonable alternative therapies | May require "frontline" used of lastline antibiotic if patient has risk factors for multidrug resistant infection                         |
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+| Community infections                                                                                                                                                                     | Nosocomial infections                                                                                                                         |
++==========================================================================================================================================================================================+===============================================================================================================================================+
+| -   Community-associated infections are infrequently caused by MDR gram-negative bacteria.                                                                                               | -   More often caused by more resistant pathogens, and hence require coverage for P*seudomonas* or other non-fermenting gram-negative bacilli |
+|                                                                                                                                                                                          |                                                                                                                                               |
+| -   Empirical antibiotic coverage should not routinely considered                                                                                                                        |                                                                                                                                               |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+| Avoid using routine methicillin-resistant *S. aureus* (MRSA) empirical therapy in patients who are unlikely to be infected with MRSA                                                     | Greater risk for MRSA, especially is patient has recently received antibiotic therapy                                                         |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+| Reserve the use of antimicrobials that can be used as last-line oral therapeutic options (e.g., fluoroquinolones) for infections for which there are no reasonable alternative therapies | May require "frontline" used of lastline antibiotic if patient has risk factors for multidrug resistant infection                             |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
 
 <br> <br> *Special circumstances creates exceptions: For example, community-acquired pneumonia and intraabdominal, skin, and urinary infections may be caused by Pseudomonas in patients with cystic fibrosis or with history of bronchiectasis, chronic dialysis patient, or patient with indwelling catheters or recent surgery.*
 
@@ -525,6 +527,8 @@ A combination of:
 :::
 
 ## Principle #5: Host factors affect the spectrum of empirical therapy
+
+<br>
 
 ![](images/immunocompromise.png){fig-align="center"}
 
@@ -570,7 +574,7 @@ Dose-dependent increase in the risk of opportunistic infections \> 10 mg of pred
 [@chastain2023]
 :::
 
-## Community acquired pneumonia (CAP) vs. <br> Pneumocystis jirovecii pneumonia (PCP)
+## Community acquired pneumonia (CAP) <br> vs. Pneumocystis jirovecii pneumonia (PCP)
 
 +---------------------------------------+------------------------------------------+
 | ![](images/PCP_xray.png){width="449"} | ![](images/PCP_CT.png){width="427"}      |
@@ -739,7 +743,7 @@ digraph G {
 [@gilbert2006a]
 :::
 
-## Second key pharmacokinetic variable: Clearance (CL)
+## Second key pharmacokinetic variable: <br> Clearance (CL)
 
 ::::: columns
 ::: {.column width="30%"}
@@ -763,7 +767,9 @@ digraph G {
 :::
 :::::
 
-## Important distinctions between Vd and CL in antibiotic dosing
+## Important distinctions between <br> Vd and CL in antibiotic dosing
+
+<br>
 
 -   **Vd and CL are both physiologically-based**
 
@@ -787,6 +793,8 @@ digraph G {
 
 ## Estimating renal function
 
+<br>
+
 Cockcroft-Gault formula (other formulas MDRD…etc.)
 
 <br>
@@ -804,6 +812,8 @@ $$
 -   Antibiotic dosing in dialysis (drug-specific dosing guidance)
 
 ## Problems of using serum creatinine-based dosing adjustments
+
+<br>
 
 -   Antibiotic renal dose adjustments in drug labels are based on patients with chronic kidney disease
 
@@ -843,7 +853,7 @@ https://www.uptodate.com/contents/search <br> [UptoDate](https://www.uptodate.co
 
 ![](images/clipboard-406664738.png){fig-align="center"}
 
-## PK/PD characteristics of common antibiotic classes
+## PK/PD characteristics of common <br> antibiotic classes
 
 ![](images/clipboard-3004890051.png){fig-align="center"}
 
@@ -856,6 +866,8 @@ https://www.uptodate.com/contents/search <br> [UptoDate](https://www.uptodate.co
 <https://www.tdmx.eu/Launch-TDMx/>
 
 ## Daptomycin is inactivated in the lung
+
+<br>
 
 ![](images/clipboard-3779354213.png){fig-align="center"}
 
@@ -901,7 +913,7 @@ https://www.uptodate.com/contents/search <br> [UptoDate](https://www.uptodate.co
 
     -   e.g., stopping empirical vancomycin in a patient without positive MRSA cultures
 
--   Biomarkers: C-reactive protein (clinical utility questioned), procalcitonin -*areas of diagnostic stewardship as tests are frequently abused*
+-   **Biomarkers:** C-reactive protein (clinical utility questioned), procalcitonin -*areas of diagnostic stewardship as tests are frequently abused*
 
 ::: notes
 Clinicians often ignore negative results but may use a positive procalcitonin to justify antibiotic use
@@ -915,7 +927,7 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 [@schuetzProcalcitoninGuideInitiation2012]
 :::
 
-## Choosing therapy : <br> gram-stain vs. guidelines
+## Choosing therapy : <br> gram-stain vs. guidelines {.smaller}
 
 ![](images/grace_trial.png){fig-align="center" width="1200"}
 
@@ -973,45 +985,46 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
 <br>
 
--   New onset of infectious signs, symptoms, and biomarkers after resolution of prior infection should raise the concern of a new infection rather than persistence of the original infection
+-   *New onset of infectious signs, symptoms, and biomarkers after resolution of prior infection should raise the concern of a new infection rather than persistence of the original infection*
 
--   Rarely, recrudescence of signs and symptoms may reflect emergence of antibiotic resistance on therapy from the initial pathogens
+-   *Rarely, recrudescence of signs and symptoms may reflect emergence of antibiotic resistance on therapy from the initial pathogens*
 
     -   This may be seen more with specific bacterial pathogens, such as *Acinetobacter baumannii*, than with others
 
     -   An initial apparent response to infection followed days or weeks later by new onset of infectious signs or symptoms should prompt a complete reevaluation of the patient for a new infection, including reculturing and imaging if necessary
 
--   In these patients, it is generally reasonable to broaden therapy to cover highly resistant pathogens
+-   *In these patients, it is generally reasonable to broaden therapy to cover highly resistant pathogens*
 
     -   Such patients have been exposed to recent courses of antibiotics and have a higher risk of being infected by antibiotic-resistant pathogens
 
--   When changing antibacterial therapies because of breakthrough infection or lack of response to initial therapy, it is generally advisable to change one antibiotic at a time (to a different class if possible)
+-   *When changing antibacterial therapies because of breakthrough infection or lack of response to initial therapy, it is generally advisable to change one antibiotic at a time (to a different class if possible)*
 
-## Principle #10:The duration of therapy should be as short as possible based on evidence <br> {.smaller}
+## Principle #10: The duration of therapy should be as short as possible based on evidence <br> {.smaller}
+<br>
 
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+-----------------+
-| Disease                                                       | Short course (days)       | Long course (days)                          | Outcome         |
-+===============================================================+===========================+=============================================+=================+
-| Bacteremia, gram-negative                                     | 7                         | 14                                          | Equivalent      |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+-----------------+
-| Chronic bronchitis and COPD                                   | ≤ 5 days                  | ≥ 7                                         | Equivalent      |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+-----------------+
-| Intra-abdominal infection                                     | 4                         | 10                                          | Equivalent      |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+-----------------+
-| Neutropenic fever                                             | Until afebrile and stable | Until, afebrile, stable and non-neutropenic | Equivalent      |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+-----------------+
-| Osteomyelitis, chronic                                        | 42                        | 84                                          | Equivalent      |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+-----------------+
-| Pneumonia, community-acquired                                 | 3-5                       | 7-10                                        | Equivalent      |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+-----------------+
-| Pneumonia, nosocomial (including VAP)                         | ≤ 8                       | 10-15                                       | Equivalent      |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+-----------------+
-| Pyelonephritis                                                | 5-7                       | 10-14                                       | Equivalent      |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+-----------------+
-| Skin infections (cellulitis, major abscess, wound infections) | 5-6                       | 10-14                                       | Equivalent      |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+-----------------+
-| Sinusitis, acute bacterial                                    | 5                         | 10                                          | Equivalent      |
-+---------------------------------------------------------------+---------------------------+---------------------------------------------+-----------------+
++---------------------------------------------------------------+---------------------------+---------------------------------------------+-------------+
+| Disease                                                       | Short course (days)       | Long course (days)                          | Outcome     |
++===============================================================+===========================+=============================================+=============+
+| Bacteremia, gram-negative                                     | 7                         | 14                                          | Equivalent  |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+-------------+
+| Chronic bronchitis and COPD                                   | ≤ 5 days                  | ≥ 7                                         | Equivalent  |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+-------------+
+| Intra-abdominal infection                                     | 4                         | 10                                          | Equivalent  |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+-------------+
+| Neutropenic fever                                             | Until afebrile and stable | Until, afebrile, stable and non-neutropenic | Equivalent  |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+-------------+
+| Osteomyelitis, chronic                                        | 42                        | 84                                          | Equivalent  |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+-------------+
+| Pneumonia, community-acquired                                 | 3-5                       | 7-10                                        | Equivalent  |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+-------------+
+| Pneumonia, nosocomial (including VAP)                         | ≤ 8                       | 10-15                                       | Equivalent  |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+-------------+
+| Pyelonephritis                                                | 5-7                       | 10-14                                       | Equivalent  |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+-------------+
+| Skin infections (cellulitis, major abscess, wound infections) | 5-6                       | 10-14                                       | Equivalent  |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+-------------+
+| Sinusitis, acute bacterial                                    | 5                         | 10                                          | Equivalent  |
++---------------------------------------------------------------+---------------------------+---------------------------------------------+-------------+
 
 ::: fotter
 [@spellbergPrinciplesAntibioticTherapy2025]
@@ -1019,7 +1032,7 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
 ## Common myths of antibiotic therapy
 
-## Myth #1:<br> "Bactericidal" antibiotics are more effective than "bacteriostatic" {.smaller}
+## Myth #1:<br> "Bactericidal" antibiotics are more effective  <br> than "bacteriostatic" {.smaller}
 
 -   Bactericidal activity: concentration of drug that results in 1000-fold reduction in inoculum within 24 hours
 
@@ -1030,6 +1043,7 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 *However, "bacteriostatic" drugs do kill bacteria, they just require higher concentrations*
 
 ## Systematic literature reviews: *cidal vs. static antibiotics for bacterial infections*
+<br> <br>
 
 -   56 randomized controlled trials identified
 
@@ -1057,7 +1071,7 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
     -   Low blood concentrations with tetracyclines and macrolides makes them a poor choice for high-grade bloodstream infections
 
-## Myth #2: Oral antibioic therapy is less effective than IV <br> for complex infections
+## Myth #2: Oral antibioic therapy is less effective  <br> than IV for complex infections
 
 <br> <br>
 
@@ -1085,7 +1099,7 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 [@wald-dicklerOralNewIV2022]
 :::
 
-## Transitioning to oral therapy: Key considerations
+## Transitioning to oral therapy: <br> Key considerations
 
 <br>
 
@@ -1102,10 +1116,11 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 ![](images/bioavail.png){fig-align="center"}
 
 ## Myth #3: Combination therapy: <br>*The good, the bad,...and the ugly*
+<br> <br>
 
 -   Are 2, 3 or 4 drugs better than 1?.....it depends on the situation
 
--   **Synergistic combination** the killing effect of two or more antibiotics is greater than the added effect of each antibiotic by itself.
+-   **Synergistic combination** the killing effect of two or more antibiotics is greater than the added effect of each antibiotic by itself
 
 -   Clinically, suggests that the success rate (however measured) is better when the two antibiotics are administered simultaneously
 
@@ -1123,7 +1138,7 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
     -   e.g., adding macrolide or doxycycline to cover atypical pathogens not treated by backbone ß-lactam
 
-    -   Specific ICU ward or hospital ward with high rates of MDR
+    -   Specific ICU ward or hospital ward with high rates of MDR- Two drugs may have greater coverage of MDR pathogens
 
 -   **Preventing emergence of resistance in specific clinical scenarios**
 
@@ -1132,6 +1147,7 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
     -   HIV and hepatitis C: Resistance converts a treatable (HIV) or curable (HCV) infection into a fatal illness
 
 ## Combination therapy: *The good, cont.*
+<br> <br>
 
 -   **Two active agents results in superior clinical outcomes compared to single active agent**
 
@@ -1139,7 +1155,8 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
     -   Bone and joint infections (nonreplicating bacteria in biofilm): Reduced relapse rates with addition of rifampin, especially to fluoroquinolones
 
-## Exotoxin-mediated infections- Necrotizing fasciitis
+## Exotoxin-mediated infections- <br> Necrotizing fasciitis
+<br> <br> 
 
 ::::: columns
 ::: {.column width="50%"}
@@ -1153,7 +1170,7 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 :::
 :::::
 
-## Eukaryotic infections: Combination therapy is beneficial
+## Eukaryotic infections: <br> Combination therapy is beneficial
 
 -   Cryptococcal meningitis (fungal infection): Amphotericin B + 5-FC
 
@@ -1190,12 +1207,13 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 :::
 
 ## Combination therapy- *The ugly: imperfect data*
+<br> <br>
 
 -   Fungal infections outside cryptococcosis
 
-    -   Candida infections- no clear benefit
+    -   *Candida* infections- no clear benefit
 
-    -   Aspergillus infection- possible benefit with echinocandins and triazoles
+    -   *Aspergillus* infection- possible benefit with echinocandins and triazoles
 
 ## Does combination therapy prevent resistance?
 
@@ -1212,3 +1230,4 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 -   Physicians bear the burden of using antibiotics effectively to heal and cure patients while preserving this awesome power
 
 ## References
+<br> <br>
