@@ -1,0 +1,24 @@
+body {
+  max-width: 960px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+.callout {
+  margin: 1.2em 0;
+}
+h1, h2, h3 {
+  margin-top: 1.5em;
+}
+table {
+  font-size: 0.92em;
+}
+.figure-caption {
+  font-size: 0.88em;
+  color: #555;
+}
+blockquote {
+  border-left: 4px solid #9B0014;
+  padding-left: 1em;
+  color: #333;
+  font-style: italic;
+}
