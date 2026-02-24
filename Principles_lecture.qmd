@@ -1237,7 +1237,7 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
 -   ***Yes-** Tuberculosis, HIV, HCV*
 
--   In test tubes (in theory) may work- *but Pyrrhic victory- greater selection for resistance, greater impact on microbiome?*
+-   In test tubes (in theory) against pyogenic bacteria it may work- *but Pyrrhic victory- greater selection for resistance, greater impact on microbiome?*
 
 ## Conclusions {background-image="images/antibiotic-resistance.jpg" background-opacity="0.3"}
 
