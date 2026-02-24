@@ -14,17 +14,30 @@ format:
     fontsize: 1em
     fig-width: 7
     fig-height: 5
-    self-contained: true
-    code-fold: true
+    embed-resources: true
     anchor-sections: true
     link-external-newwindow: true
+    css: styles_handout.css
+    format-links:
+      - pdf
+  pdf:
+    documentclass: article
+    geometry:
+      - margin=0.75in
+    fontsize: 10pt
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    colorlinks: true
+    fig-width: 6
+    fig-height: 4
+    keep-tex: false
 bibliography: references.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 lightbox: true
 editor:
   markdown:
     wrap: 72
-css: styles_handout.css
 ---
 
 # Introduction: Antibiotics — The Medical Miracle
@@ -58,7 +71,7 @@ employed various antimicrobial remedies — the first truly effective
 systemic antibiotics emerged in the early 20th century.
 
 | **Paul Ehrlich** (1909) Salvarsan — first treatment for syphilis; highly toxic, required skilled administration | **Alexander Fleming** (1929) Penicillin discovery; purified and tested by Florey, Chain & Heatley (1940) | **Gerhard Domagk** (1931) Sulfonamides — discovered through textile dye research; treated his own daughter's severe cellulitis before human trials |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | ![](images/Erhlich.png){width="250"} | ![](images/Fleming.png){width="350"} | ![](images/Domagk.png){width="220"} |
 
 : The three founding figures of modern antibiotic therapy. {.striped}
@@ -345,7 +358,7 @@ The standard diagnostic workup and treatment for staphylococcal
 spondylitis would **completely miss** this diagnosis:
 
 | Aspect | Standard spondylitis | Brucellosis spondylitis |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | Blood cultures | Standard incubation | **Prolonged incubation** required; bone marrow biopsy may be needed |
 | Specific tests | Not required | **Brucella PCR**, combination serologic studies |
 | Treatment | Vancomycin or anti-staphylococcal agents | **Gentamicin + Doxycycline + Rifampin** — completely unconventional |
@@ -368,7 +381,7 @@ are sickest.
 ### Timeline from Suspicion to Definitive Therapy
 
 | Time | Step | Action |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | **0 hours** | Suspect infection | Clinical assessment |
 | **\~1 hour** | Culture suspected sites | **Begin empiric therapy** for likely pathogens |
 | **\~24 hours** | Gram stain results | Preliminary guidance for therapy adjustment |
@@ -427,7 +440,7 @@ contamination**.
 Common offenders include:
 
 | Sample type | Problem |
-|----|----|
+|------------------------------------|------------------------------------|
 | **Superficial wound swabs** | Sample skin flora, not the pathogen causing deep infection; deep tissue biopsy at infection margins is required |
 | **Urine cultures** | Catheterized patients always have positive cultures; asymptomatic bacteriuria should not be treated |
 | **Bronchoalveolar lavage** | Can become contaminated with oral flora during bronchoscope withdrawal |
@@ -485,7 +498,7 @@ then initiate appropriate antibiotic therapy.
 Two common ethical scenarios:
 
 | End-of-life care | Non-adherent HIV therapy |
-|:--:|:--:|
+|:----------------------------------:|:----------------------------------:|
 | ![](images/terminal.png){width="300"} | ![](images/HIV.png){width="300"} |
 | Should infections be treated aggressively in terminally ill patients? Generally yes for comfort, but the extent of treatment for MDR infections in terminal stages remains debated. | If a patient is non-adherent, antibiotic/antiviral therapy risks transforming their infection into a resistant, untreatable, and potentially transmissible disease. |
 
@@ -514,7 +527,7 @@ Consider the dramatic narrowing of treatment options with increasing
 resistance in *E. coli*:
 
 | Resistance phenotype | Available options | Key drugs remaining |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | **Susceptible *E. coli*** | Many options across multiple classes | Amoxicillin-clavulanate, piperacillin-tazobactam, cephalosporins, carbapenems, fluoroquinolones |
 | **ESBL-producing *E. coli*** (25–30% of hospital isolates) | Dramatically reduced | Primarily **carbapenems** |
 | **KPC/MBL carbapenemase-producing *E. coli*** | Only 1–2 options, none with strong clinical evidence | Newer agents (ceftazidime-avibactam, cefiderocol) with limited clinical data |
@@ -529,7 +542,7 @@ respiratory infections.](images/respiratory.png){fig-align="center"
 width="85%"}
 
 | Feature | Community infections | Nosocomial infections |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | MDR Gram-negatives | Infrequent | Common |
 | MRSA risk | Low (unless specific risk factors) | High, especially with recent antibiotic use |
 | Typical pathogens | *S. pneumoniae*, *H. influenzae*, *M. catarrhalis*, atypical pathogens | *Pseudomonas*, MRSA, non-fermenting Gram-negatives, Enterobacterales |
@@ -679,7 +692,7 @@ the site of infection at adequate concentrations?
 ![The PK/PD framework: patient and drug factors determine
 pharmacokinetics; intrinsic/acquired resistance and inoculum determine
 pharmacodynamics. Their interaction (PK/PD) predicts microbiological and
-clinical outcomes.](images/pkpd_framework.svg){fig-align="center"
+clinical outcomes.](images/pkpd_framework.png){fig-align="center"
 width="70%"}
 
 **Pharmacodynamics** (spectrum, MIC, potency) — you **cannot control**
@@ -868,7 +881,7 @@ CL~other~.](images/clearance.png){fig-align="center" width="30%"}
 ### Vd vs. Clearance: Critical Distinctions
 
 | Parameter | Determines | Clinical use |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | **Volume of distribution (Vd)** | How much drug distributes into tissues | **Loading dose** — fill the "tank" |
 | **Clearance (CL)** | How fast the body eliminates drug | **Maintenance dose** — how often and how much to give |
 
