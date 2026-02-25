@@ -538,9 +538,14 @@ considered:
 ## Practical Tip — The Pen Test for Cellulitis
 
 For cellulitis, draw a line around the advancing edge of erythema with a
-pen. Return in 12–24 hours: if the erythema is receding from the line,
-therapy is working. If it is advancing beyond the line, therapy may be
-failing.
+pen. While examining the patient after 12–24 hours, determine if the
+line of erythema is receding from the line- this suggests the therapy is
+working. If it is advancing beyond the line, therapy may be failing.
+
+![](images/pen.png){fig-align="center"}
+
+Cellulitis due to *Staphylococcus aureus*. Note lines are progressively
+drawn around edge of erythema to document response to therapy
 :::
 
 ## Source Control — The Most Common Cause of Antibiotic Failure
@@ -624,7 +629,11 @@ agents — the greater the risk of **drug fever**. A clinically stable
 patient with low-grade fever on multiple antibiotics should prompt
 consideration of whether one of the antibiotics is the cause. This is
 particularly common in haematology-oncology patients receiving prolonged
-empirical therapy without a microbiological diagnosis.
+empirical therapy without a microbiological diagnosis. Antibiotic
+associated fever should be part of the differential diagnosis in any
+patient with rash and/or eosinophilia. Additionally, clinicians should
+recognize the underlying disease processes can also be associated with
+fever (e.g., active lymphoma, solid tumors, etc.)
 :::
 
 # Principle 9: Distinguish New Infection from Failure of Initial Therapy
@@ -665,7 +674,10 @@ that formal duration trials were not conducted.
 
 Over the past decade, numerous randomised controlled trials have
 systematically examined whether shorter courses are as effective as
-longer ones. The consistent finding has been: **shorter is better**.
+longer ones. The consistent finding has been with a few exceptions:
+**shorter is better**. Therefore, clinicians should recommend the
+shortest courses of antibiotic therapy supported by clinical evidence
+(examples are below).
 
 ## Evidence for Short-Course Therapy
 
