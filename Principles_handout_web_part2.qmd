@@ -1,7 +1,7 @@
 ---
 title: "Principles of Effective Antibiotic Therapy — Part 2"
 subtitle: "Lecture Handout — Slides 63+"
-author: "Prof. Russell E. Lewis, PharmD — Department of Molecular Medicine, University of Padua"
+author: "Prof. Russell E. Lewis— Department of Molecular Medicine, University of Padua"
 date: today
 format:
   html:
@@ -70,7 +70,7 @@ Clinical implication: when treating infections with higher MICs, it may
 be preferable to give a single higher dose rather than multiple smaller
 doses.
 
-**Time-dependent killing (T > MIC).** For these antibiotics, efficacy
+**Time-dependent killing (T \> MIC).** For these antibiotics, efficacy
 depends on how long the drug concentration remains above the MIC during
 the dosing interval. Increasing the peak concentration does not
 substantially improve killing — what matters is *duration of exposure*.
@@ -89,22 +89,119 @@ category.
 
 ## How PK/PD Indices Are Identified
 
-PK/PD relationships are established through a combination of *in vitro*
-time-kill studies, animal infection models, and retrospective analyses
-of clinical data. Researchers measure the drug exposure associated with
-maximal efficacy (e.g., bacterial eradication, survival) and determine
-which PK/PD index best correlates with outcome.
+## Dose Fractionation Studies in Antimicrobial Pharmacodynamics
 
-![The process by which PK/PD targets are determined: from *in vitro*
-kill-curve experiments, through animal model validation, to clinical
-outcome
-correlation.](images/clipboard-2182940819.png){fig-align="center"}
+Dose fractionation experiments are a cornerstone methodology for
+identifying which PK/PD index best predicts antimicrobial efficacy. The
+fundamental design is elegant: a fixed total daily dose is administered
+to infected animals (typically neutropenic murine thigh or lung
+infection models) but divided into different dosing intervals — for
+example, the same total mg/kg/day given as a single dose (q24h), split
+into two doses (q12h), three (q8h), or six (q4h).
+
+Because the total drug exposure (AUC) remains constant across all
+regimens while the shape of the concentration-time curve changes
+dramatically, you can tease apart which PK/PD driver matters most:
+
+**If the q24h regimen wins** (produces the greatest bacterial kill or
+survival), the drug achieves the highest peak concentrations, and
+efficacy is driven by **Cmax/MIC**. This is the classic pattern for
+aminoglycosides and daptomycin — concentration-dependent killing where
+you want to hit hard with large, infrequent doses.
+
+**If all regimens perform equally**, efficacy depends only on total
+exposure regardless of how it's distributed over time, pointing to
+**AUC/MIC** as the predictive index. Fluoroquinolones, azithromycin, and
+most antifungals (including the azoles and echinocandins) follow this
+pattern. Notably, AUC/MIC-driven drugs can still show
+concentration-dependent killing in time-kill curves; the fractionation
+study reveals that what ultimately matters in vivo is cumulative
+exposure.
+
+**If the q4h regimen wins**, splitting the dose into frequent small
+administrations keeps concentrations above the MIC for the longest
+fraction of the dosing interval, identifying **%T\>MIC** as the key
+driver. This is the signature of beta-lactams and, to a degree,
+linezolid — time-dependent killing where prolonged exposure above
+threshold matters more than peak height.
+
+As the figure below illustrates, the three PK/PD curve shapes are
+visually distinct: the q24h-optimized profile shows tall, sharp peaks
+well above MIC; the AUC-driven profile shows equivalent areas under all
+regimens; and the T\>MIC-optimized profile shows low, sustained
+concentrations hovering above the MIC line.
+
+These experiments, pioneered largely by Craig and Andes at Wisconsin,
+translated directly into clinical dosing strategies — continuous or
+extended infusions for beta-lactams, once-daily aminoglycoside dosing,
+and AUC-guided vancomycin monitoring. They remain the standard
+preclinical framework for establishing PK/PD targets that then inform
+clinical breakpoints, dose optimization, and Monte Carlo simulation
+work.
+
+![](images/dose_fract.png){fig-align="center" width="789"}
+
+This is a classic dose fractionation result for a cephalosporin. The
+same dataset (CFU/thigh at 24 hours in a neutropenic mouse thigh
+infection model) is plotted against all three candidate PK/PD indices
+simultaneously:
+
+In the **Cmax/MIC panel** (left), the data points are scattered with no
+coherent relationship — you can achieve the same peak-to-MIC ratio and
+get wildly different bacterial burdens, ranging from near-baseline
+(\~7.3 log, the dashed stasis line) to maximal kill or no kill at all.
+
+The **AUC/MIC panel** (centre) shows a similar scatter. Total exposure
+alone does not predict outcome.
+
+The **%T\>MIC panel** (right) reveals a tight sigmoidal relationship (R²
+= 0.94). As the percentage of the dosing interval with concentrations
+above MIC increases, bacterial burden drops progressively. Below about
+25–30% T\>MIC, there is essentially no efficacy (CFU remain at or above
+stasis). Maximal kill plateaus once T\>MIC reaches roughly 60–70%.
+
+This is the definitive demonstration that beta-lactams are
+time-dependent killers. The clinical translation is direct: you don't
+need higher peaks, you need longer exposure above MIC — hence the
+rationale for extended or continuous infusions of beta-lactams, and why
+dosing interval matters more than dose size for this drug class.
+
+## From Animal Model to Clinical Validation — AUC/MIC Target for Fluoroquinolones
+
+This figure below illustrates a critical step in PK/PD-guided drug
+development: translating an animal-derived target to human outcomes.
+
+The **left panel** shows ciprofloxacin in a murine *P. aeruginosa*
+pneumonia model. Mortality rate is plotted against the 24-hour AUC/MIC.
+There is a steep sigmoid relationship: mortality is essentially 100% at
+low AUC/MIC values, then drops sharply to near zero once AUC/MIC exceeds
+approximately **125**. This identifies the animal-derived PK/PD target.
+
+The **right panel** validates this same threshold in humans — patients
+with ventilator-associated pneumonia treated with fluoroquinolones. When
+clinical and microbiological cure rates are stratified by achieved
+AUC/MIC, there is a dramatic jump in outcomes at the 125–250 bracket
+(88% microbiological cure, 81% clinical cure) compared to lower strata.
+Below an AUC/MIC of 125, cure rates are poor (≤40% microbiological, ≤30%
+clinical). Interestingly, outcomes plateau or even slightly decline at
+very high AUC/MIC values, which likely reflects confounding — patients
+with highly susceptible organisms (low MICs, thus high AUC/MIC ratios)
+may have had less virulent infections.
+
+Taken together, these panels demonstrate the "bench-to-bedside" PK/PD
+pipeline: animal dose fractionation identifies AUC/MIC as the driver and
+defines a target of \~125, and clinical outcome data in critically ill
+patients confirms that this same threshold discriminates success from
+failure. This AUC/MIC ≥ 125 target for fluoroquinolones against
+Gram-negatives has become one of the most widely cited PK/PD benchmarks
+and underpins breakpoint setting, Monte Carlo dosing simulations, and
+clinical dosing recommendations.
 
 These studies have consistently shown that specific PK/PD targets
-predict clinical success. For example, for beta-lactams, a T > MIC of
+predict clinical success. For example, for beta-lactams, a T \> MIC of
 40–50% is typically associated with microbiological efficacy, while for
-aminoglycosides a Peak/MIC ratio of 8–10 is optimal
-[@craig_1998; @drusano2004].
+aminoglycosides a Peak/MIC ratio of 8–10 is optimal [@craig_1998;
+@drusano2004].
 
 ![Clinical outcome data demonstrating the correlation between PK/PD
 index attainment and therapeutic
@@ -143,26 +240,26 @@ coefficient of variation in drug exposure can reach 80–100%.
 
 The approach works as follows:
 
-1. **Population pharmacokinetic models** are developed by studying
-   hundreds or thousands of patients who received the drug. These models
-   identify the clinical covariates (e.g., renal function, weight,
-   albumin level, dialysis status) that significantly affect drug
-   clearance and volume of distribution.
+1.  **Population pharmacokinetic models** are developed by studying
+    hundreds or thousands of patients who received the drug. These
+    models identify the clinical covariates (e.g., renal function,
+    weight, albumin level, dialysis status) that significantly affect
+    drug clearance and volume of distribution.
 
-2. An **a priori prediction** is generated for a new patient based on
-   their clinical characteristics. This provides a probability estimate
-   that a given dosing regimen will achieve the PK/PD target (e.g.,
-   sufficient T > MIC for a beta-lactam).
+2.  An **a priori prediction** is generated for a new patient based on
+    their clinical characteristics. This provides a probability estimate
+    that a given dosing regimen will achieve the PK/PD target (e.g.,
+    sufficient T \> MIC for a beta-lactam).
 
-3. **Therapeutic drug monitoring (TDM)** — measuring an actual drug
-   level in the patient's blood — is used to validate or refine the
-   model prediction. If the measured concentration differs from the
-   prediction, the model is adjusted (*Bayesian updating*) to produce a
-   dosing regimen specific to that individual patient.
+3.  **Therapeutic drug monitoring (TDM)** — measuring an actual drug
+    level in the patient's blood — is used to validate or refine the
+    model prediction. If the measured concentration differs from the
+    prediction, the model is adjusted (*Bayesian updating*) to produce a
+    dosing regimen specific to that individual patient.
 
-4. As the patient's clinical status changes (e.g., declining renal
-   function, fluid shifts), the model can be **continuously updated** to
-   maintain optimal exposure.
+4.  As the patient's clinical status changes (e.g., declining renal
+    function, fluid shifts), the model can be **continuously updated**
+    to maintain optimal exposure.
 
 ## Worked Example: Meropenem Dosing in the ICU
 
@@ -171,15 +268,15 @@ vehicle accident who is becoming hypotensive and requires empirical
 broad-spectrum antibiotic therapy. Meropenem 1 g infused over 30 minutes
 every 8 hours (the standard licensed dose) is initiated.
 
-Using a population PK model for meropenem in critically ill patients,
-we can predict the concentration–time profile. For a susceptible
-pathogen with an MIC of 2 mg/L (e.g., *E. coli*), the model estimates
-a T > MIC of approximately 93% — comfortably above the 40–50% target
-needed for efficacy.
+Using a population PK model for meropenem in critically ill patients, we
+can predict the concentration–time profile. For a susceptible pathogen
+with an MIC of 2 mg/L (e.g., *E. coli*), the model estimates a T \> MIC
+of approximately 93% — comfortably above the 40–50% target needed for
+efficacy.
 
 **But what if the MIC is 16 mg/L?** Now the time above MIC falls to
-approximately 18–20%, well below the target. Simply doubling the dose
-to 2 g achieves only marginally better T > MIC, while producing
+approximately 18–20%, well below the target. Simply doubling the dose to
+2 g achieves only marginally better T \> MIC, while producing
 dangerously high peak concentrations (approaching the seizure threshold
 of approximately 100 mg/L). The additional drug is essentially "wasted"
 — eliminated renally without contributing to bacterial killing.
@@ -190,35 +287,36 @@ of approximately 100 mg/L). The additional drug is essentially "wasted"
 The solution exploits the PK/PD principle: since meropenem is
 time-dependent, we need to increase *duration of exposure*, not peak
 concentration. By infusing 1 g over 7.5 hours (instead of 30 minutes)
-every 8 hours, the T > MIC improves dramatically — approaching 100%
+every 8 hours, the T \> MIC improves dramatically — approaching 100%
 even against the higher MIC target. Meropenem must be changed every 8
 hours because of limited stability in solution, so a 7.5-hour infusion
-(with 30 minutes for the changeover) maximises infusion time within
-this constraint.
+(with 30 minutes for the changeover) maximises infusion time within this
+constraint.
 :::
 
 This model-based approach also allows clinicians to ask "what if"
-questions: *What if renal function declines? What if we need to cover
-a less susceptible pathogen?* The interactive TDMx platform
+questions: *What if renal function declines? What if we need to cover a
+less susceptible pathogen?* The interactive TDMx platform
 (<https://www.tdmx.eu/Launch-TDMx/>) allows exploration of these
 scenarios for meropenem and other antibiotic classes such as
 aminoglycosides [@Abdul-Aziz2015; @kothekar2020].
 
 ## Hepatic Clearance and Drug Interaction Screening
 
-Not all antibiotics are cleared renally. Several important antimicrobials
-(e.g., metronidazole, rifampin, certain macrolides, antifungals) undergo
-significant hepatic metabolism. For these drugs, hepatic dysfunction and
-drug–drug interactions become the primary concerns for dose adjustment.
+Not all antibiotics are cleared renally. Several important
+antimicrobials (e.g., metronidazole, rifampin, certain macrolides,
+antifungals) undergo significant hepatic metabolism. For these drugs,
+hepatic dysfunction and drug–drug interactions become the primary
+concerns for dose adjustment.
 
 ![Hepatic clearance pathways for commonly used
 antibiotics.](images/hepatic.png){fig-align="center"}
 
 Clinicians should routinely screen for drug interactions — particularly
-when using rifampin (a potent inducer of cytochrome P450 enzymes),
-azole antifungals (CYP inhibitors), or macrolides — using resources
-such as [UpToDate](https://www.uptodate.com/contents/search) or
-similar drug interaction databases.
+when using rifampin (a potent inducer of cytochrome P450 enzymes), azole
+antifungals (CYP inhibitors), or macrolides — using resources such as
+[UpToDate](https://www.uptodate.com/contents/search) or similar drug
+interaction databases.
 
 # Site-Specific Limitations of Antibiotic Activity
 
@@ -227,8 +325,8 @@ similar drug interaction databases.
 Daptomycin is one of the most important antibiotics available for
 treating methicillin-resistant *Staphylococcus aureus* (MRSA). It is a
 rapidly bactericidal, concentration-dependent lipopeptide that was
-originally developed by Eli Lilly in the 1980s but abandoned after
-phase II trials revealed rhabdomyolysis (muscle damage leading to renal
+originally developed by Eli Lilly in the 1980s but abandoned after phase
+II trials revealed rhabdomyolysis (muscle damage leading to renal
 failure) when given three times daily. A biotech company (Cubist
 Pharmaceuticals) later applied PK/PD principles to recognise that
 daptomycin was concentration-dependent — a single daily dose both
@@ -243,15 +341,16 @@ failed to demonstrate efficacy.
 
 ![Daptomycin binding to pulmonary surfactant renders it inactive against
 *S. aureus* in the lung, despite excellent activity in the bloodstream
-and other
-tissues.](images/clipboard-3779354213.png){fig-align="center"}
+and other tissues.](images/clipboard-3779354213.png){fig-align="center"}
 
 ::: callout-warning
 ## Clinical Rule
 
 **Never use daptomycin to treat pneumonia** — regardless of the
 pathogen's susceptibility. It will not achieve adequate antimicrobial
-activity in the pulmonary compartment.
+activity in the pulmonary compartment. Although the drug could
+theoretically treat hematogenously-spread infection to the lung; in
+alveolar spaces the drug will not be effective.
 :::
 
 ## Antibiotic Activity in Abscesses
@@ -259,18 +358,17 @@ activity in the pulmonary compartment.
 Abscesses and large haematomas present another challenging environment
 for antibiotics. Several factors conspire to reduce drug activity:
 
-- **Aminoglycosides** are bound and inactivated by purulent material.
-  Low oxygen tension in abscesses impairs the active uptake of
-  aminoglycosides into bacteria.
-- **Penicillins and tetracyclines** are bound by haemoglobin and have
-  reduced activity in the presence of haematoma formation.
-- **Low pH** within abscesses further reduces the activity of many
-  antibiotic classes.
+-   **Aminoglycosides** are bound and inactivated by purulent material.
+    Low oxygen tension in abscesses impairs the active uptake of
+    aminoglycosides into bacteria.
+-   **Penicillins and tetracyclines** are bound by haemoglobin and have
+    reduced activity in the presence of haematoma formation.
+-   **Low pH** within abscesses further reduces the activity of many
+    antibiotic classes.
 
 ![The hostile environment of an abscess — low pH, low oxygen tension,
 purulent material, and high bacterial density — impairs the activity of
-many
-antibiotics.](images/clipboard-3855805086.png){fig-align="center"}
+many antibiotics.](images/clipboard-3855805086.png){fig-align="center"}
 
 ::: callout-important
 ## Source Control Is Essential
@@ -300,16 +398,15 @@ results.](images/microbiological%20workup.png){fig-align="center"}
 
 Key opportunities for de-escalation include:
 
-- **Stopping empirical vancomycin** when blood cultures grow only
-  Gram-negative bacilli (no MRSA isolated).
-- **Stopping broad-spectrum anti-resistant pathogen therapy** when
-  cultures reveal susceptible organisms.
-- **Narrowing from combination therapy to monotherapy** when a single
-  effective agent is identified.
+-   **Stopping empirical vancomycin** when blood cultures grow only
+    Gram-negative bacilli (no MRSA isolated).
+-   **Stopping broad-spectrum anti-resistant pathogen therapy** when
+    cultures reveal susceptible organisms.
+-   **Narrowing from combination therapy to monotherapy** when a single
+    effective agent is identified.
 
 Remember: every additional day of unnecessary antibiotic therapy carries
-an approximately 3% increased risk of adverse drug events
-[@tamma2017b].
+an approximately 3% increased risk of adverse drug events [@tamma2017b].
 
 ## Biomarkers for Guiding De-escalation
 
@@ -332,10 +429,10 @@ non-infectious inflammatory stimuli.
 
 ### Procalcitonin (PCT)
 
-Procalcitonin is a biomarker that rises more specifically in response
-to bacterial infections, especially Gram-negative sepsis. Multiple
-studies have demonstrated that **procalcitonin-guided algorithms** can
-safely reduce antibiotic duration — when procalcitonin declines below a
+Procalcitonin is a biomarker that rises more specifically in response to
+bacterial infections, especially Gram-negative sepsis. Multiple studies
+have demonstrated that **procalcitonin-guided algorithms** can safely
+reduce antibiotic duration — when procalcitonin declines below a
 threshold value, antibiotics can be discontinued with confidence
 [@schuetzProcalcitoninGuideInitiation2012].
 
@@ -365,9 +462,9 @@ A recent randomised clinical trial published in *JAMA Network Open*
 (GRACE-VAP trial) demonstrated that Gram stain–guided antibiotic
 selection for ventilator-associated pneumonia resulted in:
 
-- A **30% reduction** in use of anti-pseudomonal agents
-- A **40% reduction** in MRSA-directed agents
-- Higher rates of appropriate antibiotic escalation (7% vs. 1%)
+-   A **30% reduction** in use of anti-pseudomonal agents
+-   A **40% reduction** in MRSA-directed agents
+-   Higher rates of appropriate antibiotic escalation (7% vs. 1%)
 
 ![The GRACE-VAP trial demonstrated that Gram stain–guided initial
 antibiotic therapy leads to more appropriate antimicrobial use in
@@ -398,22 +495,22 @@ Consider a blood culture isolate of a KPC-producing *Klebsiella
 pneumoniae* that reports **ceftazidime-avibactam S (MIC \< 1)**,
 **colistin S (MIC 1)**, and **amikacin S**:
 
-1. **Ceftazidime-avibactam** has an MIC well below its breakpoint of 8
-   — the 3–4 dilution margin provides genuine confidence in efficacy.
-2. **Colistin** has an MIC of 1, which is only one dilution below the
-   resistance breakpoint of 2. Given that MIC testing has an inherent
-   error of plus or minus one dilution (performing the test 10 times could
-   yield results of 0.5, 1, 2, or even 4), this "S" result is
-   essentially unreliable. Furthermore, colistin is clinically inferior
-   — it is nephrotoxic, neurotoxic, has poor lung penetration, and
-   carries high rates of spontaneous resistance.
-3. **Amikacin** alone is insufficient as monotherapy for serious
-   Gram-negative bloodstream infections.
+1.  **Ceftazidime-avibactam** has an MIC well below its breakpoint of 8
+    — the 3–4 dilution margin provides genuine confidence in efficacy.
+2.  **Colistin** has an MIC of 1, which is only one dilution below the
+    resistance breakpoint of 2. Given that MIC testing has an inherent
+    error of plus or minus one dilution (performing the test 10 times
+    could yield results of 0.5, 1, 2, or even 4), this "S" result is
+    essentially unreliable. Furthermore, colistin is clinically inferior
+    — it is nephrotoxic, neurotoxic, has poor lung penetration, and
+    carries high rates of spontaneous resistance.
+3.  **Amikacin** alone is insufficient as monotherapy for serious
+    Gram-negative bloodstream infections.
 
 The infectious disease specialist would recognise ceftazidime-avibactam
 as the clearly superior option, potentially combined with amikacin for
-the first 2–3 days until bloodstream clearance is confirmed. *S does
-not always mean S* — the clinical context, PK/PD characteristics, and
+the first 2–3 days until bloodstream clearance is confirmed. *S does not
+always mean S* — the clinical context, PK/PD characteristics, and
 limitations of the MIC test itself must all be considered.
 :::
 
@@ -430,20 +527,20 @@ If the following parameters do not improve within 48–72 hours of
 initiating appropriate antibiotic therapy, treatment failure should be
 considered:
 
-- Persistent or worsening **fever**
-- Elevated **white blood cell count**
-- Continuing **purulent secretions**
-- Signs of inflammation: *rubor* (redness), *tumor* (swelling), *dolor*
-  (pain), *calor* (warmth)
-- Stagnant or rising **biomarkers** (procalcitonin, CRP)
+-   Persistent or worsening **fever**
+-   Elevated **white blood cell count**
+-   Continuing **purulent secretions**
+-   Signs of inflammation: *rubor* (redness), *tumor* (swelling),
+    *dolor* (pain), *calor* (warmth)
+-   Stagnant or rising **biomarkers** (procalcitonin, CRP)
 
 ::: callout-tip
 ## Practical Tip — The Pen Test for Cellulitis
 
-For cellulitis, draw a line around the advancing edge of erythema with
-a pen. Return in 12–24 hours: if the erythema is receding from the
-line, therapy is working. If it is advancing beyond the line, therapy
-may be failing.
+For cellulitis, draw a line around the advancing edge of erythema with a
+pen. Return in 12–24 hours: if the erythema is receding from the line,
+therapy is working. If it is advancing beyond the line, therapy may be
+failing.
 :::
 
 ## Source Control — The Most Common Cause of Antibiotic Failure
@@ -453,26 +550,28 @@ evaluate whether there is an anatomical source that antibiotics cannot
 adequately penetrate:
 
 | Occult subcutaneous abscess in cellulitis | New abscess formation in intra-abdominal infection | Empyema in community-acquired pneumonia | Visceral or skeletal abscess in bacteraemia | Failure to remove an infected central venous catheter |
-|:---:|:---:|:---:|:---:|:---:|
+|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
 | ![](images/abscess.png) | ![](images/abdominlaabscess.png) | ![](images/empyema.png) | ![](images/spondylitis.png) | ![](images/biofilm.png) |
 
-: Common source control problems requiring surgical or procedural intervention. {.striped}
+: Common source control problems requiring surgical or procedural
+intervention. {.striped}
 
-For many infections — particularly complicated cellulitis, intra-abdominal
-infections, and empyema — **the most important therapeutic intervention
-is not the antibiotic but the surgical procedure** (incision and
-drainage, percutaneous drainage, chest tube placement).
+For many infections — particularly complicated cellulitis,
+intra-abdominal infections, and empyema — **the most important
+therapeutic intervention is not the antibiotic but the surgical
+procedure** (incision and drainage, percutaneous drainage, chest tube
+placement).
 
 ## Biofilms: A Key Source of Antibiotic Failure
 
 When bacteria colonise prosthetic materials (central venous catheters,
 prosthetic joints, heart valves, urinary catheters), they form
 **biofilm** — a glycopolysaccharide matrix that protects bacteria from
-both immune cells and antibiotics. Within a biofilm, bacteria exist in
-a spectrum of metabolic states: surface bacteria are metabolically
-active, but deeper layers become progressively dormant ("zombie"
-bacteria). Because beta-lactams require actively dividing bacteria to
-exert their effect, these dormant cells are intrinsically tolerant.
+both immune cells and antibiotics. Within a biofilm, bacteria exist in a
+spectrum of metabolic states: surface bacteria are metabolically active,
+but deeper layers become progressively dormant ("zombie" bacteria).
+Because beta-lactams require actively dividing bacteria to exert their
+effect, these dormant cells are intrinsically tolerant.
 
 ![Biofilm structure on a prosthetic device. Bacteria within the biofilm
 are protected from antibiotics and immune defences, and periodically
@@ -484,15 +583,15 @@ recurrent bacteraemia.
 
 **Management of catheter-related biofilm infections:**
 
-- **High-virulence organisms** (e.g., *S. aureus*, *Candida* spp.,
-  *Pseudomonas aeruginosa*): the catheter **must be removed**. The risk
-  of haematogenous seeding to bones, heart valves, and other sites is
-  too high to justify salvage attempts.
-- **Low-virulence organisms** (e.g., coagulase-negative staphylococci):
-  catheter salvage with **antibiotic lock therapy** may be attempted,
-  particularly if the catheter cannot easily be replaced. However, this
-  approach is **never curative** — it only reduces the inoculum and
-  delays recurrence.
+-   **High-virulence organisms** (e.g., *S. aureus*, *Candida* spp.,
+    *Pseudomonas aeruginosa*): the catheter **must be removed**. The
+    risk of haematogenous seeding to bones, heart valves, and other
+    sites is too high to justify salvage attempts.
+-   **Low-virulence organisms** (e.g., coagulase-negative
+    staphylococci): catheter salvage with **antibiotic lock therapy**
+    may be attempted, particularly if the catheter cannot easily be
+    replaced. However, this approach is **never curative** — it only
+    reduces the inoculum and delays recurrence.
 
 ::: callout-note
 ## The Unmet Need
@@ -508,14 +607,14 @@ remains one of the greatest unmet needs in infectious disease.
 When a patient fails to respond to antibiotic therapy, systematically
 consider the **FAIL** construct:
 
-- **F** — **False diagnosis** (wrong pathogen, non-infectious cause of
-  fever such as malignancy, drug fever)
-- **A** — **Allergies** (antibiotic-associated fever or rash; consider
-  whether the antibiotic itself is causing the persistent fever)
-- **I** — **Intercurrent infections** (a new or secondary infection has
-  developed)
-- **L** — **Localised process** (undrained abscess, infected prosthetic
-  material, catheter-related infection)
+-   **F** — **False diagnosis** (wrong pathogen, non-infectious cause of
+    fever such as malignancy, drug fever)
+-   **A** — **Allergies** (antibiotic-associated fever or rash; consider
+    whether the antibiotic itself is causing the persistent fever)
+-   **I** — **Intercurrent infections** (a new or secondary infection
+    has developed)
+-   **L** — **Localised process** (undrained abscess, infected
+    prosthetic material, catheter-related infection)
 
 ::: callout-warning
 ## Antibiotic-Associated Fever
@@ -539,30 +638,30 @@ baumannii*.
 
 Key management principles:
 
-- Perform a **complete diagnostic re-evaluation**: new blood cultures,
-  imaging, and clinical reassessment.
-- It is generally reasonable to **broaden therapy** to cover
-  highly resistant pathogens, as these patients have been exposed to
-  recent antibiotics and carry a higher risk of resistant organisms.
-- When changing antibiotics for breakthrough infection, **change one
-  drug at a time** (to a different class if possible) to preserve the
-  ability to assess which change was effective.
-- If no source is identified despite thorough evaluation, it may
-  ultimately be necessary to **stop all antibiotics** and allow the
-  infection to "redeclare itself" — because continuing empirical therapy
-  without a diagnosis will progressively reduce the probability of ever
-  making one.
+-   Perform a **complete diagnostic re-evaluation**: new blood cultures,
+    imaging, and clinical reassessment.
+-   It is generally reasonable to **broaden therapy** to cover highly
+    resistant pathogens, as these patients have been exposed to recent
+    antibiotics and carry a higher risk of resistant organisms.
+-   When changing antibiotics for breakthrough infection, **change one
+    drug at a time** (to a different class if possible) to preserve the
+    ability to assess which change was effective.
+-   If no source is identified despite thorough evaluation, it may
+    ultimately be necessary to **stop all antibiotics** and allow the
+    infection to "redeclare itself" — because continuing empirical
+    therapy without a diagnosis will progressively reduce the
+    probability of ever making one.
 
 # Principle 10: Shorter Is Better — Duration of Therapy Should Be Evidence-Based
 
 ## The Shift from Tradition to Evidence
 
-Historically, antibiotic treatment durations were based on tradition
-and clinical authority rather than evidence. Standard recommendations
-of 7, 14, 21, or 42 days — always fitting neatly into weekly multiples
-— were handed down through generations of teaching. These durations
-were never rigorously tested because early antibiotics were so
-obviously effective that formal duration trials were not conducted.
+Historically, antibiotic treatment durations were based on tradition and
+clinical authority rather than evidence. Standard recommendations of 7,
+14, 21, or 42 days — always fitting neatly into weekly multiples — were
+handed down through generations of teaching. These durations were never
+rigorously tested because early antibiotics were so obviously effective
+that formal duration trials were not conducted.
 
 Over the past decade, numerous randomised controlled trials have
 systematically examined whether shorter courses are as effective as
@@ -571,7 +670,7 @@ longer ones. The consistent finding has been: **shorter is better**.
 ## Evidence for Short-Course Therapy
 
 | Infection | Short course (days) | Long course (days) | Outcome |
-|---|---|---|---|
+|------------------|------------------|------------------|------------------|
 | Bacteraemia, Gram-negative | 7 | 14 | Equivalent |
 | Chronic bronchitis / COPD | $\leq$ 5 | $\geq$ 7 | Equivalent |
 | Intra-abdominal infection | 4 | 10 | Equivalent |
@@ -583,7 +682,9 @@ longer ones. The consistent finding has been: **shorter is better**.
 | Skin infections (cellulitis, abscess, wound) | 5–6 | 10–14 | Equivalent |
 | Sinusitis, acute bacterial | 5 | 10 | Equivalent |
 
-: Evidence-based short-course antibiotic therapy: all studies demonstrated equivalent or lower mortality with shorter regimens [@spellbergPrinciplesAntibioticTherapy2025]. {.striped}
+: Evidence-based short-course antibiotic therapy: all studies
+demonstrated equivalent or lower mortality with shorter regimens
+[@spellbergPrinciplesAntibioticTherapy2025]. {.striped}
 
 ::: callout-tip
 ## Why Shorter Can Mean Lower Mortality
@@ -603,12 +704,12 @@ events, and less disruption to the protective microbiome.
 The distinction between "bactericidal" and "bacteriostatic" is defined
 *in vitro*:
 
-- **Bactericidal**: the concentration of drug that results in a
-  $\geq$1000-fold (3 log$_{10}$) reduction in bacterial inoculum within
-  24 hours. The **minimum bactericidal concentration (MBC)** is
-  $\leq$4-fold above the MIC.
-- **Bacteriostatic**: the drug inhibits growth but does not kill
-  bacteria below the 1000-fold threshold within 24 hours.
+-   **Bactericidal**: the concentration of drug that results in 3-log
+    reduction in the bacterial incoulum, which at typical MIC test
+    inoculums results in lack of grow when a sample (10 μL) is plated on
+    agar
+-   **Bacteriostatic**: the drug kills bacterial but does not kill
+    bacteria below the 1000-fold threshold within 24 hours.
 
 ![The relationship between MIC (minimum inhibitory concentration) and
 MBC (minimum bactericidal concentration). A drug is classified as
@@ -626,16 +727,22 @@ A systematic literature review identified 49–56 randomised controlled
 trials comparing bacteriostatic and bactericidal agents. The results
 were unambiguous:
 
-- **49 of 56 trials found no difference** in clinical outcomes,
-  including in highly lethal infections in critically ill patients
-  (typhoid fever, severe pneumonia, severe sepsis).
-- **6 trials** actually found linezolid (classified as bacteriostatic)
-  to be *superior* to bactericidal agents (vancomycin, teicoplanin, or
-  cephalosporins).
-- Only 1 trial found a bactericidal agent (imipenem) superior to a
-  bacteriostatic one (tigecycline) in VAP — but the tigecycline dose
-  was subsequently shown to have been too low. A follow-up study using
-  double the dose found no difference [@wald-dicklerBustingMythStatic2017].
+-   Time to bacterial clearance from bloodcultures often differed by
+    less than 1 day or was equivalent
+
+-   **49 of 56 trials found no difference** in clinical outcomes,
+    including in highly lethal infections in critically ill patients
+    (typhoid fever, severe pneumonia, severe sepsis).
+
+-   **6 trials** actually found linezolid (classified as bacteriostatic)
+    to be *superior* to bactericidal agents (vancomycin, teicoplanin, or
+    cephalosporins).
+
+-   Only 1 trial found a bactericidal agent (imipenem) superior to a
+    bacteriostatic one (tigecycline) in VAP — but the tigecycline dose
+    was subsequently shown to have been too low. A follow-up study using
+    double the dose found no difference
+    [@wald-dicklerBustingMythStatic2017].
 
 ### The Daptomycin vs. Vancomycin Example
 
@@ -666,24 +773,24 @@ difference in killing mechanism.
 For decades, clinicians were taught that serious infections —
 particularly osteomyelitis, bacteraemia, and endocarditis — *required*
 intravenous therapy. This dogma kept patients hospitalised for weeks
-(e.g., 6 weeks of IV therapy for osteomyelitis) and exposed them to
-all the risks of prolonged central venous catheterisation.
+(e.g., 6 weeks of IV therapy for osteomyelitis) and exposed them to all
+the risks of prolonged central venous catheterisation.
 
 ### The Evidence: Oral Is the New IV
 
 Earlier failures with oral therapy (e.g., using oral sulfanilamide,
 erythromycin, or tetracycline for osteomyelitis) reflected the use of
-drugs with poor bioavailability that could not achieve concentrations
-in blood and bone exceeding the pathogen MIC. Modern oral antibiotics —
+drugs with poor bioavailability that could not achieve concentrations in
+blood and bone exceeding the pathogen MIC. Modern oral antibiotics —
 particularly fluoroquinolones, linezolid, trimethoprim-sulfamethoxazole,
 and others — have excellent bioavailability and achieve tissue
 concentrations well above target MICs.
 
 Systematic reviews and meta-analyses have now demonstrated:
 
-- **Osteomyelitis**: no difference between oral and IV therapy
-- **Bacteraemia**: outcomes actually *favoured* oral therapy
-- **Endocarditis**: outcomes actually *favoured* oral therapy
+-   **Osteomyelitis**: no difference between oral and IV therapy
+-   **Bacteraemia**: outcomes actually *favoured* oral therapy
+-   **Endocarditis**: outcomes actually *favoured* oral therapy
 
 ![Meta-analysis forest plots comparing IV versus oral antibiotic therapy
 for osteomyelitis, bacteraemia, and endocarditis. Results favoured oral
@@ -691,8 +798,7 @@ therapy or showed no
 difference.](images/osteo_meta.png){fig-align="center"}
 
 ![Bacteraemia meta-analysis: oral therapy associated with equivalent or
-better
-outcomes.](images/bactermia_meta.png){fig-align="center"}
+better outcomes.](images/bactermia_meta.png){fig-align="center"}
 
 ![Endocarditis meta-analysis: oral step-down therapy associated with
 equivalent or better
@@ -708,27 +814,26 @@ patient satisfaction) rather than inherent superiority of the oral route
 The switch to oral therapy requires that **all** of the following
 conditions are met:
 
-1. The patient is **haemodynamically stable**
-2. The patient has a **functioning gastrointestinal tract** (will absorb
-   the drug)
-3. The patient **can reliably take medications by mouth**
-4. An oral antibiotic with **adequate bioavailability** exists for the
-   target pathogen
+1.  The patient is **haemodynamically stable**
+2.  The patient has a **functioning gastrointestinal tract** (will
+    absorb the drug)
+3.  The patient **can reliably take medications by mouth**
+4.  An oral antibiotic with **adequate bioavailability** exists for the
+    target pathogen
 
 ![Oral bioavailability of common antibiotics — drugs with high
 bioavailability (approaching 100%) are ideal candidates for IV-to-oral
-switch
-therapy.](images/bioavail.png){fig-align="center"}
+switch therapy.](images/bioavail.png){fig-align="center"}
 
 ::: callout-note
 ## Emerging Options — Ultra-Long-Acting Antibiotics
 
 New antibiotics with very long half-lives (administered every 1–2 weeks
 by injection) are being explored as alternatives for conditions like
-osteomyelitis: the patient receives an injection, goes home, and
-returns to the day hospital two weeks later for the next dose. This
-approach eliminates the need for both prolonged hospitalisation and
-daily oral adherence.
+osteomyelitis: the patient receives an injection, goes home, and returns
+to the day hospital two weeks later for the next dose. This approach
+eliminates the need for both prolonged hospitalisation and daily oral
+adherence.
 :::
 
 ## Myth 3: Combination Therapy — The Good, the Bad, and the Ugly
@@ -748,45 +853,45 @@ coverage.
 
 **2. Preventing emergence of resistance in specific scenarios:**
 
-- **Tuberculosis**: slow growth, non-replicating persister cells in
-  cavitary disease can achieve high bacterial densities with spontaneous
-  resistance mutations. Multi-drug regimens (3–4 drugs) dramatically
-  reduce the probability of resistance emergence.
-- **HIV and hepatitis C**: resistance converts a treatable/curable
-  infection into a fatal illness, making combination therapy essential.
+-   **Tuberculosis**: slow growth, non-replicating persister cells in
+    cavitary disease can achieve high bacterial densities with
+    spontaneous resistance mutations. Multi-drug regimens (3–4 drugs)
+    dramatically reduce the probability of resistance emergence.
+-   **HIV and hepatitis C**: resistance converts a treatable/curable
+    infection into a fatal illness, making combination therapy
+    essential.
 
 **3. Superior outcomes with two active agents for specific pathogen
 biology:**
 
-- **Bone and joint infections**: non-replicating bacteria in biofilm
-  respond poorly to beta-lactams alone. The addition of **rifampin**
-  (which penetrates biofilm and kills dormant cells) — particularly in
-  combination with a fluoroquinolone — has been associated with reduced
-  relapse rates in prosthetic joint infections.
-- **Eukaryotic infections**: cryptococcal meningitis (amphotericin B +
-  5-FC), protozoal infections (*Plasmodium*: primaquine added to kill
-  hepatic hypnozoites), acute amoebic colitis (metronidazole + luminal
-  agent), nematode infections (doxycycline added to kill *Wolbachia*
-  commensals), and neurocysticercosis (albendazole + praziquantel for
-  dual killing mechanisms and PK synergy).
+-   **Bone and joint infections**: non-replicating bacteria in biofilm
+    respond poorly to beta-lactams alone. The addition of **rifampin**
+    (which penetrates biofilm and kills dormant cells) — particularly in
+    combination with a fluoroquinolone — has been associated with
+    reduced relapse rates in prosthetic joint infections.
+-   **Eukaryotic infections**: cryptococcal meningitis (amphotericin B +
+    5-FC), protozoal infections (*Plasmodium*: primaquine added to kill
+    hepatic hypnozoites), acute amoebic colitis (metronidazole + luminal
+    agent), nematode infections (doxycycline added to kill *Wolbachia*
+    commensals), and neurocysticercosis (albendazole + praziquantel for
+    dual killing mechanisms and PK synergy).
 
-**4. Exotoxin-producing infections.** In necrotising fasciitis caused
-by streptococci or *Clostridium* species, the addition of a **protein
-synthesis inhibitor** (clindamycin or linezolid) to backbone
-beta-lactam therapy shuts down bacterial toxin production. This has been
-associated with improved survival in retrospective studies.
+**4. Exotoxin-producing infections.** In necrotising fasciitis caused by
+streptococci or *Clostridium* species, the addition of a **protein
+synthesis inhibitor** (clindamycin or linezolid) to backbone beta-lactam
+therapy shuts down bacterial toxin production. This has been associated
+with improved survival in retrospective studies.
 
 ![Necrotising fasciitis — an aggressive, toxin-mediated infection in
 which the addition of a protein synthesis inhibitor to backbone therapy
-improves
-outcomes.](images/necr.png){fig-align="center"}
+improves outcomes.](images/necr.png){fig-align="center"}
 
 ### The Microbiological Rationale: Checkerboard Testing
 
-In the laboratory, synergy between two antibiotics can be assessed
-using a **checkerboard array**: the MICs of both drugs are measured
-individually and in combination at multiple concentration ratios. If
-the fractional inhibitory concentration (FIC) index is \< 0.5, the
+In the laboratory, synergy between two antibiotics can be assessed using
+a **checkerboard array**: the MICs of both drugs are measured
+individually and in combination at multiple concentration ratios. If the
+fractional inhibitory concentration (FIC) index is \< 0.5, the
 combination is considered synergistic.
 
 ![The checkerboard test for antibiotic synergy — a microtitre plate
@@ -802,11 +907,11 @@ routinely in clinical microbiology laboratories.
 For acute pyogenic bacterial infections, there is **very little
 evidence** supporting routine use of two active agents:
 
-- These organisms are in planktonic (free-floating) growth, not
-  multiple life cycle phases
-- There are no commensal organisms inside the bacteria to target
-- The pharmacology and killing activity of single agents is generally
-  adequate
+-   These organisms are in planktonic (free-floating) growth, not
+    multiple life cycle phases
+-   There are no commensal organisms inside the bacteria to target
+-   The pharmacology and killing activity of single agents is generally
+    adequate
 
 The classic example is ***Pseudomonas aeruginosa***. For decades,
 clinicians were taught to always use combination therapy (typically an
@@ -817,30 +922,30 @@ microbiome disruption.
 
 ![Meta-analysis of combination versus monotherapy for *Pseudomonas
 aeruginosa* bacteraemia: no difference in mortality, but increased
-toxicity with
-combination.](images/psa_meta.png){fig-align="center" width="80%"}
+toxicity with combination.](images/psa_meta.png){fig-align="center"
+width="80%"}
 
 A pragmatic approach used in many centres is to initiate combination
 therapy empirically (e.g., piperacillin-tazobactam plus an
-aminoglycoside), then **discontinue the aminoglycoside after 2–3
-days** once blood culture results are available and the patient is
-clinically improving. This limits toxicity while providing initial
-broad coverage [@huCombinationAntibioticTherapy2013].
+aminoglycoside), then **discontinue the aminoglycoside after 2–3 days**
+once blood culture results are available and the patient is clinically
+improving. This limits toxicity while providing initial broad coverage
+[@huCombinationAntibioticTherapy2013].
 
 ### The Ugly: Imperfect Data
 
 Several areas remain genuinely uncertain:
 
-- **Fungal infections beyond cryptococcosis**: combination therapy for
-  *Candida* infections has shown no clear benefit; for *Aspergillus*
-  infections, there is possible benefit with echinocandins plus
-  triazoles, but data remain incomplete.
-- **Does combination therapy prevent resistance?** Yes — for
-  tuberculosis, HIV, and HCV. For acute pyogenic bacterial infections,
-  the in vitro rationale exists but clinical proof is lacking. It may
-  even be a **Pyrrhic victory**: more drugs mean greater selection
-  pressure on the microbiome and potentially greater selection for
-  multi-drug resistance.
+-   **Fungal infections beyond cryptococcosis**: combination therapy for
+    *Candida* infections has shown no clear benefit; for *Aspergillus*
+    infections, there is possible benefit with echinocandins plus
+    triazoles, but data remain incomplete.
+-   **Does combination therapy prevent resistance?** Yes — for
+    tuberculosis, HIV, and HCV. For acute pyogenic bacterial infections,
+    the in vitro rationale exists but clinical proof is lacking. It may
+    even be a **Pyrrhic victory**: more drugs mean greater selection
+    pressure on the microbiome and potentially greater selection for
+    multi-drug resistance.
 
 # Conclusions
 
@@ -853,26 +958,26 @@ unnecessary dose accelerates its emergence.
 The 10 Principles of Effective Antibiotic Therapy provide a framework
 for responsible prescribing:
 
-1. **Start antibiotics promptly** when infection is suspected
-2. **Obtain cultures before therapy** whenever possible
-3. **Choose empirical therapy** based on the most likely pathogen and
-   local resistance patterns
-4. **Understand PK/PD** to optimise dosing for the site and severity
-   of infection
-5. **Adjust for the host** — consider renal function, hepatic
-   clearance, and patient-specific factors
-6. **Know the site** — some drugs do not work in certain compartments
-7. **De-escalate** based on microbiology results and biomarker responses
-8. **Evaluate source control** before assuming resistance
-9. **Distinguish new infection** from treatment failure
+1.  **Start antibiotics promptly** when infection is suspected
+2.  **Obtain cultures before therapy** whenever possible
+3.  **Choose empirical therapy** based on the most likely pathogen and
+    local resistance patterns
+4.  **Understand PK/PD** to optimise dosing for the site and severity of
+    infection
+5.  **Adjust for the host** — consider renal function, hepatic
+    clearance, and patient-specific factors
+6.  **Know the site** — some drugs do not work in certain compartments
+7.  **De-escalate** based on microbiology results and biomarker
+    responses
+8.  **Evaluate source control** before assuming resistance
+9.  **Distinguish new infection** from treatment failure
 10. **Keep it short** — evidence supports shorter courses for most
     infections
 
-Three enduring myths must also be retired from clinical practice:
-the bactericidal/bacteriostatic dichotomy is not clinically meaningful,
-oral therapy is appropriate for many serious infections, and
-combination therapy is beneficial only in specific well-defined
-scenarios.
+Three enduring myths must also be retired from clinical practice: the
+bactericidal/bacteriostatic dichotomy is not clinically meaningful, oral
+therapy is appropriate for many serious infections, and combination
+therapy is beneficial only in specific well-defined scenarios.
 
 Physicians bear the burden of using antibiotics effectively — to heal
 and cure patients while preserving this extraordinary therapeutic
