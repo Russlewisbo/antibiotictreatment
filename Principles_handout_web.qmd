@@ -115,7 +115,7 @@ aspect of modern interventional medicine:
 > interventional* profession. [@spellberg2025]
 
 Without effective antibiotics, medicine would regress approximately 100
-years — losing the ability to safely perform these procedures.
+years — losing the ability to safely perform these high risk procedures.
 
 ------------------------------------------------------------------------
 
@@ -196,12 +196,24 @@ range.](images/MDRABUAM_ITALY.png){fig-align="center" width="90%"}
 ::: callout-note
 ## Why are Northern European countries doing better?
 
-Sweden, Norway, and Denmark have lower resistance rates due to: (1)
+Northern European countries have lower resistance rates due to: (1)
 lower per-capita antibiotic use, (2) stricter infection control
-practices, (3) modern hospital infrastructure with single-patient rooms.
-However, resistance travels with people — international travel and
-migration disseminate resistant organisms globally.
+practices and culture, (3) modern hospital infrastructure with fewer
+multipatient rooms. However, resistance travels with people —
+international travel and migration disseminate resistant organisms
+globally.
 :::
+
+For example: Antibiotic consumption (defined daily doses or DDD per
+1,000 inhabitants per day):
+
+-   Netherlands, Sweden: \~8–12
+
+-   Germany, Denmark: \~10–14
+
+-   Italy, Spain: \~18–25
+
+-   Greece: \~30–35
 
 ## The Antibiotic Discovery Pipeline Is Slowing
 
@@ -223,9 +235,10 @@ Antibiotic development is declining because:
 
 New funding models are needed. Italy has passed measures supporting a
 "Netflix model" — paying a subscription fee to ensure antibiotics are
-available when needed, regardless of usage volume. Antibiotics should be
-thought of like fire extinguishers: you hope you never need them, but
-someone must pay to keep them functional.
+available when needed, regardless of usage volume. Antibiotics can also
+be thought of like fire extinguishers: you hope you never need them, but
+someone must pay to keep them functional (see this
+[blog](https://amr.solutions/) by Dr. John Rex for more information.
 
 ## Antibiotics Are a Societal Trust
 
@@ -809,6 +822,10 @@ population where our biggest resistance problems occur. This is because
 antibiotic doses were established in studies of patients with urinary
 tract infections or mild intra-abdominal infections, not in septic ICU
 patients.
+:::
+
+::: aside
+[@roberts2014]
 :::
 
 ## Drug Penetration and Site-Specific Considerations
