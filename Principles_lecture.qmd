@@ -1181,8 +1181,8 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 :::
 
 ::: {.column width="50%"}
--   Streptococci or *Clostriudium* infections that are extremely destructive and aggressive
--   Addition of clindamycin or linezolid as a 2nd agent terminates protein synthgesis: shutting down toxin production in the bacteria
+-   Streptococci or *Clostridium* infections that are extremely destructive and aggressive
+-   Addition of clindamycin or linezolid as a 2nd agent terminates protein synthesis: shutting down toxin production in the bacteria
 -   Adding protein synthesis inhibitors to backbone antibacterial therapy has been associated with improved survival in retrospective studies
 :::
 :::::
@@ -1193,11 +1193,11 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
 -   Protozoal infection (*Plasmodium vivax P. ovale*): Primaquine added to backbone therapy to kill hepatic -phase hypnozoites not killed by other agents, which lead to late relapse
 
--   Acute amebic colitis: Metronidazole + luminicidal agent (iodoquinol or paromomycin) to kill encysted, non-meatabolically actuve organisms in the bowel lumen
+-   Acute amebic colitis: Metronidazole + luminicidal agent (iodoquinol or paromomycin) to kill encysted, non-meatabolically active organisms in the bowel lumen
 
 -   Nematode infections: Doxycycline added to ivermectin or albendazole to kill commensal bacteria *Wolbachia*, which play a role in the parasite viability and fertility.
 
--   Neurocystosis: Albendazole plus praziquantel: Dula mechanism of killing and pharmacokinetic interaction leading to higher drug exposures in the CNS and cysts within the sequestered site
+-   Neurocystosis: Albendazole plus praziquantel: Dual mechanism of killing and pharmacokinetic interaction leading to higher drug exposures in the CNS and cysts within the sequestered site
 
 ## Combination therapy *the bad-Redundant definitive therapy for "typical infections"*
 
@@ -1217,7 +1217,7 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
 -   Combination therapy studies for severe infections/sepsis have also found no advantage for dual therapy
 
--   Dual therapy more likely to result in toxicity and microbiom harm- potential resistance to 2 drug classes
+-   Dual therapy more likely to result in toxicity and microbiome harm- potential resistance to 2 drug classes
 
 ::: aside
 [@huCombinationAntibioticTherapy2013]
