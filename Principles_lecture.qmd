@@ -1001,7 +1001,7 @@ Clinicians often ignore negative results but may use a positive procalcitonin to
 
     -   An initial apparent response to infection followed days or weeks later by new onset of infectious signs or symptoms should prompt a complete reevaluation of the patient for a new infection, including reculturing and imaging if necessary
 
--   \*\*I\*n these patients, it is generally reasonable to broaden therapy to cover highly resistant pathogens\*\*
+-   In these patients, it is generally reasonable to broaden therapy to cover highly resistant pathogens
 
     -   Such patients have been exposed to recent courses of antibiotics and have a higher risk of being infected by antibiotic-resistant pathogens
 
